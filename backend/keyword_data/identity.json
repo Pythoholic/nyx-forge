@@ -1,0 +1,5577 @@
+{
+  "kb_version": "1.0.0",
+  "category": "identity",
+  "records": [
+    {
+      "id": "identity.heritage_east_asian",
+      "category": "identity",
+      "subcategory": "heritage",
+      "canonical_text": "East Asian",
+      "aliases": [],
+      "semantic_tags": [
+        "heritage"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 4,
+        "juggernaut_ragnarok": 4
+      },
+      "priority_default": "P1",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": null,
+        "max_age": null
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "identity.heritage_south_asian",
+      "category": "identity",
+      "subcategory": "heritage",
+      "canonical_text": "South Asian",
+      "aliases": [],
+      "semantic_tags": [
+        "heritage"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 4,
+        "juggernaut_ragnarok": 4
+      },
+      "priority_default": "P1",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": null,
+        "max_age": null
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "identity.heritage_southeast_asian",
+      "category": "identity",
+      "subcategory": "heritage",
+      "canonical_text": "Southeast Asian",
+      "aliases": [],
+      "semantic_tags": [
+        "heritage"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 5,
+        "juggernaut_ragnarok": 5
+      },
+      "priority_default": "P1",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": null,
+        "max_age": null
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "identity.heritage_central_asian",
+      "category": "identity",
+      "subcategory": "heritage",
+      "canonical_text": "Central Asian",
+      "aliases": [],
+      "semantic_tags": [
+        "heritage"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 5,
+        "juggernaut_ragnarok": 5
+      },
+      "priority_default": "P1",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": null,
+        "max_age": null
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "identity.heritage_west_asian",
+      "category": "identity",
+      "subcategory": "heritage",
+      "canonical_text": "West Asian",
+      "aliases": [],
+      "semantic_tags": [
+        "heritage"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 4,
+        "juggernaut_ragnarok": 4
+      },
+      "priority_default": "P1",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": null,
+        "max_age": null
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "identity.heritage_north_african",
+      "category": "identity",
+      "subcategory": "heritage",
+      "canonical_text": "North African",
+      "aliases": [],
+      "semantic_tags": [
+        "heritage"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 5,
+        "juggernaut_ragnarok": 5
+      },
+      "priority_default": "P1",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": null,
+        "max_age": null
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "identity.heritage_west_african",
+      "category": "identity",
+      "subcategory": "heritage",
+      "canonical_text": "West African",
+      "aliases": [],
+      "semantic_tags": [
+        "heritage"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 5,
+        "juggernaut_ragnarok": 5
+      },
+      "priority_default": "P1",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": null,
+        "max_age": null
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "identity.heritage_east_african",
+      "category": "identity",
+      "subcategory": "heritage",
+      "canonical_text": "East African",
+      "aliases": [],
+      "semantic_tags": [
+        "heritage"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 5,
+        "juggernaut_ragnarok": 5
+      },
+      "priority_default": "P1",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": null,
+        "max_age": null
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "identity.heritage_southern_african",
+      "category": "identity",
+      "subcategory": "heritage",
+      "canonical_text": "Southern African",
+      "aliases": [],
+      "semantic_tags": [
+        "heritage"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 6,
+        "juggernaut_ragnarok": 6
+      },
+      "priority_default": "P1",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": null,
+        "max_age": null
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "identity.heritage_european",
+      "category": "identity",
+      "subcategory": "heritage",
+      "canonical_text": "European",
+      "aliases": [],
+      "semantic_tags": [
+        "heritage"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 4,
+        "juggernaut_ragnarok": 4
+      },
+      "priority_default": "P1",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": null,
+        "max_age": null
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "identity.heritage_latin_american",
+      "category": "identity",
+      "subcategory": "heritage",
+      "canonical_text": "Latin American",
+      "aliases": [],
+      "semantic_tags": [
+        "heritage"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 6,
+        "juggernaut_ragnarok": 6
+      },
+      "priority_default": "P1",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": null,
+        "max_age": null
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "identity.heritage_caribbean",
+      "category": "identity",
+      "subcategory": "heritage",
+      "canonical_text": "Caribbean",
+      "aliases": [],
+      "semantic_tags": [
+        "heritage"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 4,
+        "juggernaut_ragnarok": 4
+      },
+      "priority_default": "P1",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": null,
+        "max_age": null
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "identity.heritage_pacific_islander",
+      "category": "identity",
+      "subcategory": "heritage",
+      "canonical_text": "Pacific Islander",
+      "aliases": [],
+      "semantic_tags": [
+        "heritage"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 6,
+        "juggernaut_ragnarok": 6
+      },
+      "priority_default": "P1",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": null,
+        "max_age": null
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "identity.cultural_identity_arab",
+      "category": "identity",
+      "subcategory": "cultural_identity",
+      "canonical_text": "Arab",
+      "aliases": [],
+      "semantic_tags": [
+        "cultural_identity"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 2,
+        "juggernaut_ragnarok": 2
+      },
+      "priority_default": "P1",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": null,
+        "max_age": null
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "identity.cultural_identity_kurdish",
+      "category": "identity",
+      "subcategory": "cultural_identity",
+      "canonical_text": "Kurdish",
+      "aliases": [],
+      "semantic_tags": [
+        "cultural_identity"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 3,
+        "juggernaut_ragnarok": 3
+      },
+      "priority_default": "P1",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": null,
+        "max_age": null
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "identity.cultural_identity_persian",
+      "category": "identity",
+      "subcategory": "cultural_identity",
+      "canonical_text": "Persian",
+      "aliases": [],
+      "semantic_tags": [
+        "cultural_identity"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 3,
+        "juggernaut_ragnarok": 3
+      },
+      "priority_default": "P1",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": null,
+        "max_age": null
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "identity.cultural_identity_punjabi",
+      "category": "identity",
+      "subcategory": "cultural_identity",
+      "canonical_text": "Punjabi",
+      "aliases": [],
+      "semantic_tags": [
+        "cultural_identity"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 4,
+        "juggernaut_ragnarok": 4
+      },
+      "priority_default": "P1",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": null,
+        "max_age": null
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "identity.cultural_identity_bengali",
+      "category": "identity",
+      "subcategory": "cultural_identity",
+      "canonical_text": "Bengali",
+      "aliases": [],
+      "semantic_tags": [
+        "cultural_identity"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 3,
+        "juggernaut_ragnarok": 3
+      },
+      "priority_default": "P1",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": null,
+        "max_age": null
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "identity.cultural_identity_tamil",
+      "category": "identity",
+      "subcategory": "cultural_identity",
+      "canonical_text": "Tamil",
+      "aliases": [],
+      "semantic_tags": [
+        "cultural_identity"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 3,
+        "juggernaut_ragnarok": 3
+      },
+      "priority_default": "P1",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": null,
+        "max_age": null
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "identity.cultural_identity_han_chinese",
+      "category": "identity",
+      "subcategory": "cultural_identity",
+      "canonical_text": "Han Chinese",
+      "aliases": [],
+      "semantic_tags": [
+        "cultural_identity"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 5,
+        "juggernaut_ragnarok": 5
+      },
+      "priority_default": "P1",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": null,
+        "max_age": null
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "identity.cultural_identity_korean",
+      "category": "identity",
+      "subcategory": "cultural_identity",
+      "canonical_text": "Korean",
+      "aliases": [],
+      "semantic_tags": [
+        "cultural_identity"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 2,
+        "juggernaut_ragnarok": 2
+      },
+      "priority_default": "P1",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": null,
+        "max_age": null
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "identity.cultural_identity_japanese",
+      "category": "identity",
+      "subcategory": "cultural_identity",
+      "canonical_text": "Japanese",
+      "aliases": [],
+      "semantic_tags": [
+        "cultural_identity"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 3,
+        "juggernaut_ragnarok": 3
+      },
+      "priority_default": "P1",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": null,
+        "max_age": null
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "identity.cultural_identity_vietnamese",
+      "category": "identity",
+      "subcategory": "cultural_identity",
+      "canonical_text": "Vietnamese",
+      "aliases": [],
+      "semantic_tags": [
+        "cultural_identity"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 5,
+        "juggernaut_ragnarok": 5
+      },
+      "priority_default": "P1",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": null,
+        "max_age": null
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "identity.cultural_identity_thai",
+      "category": "identity",
+      "subcategory": "cultural_identity",
+      "canonical_text": "Thai",
+      "aliases": [],
+      "semantic_tags": [
+        "cultural_identity"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 2,
+        "juggernaut_ragnarok": 2
+      },
+      "priority_default": "P1",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": null,
+        "max_age": null
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "identity.cultural_identity_filipina",
+      "category": "identity",
+      "subcategory": "cultural_identity",
+      "canonical_text": "Filipina",
+      "aliases": [],
+      "semantic_tags": [
+        "cultural_identity"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 4,
+        "juggernaut_ragnarok": 4
+      },
+      "priority_default": "P1",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": null,
+        "max_age": null
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "identity.cultural_identity_latina",
+      "category": "identity",
+      "subcategory": "cultural_identity",
+      "canonical_text": "Latina",
+      "aliases": [],
+      "semantic_tags": [
+        "cultural_identity"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 3,
+        "juggernaut_ragnarok": 3
+      },
+      "priority_default": "P1",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": null,
+        "max_age": null
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "identity.cultural_identity_afro_caribbean",
+      "category": "identity",
+      "subcategory": "cultural_identity",
+      "canonical_text": "Afro-Caribbean",
+      "aliases": [],
+      "semantic_tags": [
+        "cultural_identity"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 7,
+        "juggernaut_ragnarok": 7
+      },
+      "priority_default": "P1",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": null,
+        "max_age": null
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "identity.nationality_lebanese",
+      "category": "identity",
+      "subcategory": "nationality",
+      "canonical_text": "Lebanese",
+      "aliases": [],
+      "semantic_tags": [
+        "nationality"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 4,
+        "juggernaut_ragnarok": 4
+      },
+      "priority_default": "P1",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": null,
+        "max_age": null
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "identity.nationality_french",
+      "category": "identity",
+      "subcategory": "nationality",
+      "canonical_text": "French",
+      "aliases": [],
+      "semantic_tags": [
+        "nationality"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 3,
+        "juggernaut_ragnarok": 3
+      },
+      "priority_default": "P1",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": null,
+        "max_age": null
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "identity.nationality_german",
+      "category": "identity",
+      "subcategory": "nationality",
+      "canonical_text": "German",
+      "aliases": [],
+      "semantic_tags": [
+        "nationality"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 2,
+        "juggernaut_ragnarok": 2
+      },
+      "priority_default": "P1",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": null,
+        "max_age": null
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "identity.nationality_italian",
+      "category": "identity",
+      "subcategory": "nationality",
+      "canonical_text": "Italian",
+      "aliases": [],
+      "semantic_tags": [
+        "nationality"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 3,
+        "juggernaut_ragnarok": 3
+      },
+      "priority_default": "P1",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": null,
+        "max_age": null
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "identity.nationality_spanish",
+      "category": "identity",
+      "subcategory": "nationality",
+      "canonical_text": "Spanish",
+      "aliases": [],
+      "semantic_tags": [
+        "nationality"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 3,
+        "juggernaut_ragnarok": 3
+      },
+      "priority_default": "P1",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": null,
+        "max_age": null
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "identity.nationality_portuguese",
+      "category": "identity",
+      "subcategory": "nationality",
+      "canonical_text": "Portuguese",
+      "aliases": [],
+      "semantic_tags": [
+        "nationality"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 5,
+        "juggernaut_ragnarok": 5
+      },
+      "priority_default": "P1",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": null,
+        "max_age": null
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "identity.nationality_greek",
+      "category": "identity",
+      "subcategory": "nationality",
+      "canonical_text": "Greek",
+      "aliases": [],
+      "semantic_tags": [
+        "nationality"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 3,
+        "juggernaut_ragnarok": 3
+      },
+      "priority_default": "P1",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": null,
+        "max_age": null
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "identity.nationality_polish",
+      "category": "identity",
+      "subcategory": "nationality",
+      "canonical_text": "Polish",
+      "aliases": [],
+      "semantic_tags": [
+        "nationality"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 3,
+        "juggernaut_ragnarok": 3
+      },
+      "priority_default": "P1",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": null,
+        "max_age": null
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "identity.nationality_romanian",
+      "category": "identity",
+      "subcategory": "nationality",
+      "canonical_text": "Romanian",
+      "aliases": [],
+      "semantic_tags": [
+        "nationality"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 3,
+        "juggernaut_ragnarok": 3
+      },
+      "priority_default": "P1",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": null,
+        "max_age": null
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "identity.nationality_ukrainian",
+      "category": "identity",
+      "subcategory": "nationality",
+      "canonical_text": "Ukrainian",
+      "aliases": [],
+      "semantic_tags": [
+        "nationality"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 4,
+        "juggernaut_ragnarok": 4
+      },
+      "priority_default": "P1",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": null,
+        "max_age": null
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "identity.nationality_american",
+      "category": "identity",
+      "subcategory": "nationality",
+      "canonical_text": "American",
+      "aliases": [],
+      "semantic_tags": [
+        "nationality"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 4,
+        "juggernaut_ragnarok": 4
+      },
+      "priority_default": "P1",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": null,
+        "max_age": null
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "identity.nationality_canadian",
+      "category": "identity",
+      "subcategory": "nationality",
+      "canonical_text": "Canadian",
+      "aliases": [],
+      "semantic_tags": [
+        "nationality"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 4,
+        "juggernaut_ragnarok": 4
+      },
+      "priority_default": "P1",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": null,
+        "max_age": null
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "identity.nationality_australian",
+      "category": "identity",
+      "subcategory": "nationality",
+      "canonical_text": "Australian",
+      "aliases": [],
+      "semantic_tags": [
+        "nationality"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 4,
+        "juggernaut_ragnarok": 4
+      },
+      "priority_default": "P1",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": null,
+        "max_age": null
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "identity.nationality_brazilian",
+      "category": "identity",
+      "subcategory": "nationality",
+      "canonical_text": "Brazilian",
+      "aliases": [],
+      "semantic_tags": [
+        "nationality"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 3,
+        "juggernaut_ragnarok": 3
+      },
+      "priority_default": "P1",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": null,
+        "max_age": null
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "identity.nationality_mexican",
+      "category": "identity",
+      "subcategory": "nationality",
+      "canonical_text": "Mexican",
+      "aliases": [],
+      "semantic_tags": [
+        "nationality"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 3,
+        "juggernaut_ragnarok": 3
+      },
+      "priority_default": "P1",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": null,
+        "max_age": null
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "identity.nationality_colombian",
+      "category": "identity",
+      "subcategory": "nationality",
+      "canonical_text": "Colombian",
+      "aliases": [],
+      "semantic_tags": [
+        "nationality"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 4,
+        "juggernaut_ragnarok": 4
+      },
+      "priority_default": "P1",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": null,
+        "max_age": null
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "identity.nationality_argentine",
+      "category": "identity",
+      "subcategory": "nationality",
+      "canonical_text": "Argentine",
+      "aliases": [],
+      "semantic_tags": [
+        "nationality"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 4,
+        "juggernaut_ragnarok": 4
+      },
+      "priority_default": "P1",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": null,
+        "max_age": null
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "identity.nationality_chilean",
+      "category": "identity",
+      "subcategory": "nationality",
+      "canonical_text": "Chilean",
+      "aliases": [],
+      "semantic_tags": [
+        "nationality"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 3,
+        "juggernaut_ragnarok": 3
+      },
+      "priority_default": "P1",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": null,
+        "max_age": null
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "identity.nationality_indian",
+      "category": "identity",
+      "subcategory": "nationality",
+      "canonical_text": "Indian",
+      "aliases": [],
+      "semantic_tags": [
+        "nationality"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 3,
+        "juggernaut_ragnarok": 3
+      },
+      "priority_default": "P1",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": null,
+        "max_age": null
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "identity.nationality_pakistani",
+      "category": "identity",
+      "subcategory": "nationality",
+      "canonical_text": "Pakistani",
+      "aliases": [],
+      "semantic_tags": [
+        "nationality"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 3,
+        "juggernaut_ragnarok": 3
+      },
+      "priority_default": "P1",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": null,
+        "max_age": null
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "identity.nationality_sri_lankan",
+      "category": "identity",
+      "subcategory": "nationality",
+      "canonical_text": "Sri Lankan",
+      "aliases": [],
+      "semantic_tags": [
+        "nationality"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 5,
+        "juggernaut_ragnarok": 5
+      },
+      "priority_default": "P1",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": null,
+        "max_age": null
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "identity.nationality_chinese",
+      "category": "identity",
+      "subcategory": "nationality",
+      "canonical_text": "Chinese",
+      "aliases": [],
+      "semantic_tags": [
+        "nationality"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 3,
+        "juggernaut_ragnarok": 3
+      },
+      "priority_default": "P1",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": null,
+        "max_age": null
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "identity.nationality_taiwanese",
+      "category": "identity",
+      "subcategory": "nationality",
+      "canonical_text": "Taiwanese",
+      "aliases": [],
+      "semantic_tags": [
+        "nationality"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 4,
+        "juggernaut_ragnarok": 4
+      },
+      "priority_default": "P1",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": null,
+        "max_age": null
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "identity.forge_heritage_nationality_russian",
+      "category": "identity",
+      "subcategory": "nationality",
+      "canonical_text": "Russian",
+      "aliases": [],
+      "semantic_tags": [
+        "nyx_forge_curated",
+        "heritage_nationality"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 3,
+        "juggernaut_ragnarok": 3
+      },
+      "priority_default": "P1",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 24,
+        "max_age": 44,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "identity.forge_heritage_nationality_czech",
+      "category": "identity",
+      "subcategory": "nationality",
+      "canonical_text": "Czech",
+      "aliases": [],
+      "semantic_tags": [
+        "nyx_forge_curated",
+        "heritage_nationality"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 3,
+        "juggernaut_ragnarok": 3
+      },
+      "priority_default": "P1",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 24,
+        "max_age": 44,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "identity.forge_heritage_nationality_slovak",
+      "category": "identity",
+      "subcategory": "nationality",
+      "canonical_text": "Slovak",
+      "aliases": [],
+      "semantic_tags": [
+        "nyx_forge_curated",
+        "heritage_nationality"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 3,
+        "juggernaut_ragnarok": 3
+      },
+      "priority_default": "P1",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 24,
+        "max_age": 44,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "identity.forge_heritage_nationality_hungarian",
+      "category": "identity",
+      "subcategory": "nationality",
+      "canonical_text": "Hungarian",
+      "aliases": [],
+      "semantic_tags": [
+        "nyx_forge_curated",
+        "heritage_nationality"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 4,
+        "juggernaut_ragnarok": 4
+      },
+      "priority_default": "P1",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 24,
+        "max_age": 44,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "identity.forge_heritage_nationality_bulgarian",
+      "category": "identity",
+      "subcategory": "nationality",
+      "canonical_text": "Bulgarian",
+      "aliases": [],
+      "semantic_tags": [
+        "nyx_forge_curated",
+        "heritage_nationality"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 4,
+        "juggernaut_ragnarok": 4
+      },
+      "priority_default": "P1",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 24,
+        "max_age": 44,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "identity.forge_heritage_nationality_croatian",
+      "category": "identity",
+      "subcategory": "nationality",
+      "canonical_text": "Croatian",
+      "aliases": [],
+      "semantic_tags": [
+        "nyx_forge_curated",
+        "heritage_nationality"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 4,
+        "juggernaut_ragnarok": 4
+      },
+      "priority_default": "P1",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 24,
+        "max_age": 44,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "identity.forge_heritage_nationality_serbian",
+      "category": "identity",
+      "subcategory": "nationality",
+      "canonical_text": "Serbian",
+      "aliases": [],
+      "semantic_tags": [
+        "nyx_forge_curated",
+        "heritage_nationality"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 3,
+        "juggernaut_ragnarok": 3
+      },
+      "priority_default": "P1",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 24,
+        "max_age": 44,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "identity.forge_heritage_nationality_slovenian",
+      "category": "identity",
+      "subcategory": "nationality",
+      "canonical_text": "Slovenian",
+      "aliases": [],
+      "semantic_tags": [
+        "nyx_forge_curated",
+        "heritage_nationality"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 3,
+        "juggernaut_ragnarok": 3
+      },
+      "priority_default": "P1",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 24,
+        "max_age": 44,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "identity.forge_heritage_nationality_bosnian",
+      "category": "identity",
+      "subcategory": "nationality",
+      "canonical_text": "Bosnian",
+      "aliases": [],
+      "semantic_tags": [
+        "nyx_forge_curated",
+        "heritage_nationality"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 3,
+        "juggernaut_ragnarok": 3
+      },
+      "priority_default": "P1",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 24,
+        "max_age": 44,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "identity.forge_heritage_nationality_irish",
+      "category": "identity",
+      "subcategory": "nationality",
+      "canonical_text": "Irish",
+      "aliases": [],
+      "semantic_tags": [
+        "nyx_forge_curated",
+        "heritage_nationality"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 2,
+        "juggernaut_ragnarok": 2
+      },
+      "priority_default": "P1",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 24,
+        "max_age": 44,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "identity.forge_heritage_nationality_scottish",
+      "category": "identity",
+      "subcategory": "nationality",
+      "canonical_text": "Scottish",
+      "aliases": [],
+      "semantic_tags": [
+        "nyx_forge_curated",
+        "heritage_nationality"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 3,
+        "juggernaut_ragnarok": 3
+      },
+      "priority_default": "P1",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 24,
+        "max_age": 44,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "identity.forge_heritage_nationality_english",
+      "category": "identity",
+      "subcategory": "nationality",
+      "canonical_text": "English",
+      "aliases": [],
+      "semantic_tags": [
+        "nyx_forge_curated",
+        "heritage_nationality"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 3,
+        "juggernaut_ragnarok": 3
+      },
+      "priority_default": "P1",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 24,
+        "max_age": 44,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "identity.forge_heritage_nationality_welsh",
+      "category": "identity",
+      "subcategory": "nationality",
+      "canonical_text": "Welsh",
+      "aliases": [],
+      "semantic_tags": [
+        "nyx_forge_curated",
+        "heritage_nationality"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 3,
+        "juggernaut_ragnarok": 3
+      },
+      "priority_default": "P1",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 24,
+        "max_age": 44,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "identity.forge_heritage_nationality_dutch",
+      "category": "identity",
+      "subcategory": "nationality",
+      "canonical_text": "Dutch",
+      "aliases": [],
+      "semantic_tags": [
+        "nyx_forge_curated",
+        "heritage_nationality"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 3,
+        "juggernaut_ragnarok": 3
+      },
+      "priority_default": "P1",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 24,
+        "max_age": 44,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "identity.forge_heritage_nationality_belgian",
+      "category": "identity",
+      "subcategory": "nationality",
+      "canonical_text": "Belgian",
+      "aliases": [],
+      "semantic_tags": [
+        "nyx_forge_curated",
+        "heritage_nationality"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 3,
+        "juggernaut_ragnarok": 3
+      },
+      "priority_default": "P1",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 24,
+        "max_age": 44,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "identity.forge_heritage_nationality_austrian",
+      "category": "identity",
+      "subcategory": "nationality",
+      "canonical_text": "Austrian",
+      "aliases": [],
+      "semantic_tags": [
+        "nyx_forge_curated",
+        "heritage_nationality"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 3,
+        "juggernaut_ragnarok": 3
+      },
+      "priority_default": "P1",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 24,
+        "max_age": 44,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "identity.forge_heritage_nationality_swiss",
+      "category": "identity",
+      "subcategory": "nationality",
+      "canonical_text": "Swiss",
+      "aliases": [],
+      "semantic_tags": [
+        "nyx_forge_curated",
+        "heritage_nationality"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 3,
+        "juggernaut_ragnarok": 3
+      },
+      "priority_default": "P1",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 24,
+        "max_age": 44,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "identity.forge_heritage_nationality_swedish",
+      "category": "identity",
+      "subcategory": "nationality",
+      "canonical_text": "Swedish",
+      "aliases": [],
+      "semantic_tags": [
+        "nyx_forge_curated",
+        "heritage_nationality"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 3,
+        "juggernaut_ragnarok": 3
+      },
+      "priority_default": "P1",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 24,
+        "max_age": 44,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "identity.forge_heritage_nationality_norwegian",
+      "category": "identity",
+      "subcategory": "nationality",
+      "canonical_text": "Norwegian",
+      "aliases": [],
+      "semantic_tags": [
+        "nyx_forge_curated",
+        "heritage_nationality"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 4,
+        "juggernaut_ragnarok": 4
+      },
+      "priority_default": "P1",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 24,
+        "max_age": 44,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "identity.forge_heritage_nationality_danish",
+      "category": "identity",
+      "subcategory": "nationality",
+      "canonical_text": "Danish",
+      "aliases": [],
+      "semantic_tags": [
+        "nyx_forge_curated",
+        "heritage_nationality"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 3,
+        "juggernaut_ragnarok": 3
+      },
+      "priority_default": "P1",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 24,
+        "max_age": 44,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "identity.forge_heritage_nationality_finnish",
+      "category": "identity",
+      "subcategory": "nationality",
+      "canonical_text": "Finnish",
+      "aliases": [],
+      "semantic_tags": [
+        "nyx_forge_curated",
+        "heritage_nationality"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 3,
+        "juggernaut_ragnarok": 3
+      },
+      "priority_default": "P1",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 24,
+        "max_age": 44,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "identity.forge_heritage_nationality_icelandic",
+      "category": "identity",
+      "subcategory": "nationality",
+      "canonical_text": "Icelandic",
+      "aliases": [],
+      "semantic_tags": [
+        "nyx_forge_curated",
+        "heritage_nationality"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 4,
+        "juggernaut_ragnarok": 4
+      },
+      "priority_default": "P1",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 24,
+        "max_age": 44,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "identity.forge_heritage_nationality_estonian",
+      "category": "identity",
+      "subcategory": "nationality",
+      "canonical_text": "Estonian",
+      "aliases": [],
+      "semantic_tags": [
+        "nyx_forge_curated",
+        "heritage_nationality"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 3,
+        "juggernaut_ragnarok": 3
+      },
+      "priority_default": "P1",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 24,
+        "max_age": 44,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "identity.forge_heritage_nationality_latvian",
+      "category": "identity",
+      "subcategory": "nationality",
+      "canonical_text": "Latvian",
+      "aliases": [],
+      "semantic_tags": [
+        "nyx_forge_curated",
+        "heritage_nationality"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 3,
+        "juggernaut_ragnarok": 3
+      },
+      "priority_default": "P1",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 24,
+        "max_age": 44,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "identity.forge_heritage_nationality_lithuanian",
+      "category": "identity",
+      "subcategory": "nationality",
+      "canonical_text": "Lithuanian",
+      "aliases": [],
+      "semantic_tags": [
+        "nyx_forge_curated",
+        "heritage_nationality"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 4,
+        "juggernaut_ragnarok": 4
+      },
+      "priority_default": "P1",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 24,
+        "max_age": 44,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "identity.forge_heritage_nationality_new_zealander",
+      "category": "identity",
+      "subcategory": "nationality",
+      "canonical_text": "New Zealander",
+      "aliases": [],
+      "semantic_tags": [
+        "nyx_forge_curated",
+        "heritage_nationality"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 5,
+        "juggernaut_ragnarok": 5
+      },
+      "priority_default": "P1",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 24,
+        "max_age": 44,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "identity.forge_heritage_nationality_syrian",
+      "category": "identity",
+      "subcategory": "nationality",
+      "canonical_text": "Syrian",
+      "aliases": [],
+      "semantic_tags": [
+        "nyx_forge_curated",
+        "heritage_nationality"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 3,
+        "juggernaut_ragnarok": 3
+      },
+      "priority_default": "P1",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 24,
+        "max_age": 44,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "identity.forge_heritage_nationality_jordanian",
+      "category": "identity",
+      "subcategory": "nationality",
+      "canonical_text": "Jordanian",
+      "aliases": [],
+      "semantic_tags": [
+        "nyx_forge_curated",
+        "heritage_nationality"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 4,
+        "juggernaut_ragnarok": 4
+      },
+      "priority_default": "P1",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 24,
+        "max_age": 44,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "identity.forge_heritage_nationality_palestinian",
+      "category": "identity",
+      "subcategory": "nationality",
+      "canonical_text": "Palestinian",
+      "aliases": [],
+      "semantic_tags": [
+        "nyx_forge_curated",
+        "heritage_nationality"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 4,
+        "juggernaut_ragnarok": 4
+      },
+      "priority_default": "P1",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 24,
+        "max_age": 44,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "identity.forge_heritage_nationality_armenian",
+      "category": "identity",
+      "subcategory": "nationality",
+      "canonical_text": "Armenian",
+      "aliases": [],
+      "semantic_tags": [
+        "nyx_forge_curated",
+        "heritage_nationality"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 4,
+        "juggernaut_ragnarok": 4
+      },
+      "priority_default": "P1",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 24,
+        "max_age": 44,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "identity.forge_heritage_nationality_georgian",
+      "category": "identity",
+      "subcategory": "nationality",
+      "canonical_text": "Georgian",
+      "aliases": [],
+      "semantic_tags": [
+        "nyx_forge_curated",
+        "heritage_nationality"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 4,
+        "juggernaut_ragnarok": 4
+      },
+      "priority_default": "P1",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 24,
+        "max_age": 44,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "identity.forge_heritage_nationality_turkish",
+      "category": "identity",
+      "subcategory": "nationality",
+      "canonical_text": "Turkish",
+      "aliases": [],
+      "semantic_tags": [
+        "nyx_forge_curated",
+        "heritage_nationality"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 4,
+        "juggernaut_ragnarok": 4
+      },
+      "priority_default": "P1",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 24,
+        "max_age": 44,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "identity.forge_heritage_nationality_iranian",
+      "category": "identity",
+      "subcategory": "nationality",
+      "canonical_text": "Iranian",
+      "aliases": [],
+      "semantic_tags": [
+        "nyx_forge_curated",
+        "heritage_nationality"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 3,
+        "juggernaut_ragnarok": 3
+      },
+      "priority_default": "P1",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 24,
+        "max_age": 44,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "identity.forge_heritage_nationality_israeli",
+      "category": "identity",
+      "subcategory": "nationality",
+      "canonical_text": "Israeli",
+      "aliases": [],
+      "semantic_tags": [
+        "nyx_forge_curated",
+        "heritage_nationality"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 4,
+        "juggernaut_ragnarok": 4
+      },
+      "priority_default": "P1",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 24,
+        "max_age": 44,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "identity.forge_heritage_nationality_azerbaijani",
+      "category": "identity",
+      "subcategory": "nationality",
+      "canonical_text": "Azerbaijani",
+      "aliases": [],
+      "semantic_tags": [
+        "nyx_forge_curated",
+        "heritage_nationality"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 4,
+        "juggernaut_ragnarok": 4
+      },
+      "priority_default": "P1",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 24,
+        "max_age": 44,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "identity.forge_heritage_nationality_uruguayan",
+      "category": "identity",
+      "subcategory": "nationality",
+      "canonical_text": "Uruguayan",
+      "aliases": [],
+      "semantic_tags": [
+        "nyx_forge_curated",
+        "heritage_nationality"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 4,
+        "juggernaut_ragnarok": 4
+      },
+      "priority_default": "P1",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 24,
+        "max_age": 44,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "identity.forge_heritage_nationality_venezuelan",
+      "category": "identity",
+      "subcategory": "nationality",
+      "canonical_text": "Venezuelan",
+      "aliases": [],
+      "semantic_tags": [
+        "nyx_forge_curated",
+        "heritage_nationality"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 4,
+        "juggernaut_ragnarok": 4
+      },
+      "priority_default": "P1",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 24,
+        "max_age": 44,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "identity.forge_heritage_nationality_peruvian",
+      "category": "identity",
+      "subcategory": "nationality",
+      "canonical_text": "Peruvian",
+      "aliases": [],
+      "semantic_tags": [
+        "nyx_forge_curated",
+        "heritage_nationality"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 3,
+        "juggernaut_ragnarok": 3
+      },
+      "priority_default": "P1",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 24,
+        "max_age": 44,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "identity.forge_heritage_nationality_ecuadorian",
+      "category": "identity",
+      "subcategory": "nationality",
+      "canonical_text": "Ecuadorian",
+      "aliases": [],
+      "semantic_tags": [
+        "nyx_forge_curated",
+        "heritage_nationality"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 4,
+        "juggernaut_ragnarok": 4
+      },
+      "priority_default": "P1",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 24,
+        "max_age": 44,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "identity.forge_heritage_nationality_costa_rican",
+      "category": "identity",
+      "subcategory": "nationality",
+      "canonical_text": "Costa Rican",
+      "aliases": [],
+      "semantic_tags": [
+        "nyx_forge_curated",
+        "heritage_nationality"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 5,
+        "juggernaut_ragnarok": 5
+      },
+      "priority_default": "P1",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 24,
+        "max_age": 44,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "identity.forge_heritage_nationality_cuban",
+      "category": "identity",
+      "subcategory": "nationality",
+      "canonical_text": "Cuban",
+      "aliases": [],
+      "semantic_tags": [
+        "nyx_forge_curated",
+        "heritage_nationality"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 3,
+        "juggernaut_ragnarok": 3
+      },
+      "priority_default": "P1",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 24,
+        "max_age": 44,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "identity.forge_heritage_nationality_puerto_rican",
+      "category": "identity",
+      "subcategory": "nationality",
+      "canonical_text": "Puerto Rican",
+      "aliases": [],
+      "semantic_tags": [
+        "nyx_forge_curated",
+        "heritage_nationality"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 6,
+        "juggernaut_ragnarok": 6
+      },
+      "priority_default": "P1",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 24,
+        "max_age": 44,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "identity.forge_heritage_nationality_dominican",
+      "category": "identity",
+      "subcategory": "nationality",
+      "canonical_text": "Dominican",
+      "aliases": [],
+      "semantic_tags": [
+        "nyx_forge_curated",
+        "heritage_nationality"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 3,
+        "juggernaut_ragnarok": 3
+      },
+      "priority_default": "P1",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 24,
+        "max_age": 44,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "identity.forge_heritage_nationality_hong_konger",
+      "category": "identity",
+      "subcategory": "nationality",
+      "canonical_text": "Hong Konger",
+      "aliases": [],
+      "semantic_tags": [
+        "nyx_forge_curated",
+        "heritage_nationality"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 5,
+        "juggernaut_ragnarok": 5
+      },
+      "priority_default": "P1",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 24,
+        "max_age": 44,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "identity.forge_heritage_nationality_mongolian",
+      "category": "identity",
+      "subcategory": "nationality",
+      "canonical_text": "Mongolian",
+      "aliases": [],
+      "semantic_tags": [
+        "nyx_forge_curated",
+        "heritage_nationality"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 4,
+        "juggernaut_ragnarok": 4
+      },
+      "priority_default": "P1",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 24,
+        "max_age": 44,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "identity.forge_heritage_nationality_indonesian",
+      "category": "identity",
+      "subcategory": "nationality",
+      "canonical_text": "Indonesian",
+      "aliases": [],
+      "semantic_tags": [
+        "nyx_forge_curated",
+        "heritage_nationality"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 4,
+        "juggernaut_ragnarok": 4
+      },
+      "priority_default": "P1",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 24,
+        "max_age": 44,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "identity.forge_heritage_nationality_malaysian",
+      "category": "identity",
+      "subcategory": "nationality",
+      "canonical_text": "Malaysian",
+      "aliases": [],
+      "semantic_tags": [
+        "nyx_forge_curated",
+        "heritage_nationality"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 3,
+        "juggernaut_ragnarok": 3
+      },
+      "priority_default": "P1",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 24,
+        "max_age": 44,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "identity.forge_heritage_nationality_singaporean",
+      "category": "identity",
+      "subcategory": "nationality",
+      "canonical_text": "Singaporean",
+      "aliases": [],
+      "semantic_tags": [
+        "nyx_forge_curated",
+        "heritage_nationality"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 4,
+        "juggernaut_ragnarok": 4
+      },
+      "priority_default": "P1",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 24,
+        "max_age": 44,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "identity.forge_heritage_nationality_cambodian",
+      "category": "identity",
+      "subcategory": "nationality",
+      "canonical_text": "Cambodian",
+      "aliases": [],
+      "semantic_tags": [
+        "nyx_forge_curated",
+        "heritage_nationality"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 4,
+        "juggernaut_ragnarok": 4
+      },
+      "priority_default": "P1",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 24,
+        "max_age": 44,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "identity.forge_heritage_nationality_moroccan",
+      "category": "identity",
+      "subcategory": "nationality",
+      "canonical_text": "Moroccan",
+      "aliases": [],
+      "semantic_tags": [
+        "nyx_forge_curated",
+        "heritage_nationality"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 4,
+        "juggernaut_ragnarok": 4
+      },
+      "priority_default": "P1",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 24,
+        "max_age": 44,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "identity.forge_heritage_nationality_algerian",
+      "category": "identity",
+      "subcategory": "nationality",
+      "canonical_text": "Algerian",
+      "aliases": [],
+      "semantic_tags": [
+        "nyx_forge_curated",
+        "heritage_nationality"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 4,
+        "juggernaut_ragnarok": 4
+      },
+      "priority_default": "P1",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 24,
+        "max_age": 44,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "identity.forge_heritage_nationality_tunisian",
+      "category": "identity",
+      "subcategory": "nationality",
+      "canonical_text": "Tunisian",
+      "aliases": [],
+      "semantic_tags": [
+        "nyx_forge_curated",
+        "heritage_nationality"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 3,
+        "juggernaut_ragnarok": 3
+      },
+      "priority_default": "P1",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 24,
+        "max_age": 44,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "identity.forge_heritage_nationality_egyptian",
+      "category": "identity",
+      "subcategory": "nationality",
+      "canonical_text": "Egyptian",
+      "aliases": [],
+      "semantic_tags": [
+        "nyx_forge_curated",
+        "heritage_nationality"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 3,
+        "juggernaut_ragnarok": 3
+      },
+      "priority_default": "P1",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 24,
+        "max_age": 44,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "identity.forge_heritage_nationality_mixed_european_heritage",
+      "category": "identity",
+      "subcategory": "heritage",
+      "canonical_text": "Mixed European heritage",
+      "aliases": [],
+      "semantic_tags": [
+        "nyx_forge_curated",
+        "heritage_nationality"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 8,
+        "juggernaut_ragnarok": 8
+      },
+      "priority_default": "P1",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 24,
+        "max_age": 44,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "identity.forge_heritage_nationality_mixed_asian_european_heritage",
+      "category": "identity",
+      "subcategory": "heritage",
+      "canonical_text": "Mixed Asian-European heritage",
+      "aliases": [],
+      "semantic_tags": [
+        "nyx_forge_curated",
+        "heritage_nationality"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 11,
+        "juggernaut_ragnarok": 11
+      },
+      "priority_default": "P1",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 24,
+        "max_age": 44,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "identity.forge_heritage_nationality_mixed_latin_european_heritage",
+      "category": "identity",
+      "subcategory": "heritage",
+      "canonical_text": "Mixed Latin-European heritage",
+      "aliases": [],
+      "semantic_tags": [
+        "nyx_forge_curated",
+        "heritage_nationality"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 11,
+        "juggernaut_ragnarok": 11
+      },
+      "priority_default": "P1",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 24,
+        "max_age": 44,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "identity.forge_heritage_nationality_mixed_middle_eastern_european_heritage",
+      "category": "identity",
+      "subcategory": "heritage",
+      "canonical_text": "Mixed Middle Eastern-European heritage",
+      "aliases": [],
+      "semantic_tags": [
+        "nyx_forge_curated",
+        "heritage_nationality"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 15,
+        "juggernaut_ragnarok": 15
+      },
+      "priority_default": "P1",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 24,
+        "max_age": 44,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    }
+  ]
+}

@@ -1,0 +1,3530 @@
+{
+  "kb_version": "1.0.0",
+  "category": "atmosphere_mood",
+  "records": [
+    {
+      "id": "atmosphere_mood.playful_confidence",
+      "category": "atmosphere_mood",
+      "subcategory": "general",
+      "canonical_text": "playful confidence",
+      "aliases": [],
+      "semantic_tags": [],
+      "token_cost": {
+        "cyberrealistic_pony": 2,
+        "juggernaut_ragnarok": 2
+      },
+      "priority_default": "P3",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": null,
+        "max_age": null
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "atmosphere_mood.tense_anticipation",
+      "category": "atmosphere_mood",
+      "subcategory": "general",
+      "canonical_text": "tense anticipation",
+      "aliases": [],
+      "semantic_tags": [],
+      "token_cost": {
+        "cyberrealistic_pony": 2,
+        "juggernaut_ragnarok": 2
+      },
+      "priority_default": "P3",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": null,
+        "max_age": null
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "atmosphere_mood.private_reverie",
+      "category": "atmosphere_mood",
+      "subcategory": "general",
+      "canonical_text": "private reverie",
+      "aliases": [],
+      "semantic_tags": [],
+      "token_cost": {
+        "cyberrealistic_pony": 3,
+        "juggernaut_ragnarok": 3
+      },
+      "priority_default": "P3",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": null,
+        "max_age": null
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "atmosphere_mood.commanding_presence",
+      "category": "atmosphere_mood",
+      "subcategory": "general",
+      "canonical_text": "commanding presence",
+      "aliases": [],
+      "semantic_tags": [],
+      "token_cost": {
+        "cyberrealistic_pony": 2,
+        "juggernaut_ragnarok": 2
+      },
+      "priority_default": "P3",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": null,
+        "max_age": null
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "atmosphere_mood.serene_luxury",
+      "category": "atmosphere_mood",
+      "subcategory": "general",
+      "canonical_text": "serene luxury",
+      "aliases": [],
+      "semantic_tags": [],
+      "token_cost": {
+        "cyberrealistic_pony": 2,
+        "juggernaut_ragnarok": 2
+      },
+      "priority_default": "P3",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": null,
+        "max_age": null
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "atmosphere_mood.nocturnal_mystery",
+      "category": "atmosphere_mood",
+      "subcategory": "general",
+      "canonical_text": "nocturnal mystery",
+      "aliases": [],
+      "semantic_tags": [],
+      "token_cost": {
+        "cyberrealistic_pony": 2,
+        "juggernaut_ragnarok": 2
+      },
+      "priority_default": "P3",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": null,
+        "max_age": null
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE",
+      "allowed_time": [
+        "blue_hour",
+        "after_midnight"
+      ]
+    },
+    {
+      "id": "atmosphere_mood.warm_intimacy",
+      "category": "atmosphere_mood",
+      "subcategory": "general",
+      "canonical_text": "warm intimacy",
+      "aliases": [],
+      "semantic_tags": [],
+      "token_cost": {
+        "cyberrealistic_pony": 2,
+        "juggernaut_ragnarok": 2
+      },
+      "priority_default": "P3",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": null,
+        "max_age": null
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "atmosphere_mood.cool_detachment",
+      "category": "atmosphere_mood",
+      "subcategory": "general",
+      "canonical_text": "cool detachment",
+      "aliases": [],
+      "semantic_tags": [],
+      "token_cost": {
+        "cyberrealistic_pony": 3,
+        "juggernaut_ragnarok": 3
+      },
+      "priority_default": "P3",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": null,
+        "max_age": null
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "atmosphere_mood.bold_glamour",
+      "category": "atmosphere_mood",
+      "subcategory": "general",
+      "canonical_text": "bold glamour",
+      "aliases": [],
+      "semantic_tags": [],
+      "token_cost": {
+        "cyberrealistic_pony": 2,
+        "juggernaut_ragnarok": 2
+      },
+      "priority_default": "P3",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": null,
+        "max_age": null
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "atmosphere_mood.restrained_desire",
+      "category": "atmosphere_mood",
+      "subcategory": "general",
+      "canonical_text": "restrained desire",
+      "aliases": [],
+      "semantic_tags": [],
+      "token_cost": {
+        "cyberrealistic_pony": 3,
+        "juggernaut_ragnarok": 3
+      },
+      "priority_default": "P3",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": null,
+        "max_age": null
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "atmosphere_mood.dreamlike_stillness",
+      "category": "atmosphere_mood",
+      "subcategory": "general",
+      "canonical_text": "dreamlike stillness",
+      "aliases": [],
+      "semantic_tags": [],
+      "token_cost": {
+        "cyberrealistic_pony": 4,
+        "juggernaut_ragnarok": 4
+      },
+      "priority_default": "P3",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": null,
+        "max_age": null
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "atmosphere_mood.electric_tension",
+      "category": "atmosphere_mood",
+      "subcategory": "general",
+      "canonical_text": "electric tension",
+      "aliases": [],
+      "semantic_tags": [],
+      "token_cost": {
+        "cyberrealistic_pony": 2,
+        "juggernaut_ragnarok": 2
+      },
+      "priority_default": "P3",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": null,
+        "max_age": null
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "atmosphere_mood.after_hours_elegance",
+      "category": "atmosphere_mood",
+      "subcategory": "general",
+      "canonical_text": "after-hours elegance",
+      "aliases": [],
+      "semantic_tags": [],
+      "token_cost": {
+        "cyberrealistic_pony": 4,
+        "juggernaut_ragnarok": 4
+      },
+      "priority_default": "P3",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": null,
+        "max_age": null
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE",
+      "allowed_time": [
+        "after_midnight"
+      ]
+    },
+    {
+      "id": "atmosphere_mood.secretive_mood",
+      "category": "atmosphere_mood",
+      "subcategory": "general",
+      "canonical_text": "secretive mood",
+      "aliases": [],
+      "semantic_tags": [],
+      "token_cost": {
+        "cyberrealistic_pony": 3,
+        "juggernaut_ragnarok": 3
+      },
+      "priority_default": "P3",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": null,
+        "max_age": null
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "atmosphere_mood.reflective_calm",
+      "category": "atmosphere_mood",
+      "subcategory": "general",
+      "canonical_text": "reflective calm",
+      "aliases": [],
+      "semantic_tags": [],
+      "token_cost": {
+        "cyberrealistic_pony": 2,
+        "juggernaut_ragnarok": 2
+      },
+      "priority_default": "P3",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": null,
+        "max_age": null
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "atmosphere_mood.decadent_atmosphere",
+      "category": "atmosphere_mood",
+      "subcategory": "general",
+      "canonical_text": "decadent atmosphere",
+      "aliases": [],
+      "semantic_tags": [],
+      "token_cost": {
+        "cyberrealistic_pony": 2,
+        "juggernaut_ragnarok": 2
+      },
+      "priority_default": "P3",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": null,
+        "max_age": null
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "atmosphere_mood.romantic_solitude",
+      "category": "atmosphere_mood",
+      "subcategory": "general",
+      "canonical_text": "romantic solitude",
+      "aliases": [],
+      "semantic_tags": [],
+      "token_cost": {
+        "cyberrealistic_pony": 2,
+        "juggernaut_ragnarok": 2
+      },
+      "priority_default": "P3",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": null,
+        "max_age": null
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "atmosphere_mood.sultry_atmosphere",
+      "category": "atmosphere_mood",
+      "subcategory": "general",
+      "canonical_text": "sultry atmosphere",
+      "aliases": [],
+      "semantic_tags": [],
+      "token_cost": {
+        "cyberrealistic_pony": 3,
+        "juggernaut_ragnarok": 3
+      },
+      "priority_default": "P3",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": null,
+        "max_age": null
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "atmosphere_mood.cinematic_suspense",
+      "category": "atmosphere_mood",
+      "subcategory": "general",
+      "canonical_text": "cinematic suspense",
+      "aliases": [],
+      "semantic_tags": [],
+      "token_cost": {
+        "cyberrealistic_pony": 2,
+        "juggernaut_ragnarok": 2
+      },
+      "priority_default": "P3",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": null,
+        "max_age": null
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "atmosphere_mood.inviting_warmth",
+      "category": "atmosphere_mood",
+      "subcategory": "general",
+      "canonical_text": "inviting warmth",
+      "aliases": [],
+      "semantic_tags": [],
+      "token_cost": {
+        "cyberrealistic_pony": 2,
+        "juggernaut_ragnarok": 2
+      },
+      "priority_default": "P3",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": null,
+        "max_age": null
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "atmosphere_mood.velvet_darkness",
+      "category": "atmosphere_mood",
+      "subcategory": "general",
+      "canonical_text": "velvet darkness",
+      "aliases": [],
+      "semantic_tags": [],
+      "token_cost": {
+        "cyberrealistic_pony": 2,
+        "juggernaut_ragnarok": 2
+      },
+      "priority_default": "P3",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": null,
+        "max_age": null
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "atmosphere_mood.rainy_melancholy",
+      "category": "atmosphere_mood",
+      "subcategory": "general",
+      "canonical_text": "rainy melancholy",
+      "aliases": [],
+      "semantic_tags": [],
+      "token_cost": {
+        "cyberrealistic_pony": 2,
+        "juggernaut_ragnarok": 2
+      },
+      "priority_default": "P3",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": null,
+        "max_age": null
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "atmosphere_mood.luminous_tranquility",
+      "category": "atmosphere_mood",
+      "subcategory": "general",
+      "canonical_text": "luminous tranquility",
+      "aliases": [],
+      "semantic_tags": [],
+      "token_cost": {
+        "cyberrealistic_pony": 2,
+        "juggernaut_ragnarok": 2
+      },
+      "priority_default": "P3",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": null,
+        "max_age": null
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "atmosphere_mood.carefree_abandon",
+      "category": "atmosphere_mood",
+      "subcategory": "general",
+      "canonical_text": "carefree abandon",
+      "aliases": [],
+      "semantic_tags": [],
+      "token_cost": {
+        "cyberrealistic_pony": 3,
+        "juggernaut_ragnarok": 3
+      },
+      "priority_default": "P3",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": null,
+        "max_age": null
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "atmosphere_mood.poised_confidence",
+      "category": "atmosphere_mood",
+      "subcategory": "general",
+      "canonical_text": "poised confidence",
+      "aliases": [],
+      "semantic_tags": [],
+      "token_cost": {
+        "cyberrealistic_pony": 2,
+        "juggernaut_ragnarok": 2
+      },
+      "priority_default": "P3",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": null,
+        "max_age": null
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "atmosphere_mood.soft_vulnerability",
+      "category": "atmosphere_mood",
+      "subcategory": "general",
+      "canonical_text": "soft vulnerability",
+      "aliases": [],
+      "semantic_tags": [],
+      "token_cost": {
+        "cyberrealistic_pony": 2,
+        "juggernaut_ragnarok": 2
+      },
+      "priority_default": "P3",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": null,
+        "max_age": null
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "atmosphere_mood.private_celebration",
+      "category": "atmosphere_mood",
+      "subcategory": "general",
+      "canonical_text": "private celebration",
+      "aliases": [],
+      "semantic_tags": [],
+      "token_cost": {
+        "cyberrealistic_pony": 2,
+        "juggernaut_ragnarok": 2
+      },
+      "priority_default": "P3",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": null,
+        "max_age": null
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "atmosphere_mood.midnight_serenity",
+      "category": "atmosphere_mood",
+      "subcategory": "general",
+      "canonical_text": "midnight serenity",
+      "aliases": [],
+      "semantic_tags": [],
+      "token_cost": {
+        "cyberrealistic_pony": 2,
+        "juggernaut_ragnarok": 2
+      },
+      "priority_default": "P3",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": null,
+        "max_age": null
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE",
+      "allowed_time": [
+        "after_midnight"
+      ]
+    },
+    {
+      "id": "atmosphere_mood.opulent_calm",
+      "category": "atmosphere_mood",
+      "subcategory": "general",
+      "canonical_text": "opulent calm",
+      "aliases": [],
+      "semantic_tags": [],
+      "token_cost": {
+        "cyberrealistic_pony": 3,
+        "juggernaut_ragnarok": 3
+      },
+      "priority_default": "P3",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": null,
+        "max_age": null
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "atmosphere_mood.charged_silence",
+      "category": "atmosphere_mood",
+      "subcategory": "general",
+      "canonical_text": "charged silence",
+      "aliases": [],
+      "semantic_tags": [],
+      "token_cost": {
+        "cyberrealistic_pony": 2,
+        "juggernaut_ragnarok": 2
+      },
+      "priority_default": "P3",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": null,
+        "max_age": null
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "atmosphere_mood.sunlit_ease",
+      "category": "atmosphere_mood",
+      "subcategory": "general",
+      "canonical_text": "sunlit ease",
+      "aliases": [],
+      "semantic_tags": [],
+      "token_cost": {
+        "cyberrealistic_pony": 3,
+        "juggernaut_ragnarok": 3
+      },
+      "priority_default": "P3",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": null,
+        "max_age": null
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE",
+      "allowed_time": [
+        "sunrise",
+        "early_morning",
+        "midday",
+        "late_afternoon",
+        "golden_hour"
+      ]
+    },
+    {
+      "id": "atmosphere_mood.misty_solitude",
+      "category": "atmosphere_mood",
+      "subcategory": "general",
+      "canonical_text": "misty solitude",
+      "aliases": [],
+      "semantic_tags": [],
+      "token_cost": {
+        "cyberrealistic_pony": 2,
+        "juggernaut_ragnarok": 2
+      },
+      "priority_default": "P3",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": null,
+        "max_age": null
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "atmosphere_mood.dramatic_stillness",
+      "category": "atmosphere_mood",
+      "subcategory": "general",
+      "canonical_text": "dramatic stillness",
+      "aliases": [],
+      "semantic_tags": [],
+      "token_cost": {
+        "cyberrealistic_pony": 3,
+        "juggernaut_ragnarok": 3
+      },
+      "priority_default": "P3",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": null,
+        "max_age": null
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "atmosphere_mood.quiet_authority",
+      "category": "atmosphere_mood",
+      "subcategory": "general",
+      "canonical_text": "quiet authority",
+      "aliases": [],
+      "semantic_tags": [],
+      "token_cost": {
+        "cyberrealistic_pony": 2,
+        "juggernaut_ragnarok": 2
+      },
+      "priority_default": "P3",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": null,
+        "max_age": null
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "atmosphere_mood.hypnotic_mood",
+      "category": "atmosphere_mood",
+      "subcategory": "general",
+      "canonical_text": "hypnotic mood",
+      "aliases": [],
+      "semantic_tags": [],
+      "token_cost": {
+        "cyberrealistic_pony": 3,
+        "juggernaut_ragnarok": 3
+      },
+      "priority_default": "P3",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": null,
+        "max_age": null
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "atmosphere_mood.forge_atmosphere_mood_confident_femininity",
+      "category": "atmosphere_mood",
+      "subcategory": "atmosphere_mood",
+      "canonical_text": "confident femininity",
+      "aliases": [],
+      "semantic_tags": [
+        "nyx_forge_curated",
+        "atmosphere_mood"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 3,
+        "juggernaut_ragnarok": 3
+      },
+      "priority_default": "P2",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 24,
+        "max_age": 44,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "atmosphere_mood.forge_atmosphere_mood_gentle_intimacy",
+      "category": "atmosphere_mood",
+      "subcategory": "atmosphere_mood",
+      "canonical_text": "gentle intimacy",
+      "aliases": [],
+      "semantic_tags": [
+        "nyx_forge_curated",
+        "atmosphere_mood"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 2,
+        "juggernaut_ragnarok": 2
+      },
+      "priority_default": "P2",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 24,
+        "max_age": 44,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "atmosphere_mood.forge_atmosphere_mood_private_intimacy",
+      "category": "atmosphere_mood",
+      "subcategory": "atmosphere_mood",
+      "canonical_text": "private intimacy",
+      "aliases": [],
+      "semantic_tags": [
+        "nyx_forge_curated",
+        "atmosphere_mood"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 2,
+        "juggernaut_ragnarok": 2
+      },
+      "priority_default": "P2",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 24,
+        "max_age": 44,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "atmosphere_mood.forge_atmosphere_mood_dreamy_mood",
+      "category": "atmosphere_mood",
+      "subcategory": "atmosphere_mood",
+      "canonical_text": "dreamy mood",
+      "aliases": [],
+      "semantic_tags": [
+        "nyx_forge_curated",
+        "atmosphere_mood"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 2,
+        "juggernaut_ragnarok": 2
+      },
+      "priority_default": "P2",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 24,
+        "max_age": 44,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "atmosphere_mood.forge_atmosphere_mood_serene_calm",
+      "category": "atmosphere_mood",
+      "subcategory": "atmosphere_mood",
+      "canonical_text": "serene calm",
+      "aliases": [],
+      "semantic_tags": [
+        "nyx_forge_curated",
+        "atmosphere_mood"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 2,
+        "juggernaut_ragnarok": 2
+      },
+      "priority_default": "P2",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 24,
+        "max_age": 44,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "atmosphere_mood.forge_atmosphere_mood_warm_relaxation",
+      "category": "atmosphere_mood",
+      "subcategory": "atmosphere_mood",
+      "canonical_text": "warm relaxation",
+      "aliases": [],
+      "semantic_tags": [
+        "nyx_forge_curated",
+        "atmosphere_mood"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 2,
+        "juggernaut_ragnarok": 2
+      },
+      "priority_default": "P2",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 24,
+        "max_age": 44,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "atmosphere_mood.forge_atmosphere_mood_quiet_luxury",
+      "category": "atmosphere_mood",
+      "subcategory": "atmosphere_mood",
+      "canonical_text": "quiet luxury",
+      "aliases": [],
+      "semantic_tags": [
+        "nyx_forge_curated",
+        "atmosphere_mood"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 2,
+        "juggernaut_ragnarok": 2
+      },
+      "priority_default": "P2",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 24,
+        "max_age": 44,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "atmosphere_mood.forge_atmosphere_mood_understated_luxury",
+      "category": "atmosphere_mood",
+      "subcategory": "atmosphere_mood",
+      "canonical_text": "understated luxury",
+      "aliases": [],
+      "semantic_tags": [
+        "nyx_forge_curated",
+        "atmosphere_mood"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 3,
+        "juggernaut_ragnarok": 3
+      },
+      "priority_default": "P2",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 24,
+        "max_age": 44,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "atmosphere_mood.forge_atmosphere_mood_private_glamour",
+      "category": "atmosphere_mood",
+      "subcategory": "atmosphere_mood",
+      "canonical_text": "private glamour",
+      "aliases": [],
+      "semantic_tags": [
+        "nyx_forge_curated",
+        "atmosphere_mood"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 2,
+        "juggernaut_ragnarok": 2
+      },
+      "priority_default": "P2",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 24,
+        "max_age": 44,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "atmosphere_mood.forge_atmosphere_mood_editorial_glamour",
+      "category": "atmosphere_mood",
+      "subcategory": "atmosphere_mood",
+      "canonical_text": "editorial glamour",
+      "aliases": [],
+      "semantic_tags": [
+        "nyx_forge_curated",
+        "atmosphere_mood"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 2,
+        "juggernaut_ragnarok": 2
+      },
+      "priority_default": "P2",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 24,
+        "max_age": 44,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "atmosphere_mood.forge_atmosphere_mood_soft_elegance",
+      "category": "atmosphere_mood",
+      "subcategory": "atmosphere_mood",
+      "canonical_text": "soft elegance",
+      "aliases": [],
+      "semantic_tags": [
+        "nyx_forge_curated",
+        "atmosphere_mood"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 2,
+        "juggernaut_ragnarok": 2
+      },
+      "priority_default": "P2",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 24,
+        "max_age": 44,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "atmosphere_mood.forge_atmosphere_mood_polished_elegance",
+      "category": "atmosphere_mood",
+      "subcategory": "atmosphere_mood",
+      "canonical_text": "polished elegance",
+      "aliases": [],
+      "semantic_tags": [
+        "nyx_forge_curated",
+        "atmosphere_mood"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 2,
+        "juggernaut_ragnarok": 2
+      },
+      "priority_default": "P2",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 24,
+        "max_age": 44,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "atmosphere_mood.forge_atmosphere_mood_romantic_atmosphere",
+      "category": "atmosphere_mood",
+      "subcategory": "atmosphere_mood",
+      "canonical_text": "romantic atmosphere",
+      "aliases": [],
+      "semantic_tags": [
+        "nyx_forge_curated",
+        "atmosphere_mood"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 2,
+        "juggernaut_ragnarok": 2
+      },
+      "priority_default": "P2",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 24,
+        "max_age": 44,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "atmosphere_mood.forge_atmosphere_mood_moody_romance",
+      "category": "atmosphere_mood",
+      "subcategory": "atmosphere_mood",
+      "canonical_text": "moody romance",
+      "aliases": [],
+      "semantic_tags": [
+        "nyx_forge_curated",
+        "atmosphere_mood"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 2,
+        "juggernaut_ragnarok": 2
+      },
+      "priority_default": "P2",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 24,
+        "max_age": 44,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "atmosphere_mood.forge_atmosphere_mood_after_hours_atmosphere",
+      "category": "atmosphere_mood",
+      "subcategory": "atmosphere_mood",
+      "canonical_text": "after-hours atmosphere",
+      "aliases": [],
+      "semantic_tags": [
+        "nyx_forge_curated",
+        "atmosphere_mood"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 4,
+        "juggernaut_ragnarok": 4
+      },
+      "priority_default": "P2",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 24,
+        "max_age": 44,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE",
+      "allowed_time": [
+        "after_midnight"
+      ]
+    },
+    {
+      "id": "atmosphere_mood.forge_atmosphere_mood_late_night_stillness",
+      "category": "atmosphere_mood",
+      "subcategory": "atmosphere_mood",
+      "canonical_text": "late-night stillness",
+      "aliases": [],
+      "semantic_tags": [
+        "nyx_forge_curated",
+        "atmosphere_mood"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 5,
+        "juggernaut_ragnarok": 5
+      },
+      "priority_default": "P2",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 24,
+        "max_age": 44,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "atmosphere_mood.forge_atmosphere_mood_blue_hour_calm",
+      "category": "atmosphere_mood",
+      "subcategory": "atmosphere_mood",
+      "canonical_text": "blue-hour calm",
+      "aliases": [],
+      "semantic_tags": [
+        "nyx_forge_curated",
+        "atmosphere_mood"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 4,
+        "juggernaut_ragnarok": 4
+      },
+      "priority_default": "P2",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 24,
+        "max_age": 44,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "atmosphere_mood.forge_atmosphere_mood_golden_hour_warmth",
+      "category": "atmosphere_mood",
+      "subcategory": "atmosphere_mood",
+      "canonical_text": "golden-hour warmth",
+      "aliases": [],
+      "semantic_tags": [
+        "nyx_forge_curated",
+        "atmosphere_mood"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 4,
+        "juggernaut_ragnarok": 4
+      },
+      "priority_default": "P2",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 24,
+        "max_age": 44,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "atmosphere_mood.forge_atmosphere_mood_moonlit_calm",
+      "category": "atmosphere_mood",
+      "subcategory": "atmosphere_mood",
+      "canonical_text": "moonlit calm",
+      "aliases": [],
+      "semantic_tags": [
+        "nyx_forge_curated",
+        "atmosphere_mood"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 3,
+        "juggernaut_ragnarok": 3
+      },
+      "priority_default": "P2",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 24,
+        "max_age": 44,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "atmosphere_mood.forge_atmosphere_mood_rainy_night_mood",
+      "category": "atmosphere_mood",
+      "subcategory": "atmosphere_mood",
+      "canonical_text": "rainy-night mood",
+      "aliases": [],
+      "semantic_tags": [
+        "nyx_forge_curated",
+        "atmosphere_mood"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 4,
+        "juggernaut_ragnarok": 4
+      },
+      "priority_default": "P2",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 24,
+        "max_age": 44,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "atmosphere_mood.forge_atmosphere_mood_quiet_solitude",
+      "category": "atmosphere_mood",
+      "subcategory": "atmosphere_mood",
+      "canonical_text": "quiet solitude",
+      "aliases": [],
+      "semantic_tags": [
+        "nyx_forge_curated",
+        "atmosphere_mood"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 2,
+        "juggernaut_ragnarok": 2
+      },
+      "priority_default": "P2",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 24,
+        "max_age": 44,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "atmosphere_mood.forge_atmosphere_mood_cinematic_tension",
+      "category": "atmosphere_mood",
+      "subcategory": "atmosphere_mood",
+      "canonical_text": "cinematic tension",
+      "aliases": [],
+      "semantic_tags": [
+        "nyx_forge_curated",
+        "atmosphere_mood"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 2,
+        "juggernaut_ragnarok": 2
+      },
+      "priority_default": "P2",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 24,
+        "max_age": 44,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "atmosphere_mood.forge_atmosphere_mood_mysterious_calm",
+      "category": "atmosphere_mood",
+      "subcategory": "atmosphere_mood",
+      "canonical_text": "mysterious calm",
+      "aliases": [],
+      "semantic_tags": [
+        "nyx_forge_curated",
+        "atmosphere_mood"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 2,
+        "juggernaut_ragnarok": 2
+      },
+      "priority_default": "P2",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 24,
+        "max_age": 44,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "atmosphere_mood.forge_atmosphere_mood_relaxed_confidence",
+      "category": "atmosphere_mood",
+      "subcategory": "atmosphere_mood",
+      "canonical_text": "relaxed confidence",
+      "aliases": [],
+      "semantic_tags": [
+        "nyx_forge_curated",
+        "atmosphere_mood"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 2,
+        "juggernaut_ragnarok": 2
+      },
+      "priority_default": "P2",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 24,
+        "max_age": 44,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "atmosphere_mood.forge_atmosphere_mood_bold_femininity",
+      "category": "atmosphere_mood",
+      "subcategory": "atmosphere_mood",
+      "canonical_text": "bold femininity",
+      "aliases": [],
+      "semantic_tags": [
+        "nyx_forge_curated",
+        "atmosphere_mood"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 3,
+        "juggernaut_ragnarok": 3
+      },
+      "priority_default": "P2",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 24,
+        "max_age": 44,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "atmosphere_mood.forge_atmosphere_mood_soft_confidence",
+      "category": "atmosphere_mood",
+      "subcategory": "atmosphere_mood",
+      "canonical_text": "soft confidence",
+      "aliases": [],
+      "semantic_tags": [
+        "nyx_forge_curated",
+        "atmosphere_mood"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 2,
+        "juggernaut_ragnarok": 2
+      },
+      "priority_default": "P2",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 24,
+        "max_age": 44,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "atmosphere_mood.forge_atmosphere_mood_luxurious_calm",
+      "category": "atmosphere_mood",
+      "subcategory": "atmosphere_mood",
+      "canonical_text": "luxurious calm",
+      "aliases": [],
+      "semantic_tags": [
+        "nyx_forge_curated",
+        "atmosphere_mood"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 2,
+        "juggernaut_ragnarok": 2
+      },
+      "priority_default": "P2",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 24,
+        "max_age": 44,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "atmosphere_mood.forge_atmosphere_mood_warm_silence",
+      "category": "atmosphere_mood",
+      "subcategory": "atmosphere_mood",
+      "canonical_text": "warm silence",
+      "aliases": [],
+      "semantic_tags": [
+        "nyx_forge_curated",
+        "atmosphere_mood"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 2,
+        "juggernaut_ragnarok": 2
+      },
+      "priority_default": "P2",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 24,
+        "max_age": 44,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "atmosphere_mood.forge_atmosphere_mood_cool_nocturnal_mood",
+      "category": "atmosphere_mood",
+      "subcategory": "atmosphere_mood",
+      "canonical_text": "cool nocturnal mood",
+      "aliases": [],
+      "semantic_tags": [
+        "nyx_forge_curated",
+        "atmosphere_mood"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 3,
+        "juggernaut_ragnarok": 3
+      },
+      "priority_default": "P2",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 24,
+        "max_age": 44,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE",
+      "allowed_time": [
+        "blue_hour",
+        "after_midnight"
+      ]
+    },
+    {
+      "id": "atmosphere_mood.forge_atmosphere_mood_hushed_atmosphere",
+      "category": "atmosphere_mood",
+      "subcategory": "atmosphere_mood",
+      "canonical_text": "hushed atmosphere",
+      "aliases": [],
+      "semantic_tags": [
+        "nyx_forge_curated",
+        "atmosphere_mood"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 3,
+        "juggernaut_ragnarok": 3
+      },
+      "priority_default": "P2",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 24,
+        "max_age": 44,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "atmosphere_mood.forge_atmosphere_mood_humid_atmosphere",
+      "category": "atmosphere_mood",
+      "subcategory": "atmosphere_mood",
+      "canonical_text": "humid atmosphere",
+      "aliases": [],
+      "semantic_tags": [
+        "nyx_forge_curated",
+        "atmosphere_mood"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 2,
+        "juggernaut_ragnarok": 2
+      },
+      "priority_default": "P2",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 24,
+        "max_age": 44,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "atmosphere_mood.forge_atmosphere_mood_post_shower_freshness",
+      "category": "atmosphere_mood",
+      "subcategory": "atmosphere_mood",
+      "canonical_text": "post-shower freshness",
+      "aliases": [],
+      "semantic_tags": [
+        "nyx_forge_curated",
+        "atmosphere_mood"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 4,
+        "juggernaut_ragnarok": 4
+      },
+      "priority_default": "P2",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 24,
+        "max_age": 44,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "atmosphere_mood.forge_atmosphere_mood_spa_like_calm",
+      "category": "atmosphere_mood",
+      "subcategory": "atmosphere_mood",
+      "canonical_text": "spa-like calm",
+      "aliases": [],
+      "semantic_tags": [
+        "nyx_forge_curated",
+        "atmosphere_mood"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 4,
+        "juggernaut_ragnarok": 4
+      },
+      "priority_default": "P2",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 24,
+        "max_age": 44,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "atmosphere_mood.forge_atmosphere_mood_coastal_calm",
+      "category": "atmosphere_mood",
+      "subcategory": "atmosphere_mood",
+      "canonical_text": "coastal calm",
+      "aliases": [],
+      "semantic_tags": [
+        "nyx_forge_curated",
+        "atmosphere_mood"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 2,
+        "juggernaut_ragnarok": 2
+      },
+      "priority_default": "P2",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 24,
+        "max_age": 44,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "atmosphere_mood.forge_atmosphere_mood_urban_night_mood",
+      "category": "atmosphere_mood",
+      "subcategory": "atmosphere_mood",
+      "canonical_text": "urban night mood",
+      "aliases": [],
+      "semantic_tags": [
+        "nyx_forge_curated",
+        "atmosphere_mood"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 3,
+        "juggernaut_ragnarok": 3
+      },
+      "priority_default": "P2",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 24,
+        "max_age": 44,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    }
+  ]
+}

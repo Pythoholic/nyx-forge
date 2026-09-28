@@ -1,0 +1,6453 @@
+{
+  "kb_version": "1.0.0",
+  "category": "pose_action",
+  "records": [
+    {
+      "id": "pose_action.standing_standing_upright",
+      "category": "pose_action",
+      "subcategory": "posture",
+      "canonical_text": "standing upright",
+      "aliases": [],
+      "semantic_tags": [
+        "posture",
+        "standing"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 2,
+        "juggernaut_ragnarok": 2
+      },
+      "priority_default": "P0",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [
+        "affordance.floor"
+      ],
+      "conflicts": [],
+      "excludes_categories": [
+        "pose_action.posture"
+      ],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": null,
+        "max_age": null
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE",
+      "posture_state": "standing",
+      "allowed_views": [
+        "front",
+        "side",
+        "rear"
+      ],
+      "view_text": {
+        "front": "standing upright",
+        "side": "strict side view, standing upright",
+        "rear": "rear view, standing upright"
+      }
+    },
+    {
+      "id": "pose_action.standing_contrapposto_stance",
+      "category": "pose_action",
+      "subcategory": "posture",
+      "canonical_text": "contrapposto stance",
+      "aliases": [],
+      "semantic_tags": [
+        "posture",
+        "standing"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 5,
+        "juggernaut_ragnarok": 5
+      },
+      "priority_default": "P0",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [
+        "affordance.floor"
+      ],
+      "conflicts": [],
+      "excludes_categories": [
+        "pose_action.posture"
+      ],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": null,
+        "max_age": null
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE",
+      "posture_state": "standing",
+      "allowed_views": [
+        "front",
+        "side",
+        "rear"
+      ],
+      "view_text": {
+        "front": "contrapposto stance",
+        "side": "strict side view, contrapposto stance",
+        "rear": "rear view, contrapposto stance"
+      }
+    },
+    {
+      "id": "pose_action.standing_leaning_forward",
+      "category": "pose_action",
+      "subcategory": "posture",
+      "canonical_text": "leaning forward",
+      "aliases": [],
+      "semantic_tags": [
+        "posture",
+        "standing"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 2,
+        "juggernaut_ragnarok": 2
+      },
+      "priority_default": "P0",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [
+        "affordance.floor"
+      ],
+      "conflicts": [],
+      "excludes_categories": [
+        "pose_action.posture"
+      ],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": null,
+        "max_age": null
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE",
+      "posture_state": "standing",
+      "allowed_views": [
+        "front",
+        "side"
+      ],
+      "view_text": {
+        "front": "leaning forward",
+        "side": "strict side view, leaning forward"
+      }
+    },
+    {
+      "id": "pose_action.standing_weight_on_one_leg",
+      "category": "pose_action",
+      "subcategory": "posture",
+      "canonical_text": "weight on one leg",
+      "aliases": [],
+      "semantic_tags": [
+        "posture",
+        "standing"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 4,
+        "juggernaut_ragnarok": 4
+      },
+      "priority_default": "P0",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [
+        "affordance.floor"
+      ],
+      "conflicts": [],
+      "excludes_categories": [
+        "pose_action.posture"
+      ],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": null,
+        "max_age": null
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE",
+      "posture_state": "standing",
+      "allowed_views": [
+        "front",
+        "side",
+        "rear"
+      ],
+      "view_text": {
+        "front": "weight on one leg",
+        "side": "strict side view, weight on one leg",
+        "rear": "rear view, weight on one leg"
+      }
+    },
+    {
+      "id": "pose_action.standing_standing_on_tiptoe",
+      "category": "pose_action",
+      "subcategory": "posture",
+      "canonical_text": "standing on tiptoe",
+      "aliases": [],
+      "semantic_tags": [
+        "posture",
+        "standing"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 4,
+        "juggernaut_ragnarok": 4
+      },
+      "priority_default": "P0",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [
+        "affordance.floor"
+      ],
+      "conflicts": [],
+      "excludes_categories": [
+        "pose_action.posture"
+      ],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": null,
+        "max_age": null
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE",
+      "posture_state": "standing",
+      "allowed_views": [
+        "front",
+        "side",
+        "rear"
+      ],
+      "view_text": {
+        "front": "standing on tiptoe",
+        "side": "strict side view, standing on tiptoe",
+        "rear": "rear view, standing on tiptoe"
+      }
+    },
+    {
+      "id": "pose_action.sitting_sitting_upright",
+      "category": "pose_action",
+      "subcategory": "posture",
+      "canonical_text": "sitting upright",
+      "aliases": [],
+      "semantic_tags": [
+        "posture",
+        "sitting"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 2,
+        "juggernaut_ragnarok": 2
+      },
+      "priority_default": "P0",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [
+        "affordance.seat"
+      ],
+      "conflicts": [],
+      "excludes_categories": [
+        "pose_action.posture"
+      ],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": null,
+        "max_age": null
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE",
+      "posture_state": "sitting",
+      "allowed_views": [
+        "front",
+        "side",
+        "rear"
+      ],
+      "view_text": {
+        "front": "sitting upright",
+        "side": "strict side view, sitting upright",
+        "rear": "rear view, sitting upright"
+      }
+    },
+    {
+      "id": "pose_action.sitting_sitting_sideways",
+      "category": "pose_action",
+      "subcategory": "posture",
+      "canonical_text": "sitting sideways",
+      "aliases": [],
+      "semantic_tags": [
+        "posture",
+        "sitting"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 2,
+        "juggernaut_ragnarok": 2
+      },
+      "priority_default": "P0",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [
+        "affordance.seat"
+      ],
+      "conflicts": [],
+      "excludes_categories": [
+        "pose_action.posture"
+      ],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": null,
+        "max_age": null
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE",
+      "posture_state": "sitting",
+      "allowed_views": [
+        "front",
+        "side",
+        "rear"
+      ],
+      "view_text": {
+        "front": "sitting sideways",
+        "side": "strict side view, sitting sideways",
+        "rear": "rear view, sitting sideways"
+      }
+    },
+    {
+      "id": "pose_action.sitting_perched_on_the_edge",
+      "category": "pose_action",
+      "subcategory": "posture",
+      "canonical_text": "perched on the edge",
+      "aliases": [],
+      "semantic_tags": [
+        "posture",
+        "sitting"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 4,
+        "juggernaut_ragnarok": 4
+      },
+      "priority_default": "P0",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [
+        "affordance.seat"
+      ],
+      "conflicts": [],
+      "excludes_categories": [
+        "pose_action.posture"
+      ],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": null,
+        "max_age": null
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE",
+      "posture_state": "sitting",
+      "allowed_views": [
+        "front",
+        "side",
+        "rear"
+      ],
+      "view_text": {
+        "front": "perched on the edge",
+        "side": "strict side view, perched on the edge",
+        "rear": "rear view, perched on the edge"
+      }
+    },
+    {
+      "id": "pose_action.sitting_legs_crossed",
+      "category": "pose_action",
+      "subcategory": "posture",
+      "canonical_text": "legs crossed",
+      "aliases": [],
+      "semantic_tags": [
+        "posture",
+        "sitting"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 2,
+        "juggernaut_ragnarok": 2
+      },
+      "priority_default": "P0",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [
+        "affordance.seat"
+      ],
+      "conflicts": [],
+      "excludes_categories": [
+        "pose_action.posture"
+      ],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": null,
+        "max_age": null
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE",
+      "posture_state": "sitting",
+      "allowed_views": [
+        "front",
+        "side",
+        "rear"
+      ],
+      "view_text": {
+        "front": "legs crossed",
+        "side": "strict side view, legs crossed",
+        "rear": "rear view, legs crossed"
+      }
+    },
+    {
+      "id": "pose_action.sitting_legs_dangling",
+      "category": "pose_action",
+      "subcategory": "posture",
+      "canonical_text": "legs dangling",
+      "aliases": [],
+      "semantic_tags": [
+        "posture",
+        "sitting"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 3,
+        "juggernaut_ragnarok": 3
+      },
+      "priority_default": "P0",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [
+        "affordance.seat"
+      ],
+      "conflicts": [],
+      "excludes_categories": [
+        "pose_action.posture"
+      ],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": null,
+        "max_age": null
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE",
+      "posture_state": "sitting",
+      "allowed_views": [
+        "front",
+        "side",
+        "rear"
+      ],
+      "view_text": {
+        "front": "legs dangling",
+        "side": "strict side view, legs dangling",
+        "rear": "rear view, legs dangling"
+      }
+    },
+    {
+      "id": "pose_action.sitting_leaning_back_while_seated",
+      "category": "pose_action",
+      "subcategory": "posture",
+      "canonical_text": "leaning back while seated",
+      "aliases": [],
+      "semantic_tags": [
+        "posture",
+        "sitting"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 4,
+        "juggernaut_ragnarok": 4
+      },
+      "priority_default": "P0",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [
+        "affordance.seat"
+      ],
+      "conflicts": [],
+      "excludes_categories": [
+        "pose_action.posture"
+      ],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": null,
+        "max_age": null
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE",
+      "posture_state": "sitting",
+      "allowed_views": [
+        "front",
+        "side",
+        "rear"
+      ],
+      "view_text": {
+        "front": "leaning back while seated",
+        "side": "strict side view, leaning back while seated",
+        "rear": "rear view, leaning back while seated"
+      }
+    },
+    {
+      "id": "pose_action.sitting_seated_forward_fold",
+      "category": "pose_action",
+      "subcategory": "posture",
+      "canonical_text": "seated forward fold",
+      "aliases": [],
+      "semantic_tags": [
+        "posture",
+        "sitting"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 3,
+        "juggernaut_ragnarok": 3
+      },
+      "priority_default": "P0",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [
+        "affordance.seat"
+      ],
+      "conflicts": [],
+      "excludes_categories": [
+        "pose_action.posture"
+      ],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": null,
+        "max_age": null
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE",
+      "posture_state": "sitting",
+      "allowed_views": [
+        "front",
+        "side"
+      ],
+      "view_text": {
+        "front": "seated forward fold",
+        "side": "strict side view, seated forward fold"
+      }
+    },
+    {
+      "id": "pose_action.squatting_low_crouch",
+      "category": "pose_action",
+      "subcategory": "posture",
+      "canonical_text": "low crouch",
+      "aliases": [],
+      "semantic_tags": [
+        "posture",
+        "squatting"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 2,
+        "juggernaut_ragnarok": 2
+      },
+      "priority_default": "P0",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [
+        "affordance.floor"
+      ],
+      "conflicts": [],
+      "excludes_categories": [
+        "pose_action.posture"
+      ],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": null,
+        "max_age": null
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE",
+      "posture_state": "squatting",
+      "allowed_views": [
+        "front",
+        "side",
+        "rear"
+      ],
+      "view_text": {
+        "front": "low crouch",
+        "side": "strict side view, low crouch",
+        "rear": "rear view, low crouch"
+      }
+    },
+    {
+      "id": "pose_action.walking_walking_forward",
+      "category": "pose_action",
+      "subcategory": "posture",
+      "canonical_text": "walking forward",
+      "aliases": [],
+      "semantic_tags": [
+        "posture",
+        "walking"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 2,
+        "juggernaut_ragnarok": 2
+      },
+      "priority_default": "P0",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [
+        "affordance.path"
+      ],
+      "conflicts": [],
+      "excludes_categories": [
+        "pose_action.posture"
+      ],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": null,
+        "max_age": null
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE",
+      "posture_state": "walking",
+      "allowed_views": [
+        "front",
+        "side"
+      ],
+      "view_text": {
+        "front": "walking forward",
+        "side": "strict side view, walking forward"
+      }
+    },
+    {
+      "id": "pose_action.walking_walking_away",
+      "category": "pose_action",
+      "subcategory": "posture",
+      "canonical_text": "walking away",
+      "aliases": [],
+      "semantic_tags": [
+        "posture",
+        "walking"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 2,
+        "juggernaut_ragnarok": 2
+      },
+      "priority_default": "P0",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [
+        "affordance.path"
+      ],
+      "conflicts": [],
+      "excludes_categories": [
+        "pose_action.posture"
+      ],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": null,
+        "max_age": null
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE",
+      "posture_state": "walking",
+      "allowed_views": [
+        "rear"
+      ],
+      "view_text": {
+        "rear": "rear view, walking away"
+      }
+    },
+    {
+      "id": "pose_action.walking_mid_stride",
+      "category": "pose_action",
+      "subcategory": "posture",
+      "canonical_text": "mid-stride",
+      "aliases": [],
+      "semantic_tags": [
+        "posture",
+        "walking"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 3,
+        "juggernaut_ragnarok": 3
+      },
+      "priority_default": "P0",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [
+        "affordance.path"
+      ],
+      "conflicts": [],
+      "excludes_categories": [
+        "pose_action.posture"
+      ],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": null,
+        "max_age": null
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE",
+      "posture_state": "walking",
+      "allowed_views": [
+        "front",
+        "side",
+        "rear"
+      ],
+      "view_text": {
+        "front": "mid-stride",
+        "side": "strict side view, mid-stride",
+        "rear": "rear view, mid-stride"
+      }
+    },
+    {
+      "id": "pose_action.walking_turning_mid_step",
+      "category": "pose_action",
+      "subcategory": "posture",
+      "canonical_text": "turning mid-step",
+      "aliases": [],
+      "semantic_tags": [
+        "posture",
+        "walking"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 4,
+        "juggernaut_ragnarok": 4
+      },
+      "priority_default": "P0",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [
+        "affordance.path"
+      ],
+      "conflicts": [],
+      "excludes_categories": [
+        "pose_action.posture"
+      ],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": null,
+        "max_age": null
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE",
+      "posture_state": "walking",
+      "allowed_views": [
+        "front",
+        "side",
+        "rear"
+      ],
+      "view_text": {
+        "front": "turning mid-step",
+        "side": "strict side view, turning mid-step",
+        "rear": "rear view, turning mid-step"
+      }
+    },
+    {
+      "id": "pose_action.walking_ascending_stairs",
+      "category": "pose_action",
+      "subcategory": "posture",
+      "canonical_text": "ascending stairs",
+      "aliases": [],
+      "semantic_tags": [
+        "posture",
+        "walking"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 3,
+        "juggernaut_ragnarok": 3
+      },
+      "priority_default": "P0",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [
+        "affordance.path"
+      ],
+      "conflicts": [],
+      "excludes_categories": [
+        "pose_action.posture"
+      ],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": null,
+        "max_age": null
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE",
+      "posture_state": "walking",
+      "allowed_views": [
+        "front",
+        "side",
+        "rear"
+      ],
+      "view_text": {
+        "front": "ascending stairs",
+        "side": "strict side view, ascending stairs",
+        "rear": "rear view, ascending stairs"
+      }
+    },
+    {
+      "id": "pose_action.walking_descending_stairs",
+      "category": "pose_action",
+      "subcategory": "posture",
+      "canonical_text": "descending stairs",
+      "aliases": [],
+      "semantic_tags": [
+        "posture",
+        "walking"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 2,
+        "juggernaut_ragnarok": 2
+      },
+      "priority_default": "P0",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [
+        "affordance.path"
+      ],
+      "conflicts": [],
+      "excludes_categories": [
+        "pose_action.posture"
+      ],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": null,
+        "max_age": null
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE",
+      "posture_state": "walking",
+      "allowed_views": [
+        "front",
+        "side",
+        "rear"
+      ],
+      "view_text": {
+        "front": "descending stairs",
+        "side": "strict side view, descending stairs",
+        "rear": "rear view, descending stairs"
+      }
+    },
+    {
+      "id": "pose_action.walking_walking_uphill",
+      "category": "pose_action",
+      "subcategory": "posture",
+      "canonical_text": "walking uphill",
+      "aliases": [],
+      "semantic_tags": [
+        "posture",
+        "walking"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 2,
+        "juggernaut_ragnarok": 2
+      },
+      "priority_default": "P0",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [
+        "affordance.path"
+      ],
+      "conflicts": [],
+      "excludes_categories": [
+        "pose_action.posture"
+      ],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": null,
+        "max_age": null
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE",
+      "posture_state": "walking",
+      "allowed_views": [
+        "front",
+        "side",
+        "rear"
+      ],
+      "view_text": {
+        "front": "walking uphill",
+        "side": "strict side view, walking uphill",
+        "rear": "rear view, walking uphill"
+      }
+    },
+    {
+      "id": "pose_action.climbing_climbing_a_ladder",
+      "category": "pose_action",
+      "subcategory": "posture",
+      "canonical_text": "climbing a ladder",
+      "aliases": [],
+      "semantic_tags": [
+        "posture",
+        "climbing"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 3,
+        "juggernaut_ragnarok": 3
+      },
+      "priority_default": "P0",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [
+        "affordance.ladder"
+      ],
+      "conflicts": [],
+      "excludes_categories": [
+        "pose_action.posture"
+      ],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": null,
+        "max_age": null
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE",
+      "posture_state": "climbing",
+      "allowed_views": [
+        "front",
+        "side",
+        "rear"
+      ],
+      "view_text": {
+        "front": "climbing a ladder",
+        "side": "strict side view, climbing a ladder",
+        "rear": "rear view, climbing a ladder"
+      }
+    },
+    {
+      "id": "pose_action.climbing_descending_a_ladder",
+      "category": "pose_action",
+      "subcategory": "posture",
+      "canonical_text": "descending a ladder",
+      "aliases": [],
+      "semantic_tags": [
+        "posture",
+        "climbing"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 3,
+        "juggernaut_ragnarok": 3
+      },
+      "priority_default": "P0",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [
+        "affordance.ladder"
+      ],
+      "conflicts": [],
+      "excludes_categories": [
+        "pose_action.posture"
+      ],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": null,
+        "max_age": null
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE",
+      "posture_state": "climbing",
+      "allowed_views": [
+        "front",
+        "side",
+        "rear"
+      ],
+      "view_text": {
+        "front": "descending a ladder",
+        "side": "strict side view, descending a ladder",
+        "rear": "rear view, descending a ladder"
+      }
+    },
+    {
+      "id": "pose_action.climbing_holding_a_ladder_rung",
+      "category": "pose_action",
+      "subcategory": "posture",
+      "canonical_text": "holding a ladder rung",
+      "aliases": [],
+      "semantic_tags": [
+        "posture",
+        "climbing"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 5,
+        "juggernaut_ragnarok": 5
+      },
+      "priority_default": "P0",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [
+        "affordance.ladder"
+      ],
+      "conflicts": [],
+      "excludes_categories": [
+        "pose_action.posture"
+      ],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": null,
+        "max_age": null
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE",
+      "posture_state": "climbing",
+      "allowed_views": [
+        "front",
+        "side",
+        "rear"
+      ],
+      "view_text": {
+        "front": "holding a ladder rung",
+        "side": "strict side view, holding a ladder rung",
+        "rear": "rear view, holding a ladder rung"
+      }
+    },
+    {
+      "id": "pose_action.climbing_pausing_halfway_up_a_ladder",
+      "category": "pose_action",
+      "subcategory": "posture",
+      "canonical_text": "pausing halfway up a ladder",
+      "aliases": [],
+      "semantic_tags": [
+        "posture",
+        "climbing"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 6,
+        "juggernaut_ragnarok": 6
+      },
+      "priority_default": "P0",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [
+        "affordance.ladder"
+      ],
+      "conflicts": [],
+      "excludes_categories": [
+        "pose_action.posture"
+      ],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": null,
+        "max_age": null
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE",
+      "posture_state": "climbing",
+      "allowed_views": [
+        "front",
+        "side",
+        "rear"
+      ],
+      "view_text": {
+        "front": "pausing halfway up a ladder",
+        "side": "strict side view, pausing halfway up a ladder",
+        "rear": "rear view, pausing halfway up a ladder"
+      }
+    },
+    {
+      "id": "pose_action.floating_floating_face_down",
+      "category": "pose_action",
+      "subcategory": "posture",
+      "canonical_text": "floating face-down",
+      "aliases": [],
+      "semantic_tags": [
+        "posture",
+        "floating"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 4,
+        "juggernaut_ragnarok": 4
+      },
+      "priority_default": "P0",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [
+        "affordance.water"
+      ],
+      "conflicts": [],
+      "excludes_categories": [
+        "pose_action.posture"
+      ],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": null,
+        "max_age": null
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE",
+      "posture_state": "floating",
+      "allowed_views": [
+        "front",
+        "side",
+        "rear"
+      ],
+      "view_text": {
+        "front": "floating face-down",
+        "side": "strict side view, floating face-down",
+        "rear": "rear view, floating face-down"
+      }
+    },
+    {
+      "id": "pose_action.leaning_leaning_against_a_wall",
+      "category": "pose_action",
+      "subcategory": "posture",
+      "canonical_text": "leaning against a wall",
+      "aliases": [],
+      "semantic_tags": [
+        "posture",
+        "leaning"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 4,
+        "juggernaut_ragnarok": 4
+      },
+      "priority_default": "P0",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [
+        "affordance.wall"
+      ],
+      "conflicts": [],
+      "excludes_categories": [
+        "pose_action.posture"
+      ],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": null,
+        "max_age": null
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE",
+      "posture_state": "leaning",
+      "allowed_views": [
+        "front",
+        "side",
+        "rear"
+      ],
+      "view_text": {
+        "front": "leaning against a wall",
+        "side": "strict side view, leaning against a wall",
+        "rear": "rear view, leaning against a wall"
+      }
+    },
+    {
+      "id": "pose_action.leaning_bracing_both_hands_on_a_wall",
+      "category": "pose_action",
+      "subcategory": "posture",
+      "canonical_text": "bracing both hands on a wall",
+      "aliases": [],
+      "semantic_tags": [
+        "posture",
+        "leaning"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 7,
+        "juggernaut_ragnarok": 7
+      },
+      "priority_default": "P0",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [
+        "affordance.wall"
+      ],
+      "conflicts": [],
+      "excludes_categories": [
+        "pose_action.posture"
+      ],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": null,
+        "max_age": null
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE",
+      "posture_state": "leaning",
+      "allowed_views": [
+        "front",
+        "side",
+        "rear"
+      ],
+      "view_text": {
+        "front": "bracing both hands on a wall",
+        "side": "strict side view, bracing both hands on a wall",
+        "rear": "rear view, bracing both hands on a wall"
+      }
+    },
+    {
+      "id": "pose_action.leaning_shoulder_against_a_wall",
+      "category": "pose_action",
+      "subcategory": "posture",
+      "canonical_text": "shoulder against a wall",
+      "aliases": [],
+      "semantic_tags": [
+        "posture",
+        "leaning"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 4,
+        "juggernaut_ragnarok": 4
+      },
+      "priority_default": "P0",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [
+        "affordance.wall"
+      ],
+      "conflicts": [],
+      "excludes_categories": [
+        "pose_action.posture"
+      ],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": null,
+        "max_age": null
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE",
+      "posture_state": "leaning",
+      "allowed_views": [
+        "front",
+        "side",
+        "rear"
+      ],
+      "view_text": {
+        "front": "shoulder against a wall",
+        "side": "strict side view, shoulder against a wall",
+        "rear": "rear view, shoulder against a wall"
+      }
+    },
+    {
+      "id": "pose_action.leaning_back_against_a_wall",
+      "category": "pose_action",
+      "subcategory": "posture",
+      "canonical_text": "back against a wall",
+      "aliases": [],
+      "semantic_tags": [
+        "posture",
+        "leaning"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 4,
+        "juggernaut_ragnarok": 4
+      },
+      "priority_default": "P0",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [
+        "affordance.wall"
+      ],
+      "conflicts": [],
+      "excludes_categories": [
+        "pose_action.posture"
+      ],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": null,
+        "max_age": null
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE",
+      "posture_state": "leaning",
+      "allowed_views": [
+        "front",
+        "side",
+        "rear"
+      ],
+      "view_text": {
+        "front": "back against a wall",
+        "side": "strict side view, back against a wall",
+        "rear": "rear view, back against a wall"
+      }
+    },
+    {
+      "id": "pose_action.railing_resting_on_a_railing",
+      "category": "pose_action",
+      "subcategory": "posture",
+      "canonical_text": "resting on a railing",
+      "aliases": [],
+      "semantic_tags": [
+        "posture",
+        "railing"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 5,
+        "juggernaut_ragnarok": 5
+      },
+      "priority_default": "P0",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [
+        "affordance.railing"
+      ],
+      "conflicts": [],
+      "excludes_categories": [
+        "pose_action.posture"
+      ],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": null,
+        "max_age": null
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE",
+      "posture_state": "railing",
+      "allowed_views": [
+        "front",
+        "side",
+        "rear"
+      ],
+      "view_text": {
+        "front": "resting on a railing",
+        "side": "strict side view, resting on a railing",
+        "rear": "rear view, resting on a railing"
+      }
+    },
+    {
+      "id": "pose_action.railing_gripping_a_railing",
+      "category": "pose_action",
+      "subcategory": "posture",
+      "canonical_text": "gripping a railing",
+      "aliases": [],
+      "semantic_tags": [
+        "posture",
+        "railing"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 4,
+        "juggernaut_ragnarok": 4
+      },
+      "priority_default": "P0",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [
+        "affordance.railing"
+      ],
+      "conflicts": [],
+      "excludes_categories": [
+        "pose_action.posture"
+      ],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": null,
+        "max_age": null
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE",
+      "posture_state": "railing",
+      "allowed_views": [
+        "front",
+        "side",
+        "rear"
+      ],
+      "view_text": {
+        "front": "gripping a railing",
+        "side": "strict side view, gripping a railing",
+        "rear": "rear view, gripping a railing"
+      }
+    },
+    {
+      "id": "pose_action.railing_leaning_over_a_railing",
+      "category": "pose_action",
+      "subcategory": "posture",
+      "canonical_text": "leaning over a railing",
+      "aliases": [],
+      "semantic_tags": [
+        "posture",
+        "railing"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 5,
+        "juggernaut_ragnarok": 5
+      },
+      "priority_default": "P0",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [
+        "affordance.railing"
+      ],
+      "conflicts": [],
+      "excludes_categories": [
+        "pose_action.posture"
+      ],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": null,
+        "max_age": null
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE",
+      "posture_state": "railing",
+      "allowed_views": [
+        "front",
+        "side",
+        "rear"
+      ],
+      "view_text": {
+        "front": "leaning over a railing",
+        "side": "strict side view, leaning over a railing",
+        "rear": "rear view, leaning over a railing"
+      }
+    },
+    {
+      "id": "pose_action.railing_turning_beside_a_railing",
+      "category": "pose_action",
+      "subcategory": "posture",
+      "canonical_text": "turning beside a railing",
+      "aliases": [],
+      "semantic_tags": [
+        "posture",
+        "railing"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 5,
+        "juggernaut_ragnarok": 5
+      },
+      "priority_default": "P0",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [
+        "affordance.railing"
+      ],
+      "conflicts": [],
+      "excludes_categories": [
+        "pose_action.posture"
+      ],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": null,
+        "max_age": null
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE",
+      "posture_state": "railing",
+      "allowed_views": [
+        "front",
+        "side",
+        "rear"
+      ],
+      "view_text": {
+        "front": "turning beside a railing",
+        "side": "strict side view, turning beside a railing",
+        "rear": "rear view, turning beside a railing"
+      }
+    },
+    {
+      "id": "pose_action.stretching_arms_overhead_stretch",
+      "category": "pose_action",
+      "subcategory": "posture",
+      "canonical_text": "arms overhead stretch",
+      "aliases": [],
+      "semantic_tags": [
+        "posture",
+        "stretching"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 3,
+        "juggernaut_ragnarok": 3
+      },
+      "priority_default": "P0",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [
+        "affordance.floor"
+      ],
+      "conflicts": [],
+      "excludes_categories": [
+        "pose_action.posture"
+      ],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": null,
+        "max_age": null
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE",
+      "posture_state": "stretching",
+      "allowed_views": [
+        "front",
+        "side",
+        "rear"
+      ],
+      "view_text": {
+        "front": "arms overhead stretch",
+        "side": "strict side view, arms overhead stretch",
+        "rear": "rear view, arms overhead stretch"
+      }
+    },
+    {
+      "id": "pose_action.stretching_side_stretch",
+      "category": "pose_action",
+      "subcategory": "posture",
+      "canonical_text": "side stretch",
+      "aliases": [],
+      "semantic_tags": [
+        "posture",
+        "stretching"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 2,
+        "juggernaut_ragnarok": 2
+      },
+      "priority_default": "P0",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [
+        "affordance.floor"
+      ],
+      "conflicts": [],
+      "excludes_categories": [
+        "pose_action.posture"
+      ],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": null,
+        "max_age": null
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE",
+      "posture_state": "stretching",
+      "allowed_views": [
+        "front",
+        "side",
+        "rear"
+      ],
+      "view_text": {
+        "front": "side stretch",
+        "side": "strict side view, side stretch",
+        "rear": "rear view, side stretch"
+      }
+    },
+    {
+      "id": "pose_action.stretching_forward_stretch",
+      "category": "pose_action",
+      "subcategory": "posture",
+      "canonical_text": "forward stretch",
+      "aliases": [],
+      "semantic_tags": [
+        "posture",
+        "stretching"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 2,
+        "juggernaut_ragnarok": 2
+      },
+      "priority_default": "P0",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [
+        "affordance.floor"
+      ],
+      "conflicts": [],
+      "excludes_categories": [
+        "pose_action.posture"
+      ],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": null,
+        "max_age": null
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE",
+      "posture_state": "stretching",
+      "allowed_views": [
+        "front",
+        "side"
+      ],
+      "view_text": {
+        "front": "forward stretch",
+        "side": "strict side view, forward stretch"
+      }
+    },
+    {
+      "id": "pose_action.stretching_twisting_stretch",
+      "category": "pose_action",
+      "subcategory": "posture",
+      "canonical_text": "twisting stretch",
+      "aliases": [],
+      "semantic_tags": [
+        "posture",
+        "stretching"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 3,
+        "juggernaut_ragnarok": 3
+      },
+      "priority_default": "P0",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [
+        "affordance.floor"
+      ],
+      "conflicts": [],
+      "excludes_categories": [
+        "pose_action.posture"
+      ],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": null,
+        "max_age": null
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE",
+      "posture_state": "stretching",
+      "allowed_views": [
+        "front",
+        "side",
+        "rear"
+      ],
+      "view_text": {
+        "front": "twisting stretch",
+        "side": "strict side view, twisting stretch",
+        "rear": "rear view, twisting stretch"
+      }
+    },
+    {
+      "id": "pose_action.forge_pose_frontal_front_facing_contrapposto",
+      "category": "pose_action",
+      "subcategory": "posture",
+      "canonical_text": "front-facing contrapposto",
+      "aliases": [],
+      "semantic_tags": [
+        "nyx_forge_curated",
+        "pose_frontal"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 7,
+        "juggernaut_ragnarok": 7
+      },
+      "priority_default": "P0",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [
+        "affordance.floor"
+      ],
+      "conflicts": [],
+      "excludes_categories": [
+        "pose_action.posture"
+      ],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 24,
+        "max_age": 44,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE",
+      "posture_state": "standing",
+      "allowed_views": [
+        "front"
+      ],
+      "view_text": {
+        "front": "front-facing contrapposto"
+      }
+    },
+    {
+      "id": "pose_action.forge_pose_frontal_frontal_arms_overhead_stretch",
+      "category": "pose_action",
+      "subcategory": "posture",
+      "canonical_text": "frontal arms-overhead stretch",
+      "aliases": [],
+      "semantic_tags": [
+        "nyx_forge_curated",
+        "pose_frontal"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 5,
+        "juggernaut_ragnarok": 5
+      },
+      "priority_default": "P0",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [
+        "affordance.floor"
+      ],
+      "conflicts": [],
+      "excludes_categories": [
+        "pose_action.posture"
+      ],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 24,
+        "max_age": 44,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE",
+      "posture_state": "stretching",
+      "allowed_views": [
+        "front"
+      ],
+      "view_text": {
+        "front": "frontal arms-overhead stretch"
+      }
+    },
+    {
+      "id": "pose_action.forge_pose_frontal_frontal_seated_pose",
+      "category": "pose_action",
+      "subcategory": "posture",
+      "canonical_text": "frontal seated pose",
+      "aliases": [],
+      "semantic_tags": [
+        "nyx_forge_curated",
+        "pose_frontal"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 3,
+        "juggernaut_ragnarok": 3
+      },
+      "priority_default": "P0",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [
+        "affordance.seat"
+      ],
+      "conflicts": [],
+      "excludes_categories": [
+        "pose_action.posture"
+      ],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 24,
+        "max_age": 44,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE",
+      "posture_state": "sitting",
+      "allowed_views": [
+        "front"
+      ],
+      "view_text": {
+        "front": "frontal seated pose"
+      }
+    },
+    {
+      "id": "pose_action.forge_pose_frontal_frontal_seated_knee_raise",
+      "category": "pose_action",
+      "subcategory": "posture",
+      "canonical_text": "frontal seated knee raise",
+      "aliases": [],
+      "semantic_tags": [
+        "nyx_forge_curated",
+        "pose_frontal"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 4,
+        "juggernaut_ragnarok": 4
+      },
+      "priority_default": "P0",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [
+        "affordance.seat"
+      ],
+      "conflicts": [],
+      "excludes_categories": [
+        "pose_action.posture"
+      ],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 24,
+        "max_age": 44,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE",
+      "posture_state": "sitting",
+      "allowed_views": [
+        "front"
+      ],
+      "view_text": {
+        "front": "frontal seated knee raise"
+      }
+    },
+    {
+      "id": "pose_action.forge_pose_frontal_front_facing_slow_walk",
+      "category": "pose_action",
+      "subcategory": "posture",
+      "canonical_text": "front-facing slow walk",
+      "aliases": [],
+      "semantic_tags": [
+        "nyx_forge_curated",
+        "pose_frontal"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 5,
+        "juggernaut_ragnarok": 5
+      },
+      "priority_default": "P0",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [
+        "affordance.floor"
+      ],
+      "conflicts": [],
+      "excludes_categories": [
+        "pose_action.posture"
+      ],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 24,
+        "max_age": 44,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE",
+      "posture_state": "standing",
+      "allowed_views": [
+        "front"
+      ],
+      "view_text": {
+        "front": "front-facing slow walk"
+      }
+    },
+    {
+      "id": "pose_action.forge_pose_frontal_front_facing_hair_adjustment",
+      "category": "pose_action",
+      "subcategory": "posture",
+      "canonical_text": "front-facing hair adjustment",
+      "aliases": [],
+      "semantic_tags": [
+        "nyx_forge_curated",
+        "pose_frontal"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 5,
+        "juggernaut_ragnarok": 5
+      },
+      "priority_default": "P0",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [
+        "affordance.floor"
+      ],
+      "conflicts": [],
+      "excludes_categories": [
+        "pose_action.posture"
+      ],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 24,
+        "max_age": 44,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE",
+      "posture_state": "standing",
+      "allowed_views": [
+        "front"
+      ],
+      "view_text": {
+        "front": "front-facing hair adjustment"
+      }
+    },
+    {
+      "id": "pose_action.forge_pose_frontal_frontal_relaxed_shoulder_pose",
+      "category": "pose_action",
+      "subcategory": "posture",
+      "canonical_text": "frontal relaxed shoulder pose",
+      "aliases": [],
+      "semantic_tags": [
+        "nyx_forge_curated",
+        "pose_frontal"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 4,
+        "juggernaut_ragnarok": 4
+      },
+      "priority_default": "P0",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [
+        "affordance.floor"
+      ],
+      "conflicts": [],
+      "excludes_categories": [
+        "pose_action.posture"
+      ],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 24,
+        "max_age": 44,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE",
+      "posture_state": "standing",
+      "allowed_views": [
+        "front"
+      ],
+      "view_text": {
+        "front": "frontal relaxed shoulder pose"
+      }
+    },
+    {
+      "id": "pose_action.forge_pose_side_view_strict_side_profile_standing_pose",
+      "category": "pose_action",
+      "subcategory": "posture",
+      "canonical_text": "strict side-profile standing pose",
+      "aliases": [],
+      "semantic_tags": [
+        "nyx_forge_curated",
+        "pose_side_view"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 6,
+        "juggernaut_ragnarok": 6
+      },
+      "priority_default": "P0",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [
+        "affordance.floor"
+      ],
+      "conflicts": [],
+      "excludes_categories": [
+        "pose_action.posture"
+      ],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 24,
+        "max_age": 44,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE",
+      "posture_state": "standing",
+      "allowed_views": [
+        "side"
+      ],
+      "view_text": {
+        "side": "strict side-profile standing pose"
+      }
+    },
+    {
+      "id": "pose_action.forge_pose_side_view_strict_side_view_contrapposto",
+      "category": "pose_action",
+      "subcategory": "posture",
+      "canonical_text": "strict side-view contrapposto",
+      "aliases": [],
+      "semantic_tags": [
+        "nyx_forge_curated",
+        "pose_side_view"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 8,
+        "juggernaut_ragnarok": 8
+      },
+      "priority_default": "P0",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [
+        "affordance.floor"
+      ],
+      "conflicts": [],
+      "excludes_categories": [
+        "pose_action.posture"
+      ],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 24,
+        "max_age": 44,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE",
+      "posture_state": "standing",
+      "allowed_views": [
+        "side"
+      ],
+      "view_text": {
+        "side": "strict side-view contrapposto"
+      }
+    },
+    {
+      "id": "pose_action.forge_pose_side_view_strict_side_view_leaning_pose",
+      "category": "pose_action",
+      "subcategory": "posture",
+      "canonical_text": "strict side-view leaning pose",
+      "aliases": [],
+      "semantic_tags": [
+        "nyx_forge_curated",
+        "pose_side_view"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 6,
+        "juggernaut_ragnarok": 6
+      },
+      "priority_default": "P0",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [
+        "affordance.floor"
+      ],
+      "conflicts": [],
+      "excludes_categories": [
+        "pose_action.posture"
+      ],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 24,
+        "max_age": 44,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE",
+      "posture_state": "standing",
+      "allowed_views": [
+        "side"
+      ],
+      "view_text": {
+        "side": "strict side-view leaning pose"
+      }
+    },
+    {
+      "id": "pose_action.forge_pose_side_view_strict_side_view_seated_pose",
+      "category": "pose_action",
+      "subcategory": "posture",
+      "canonical_text": "strict side-view seated pose",
+      "aliases": [],
+      "semantic_tags": [
+        "nyx_forge_curated",
+        "pose_side_view"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 6,
+        "juggernaut_ragnarok": 6
+      },
+      "priority_default": "P0",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [
+        "affordance.seat"
+      ],
+      "conflicts": [],
+      "excludes_categories": [
+        "pose_action.posture"
+      ],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 24,
+        "max_age": 44,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE",
+      "posture_state": "sitting",
+      "allowed_views": [
+        "side"
+      ],
+      "view_text": {
+        "side": "strict side-view seated pose"
+      }
+    },
+    {
+      "id": "pose_action.forge_pose_side_view_strict_side_view_sitting_on_edge",
+      "category": "pose_action",
+      "subcategory": "posture",
+      "canonical_text": "strict side-view sitting on edge",
+      "aliases": [],
+      "semantic_tags": [
+        "nyx_forge_curated",
+        "pose_side_view"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 7,
+        "juggernaut_ragnarok": 7
+      },
+      "priority_default": "P0",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [
+        "affordance.seat"
+      ],
+      "conflicts": [],
+      "excludes_categories": [
+        "pose_action.posture"
+      ],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 24,
+        "max_age": 44,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE",
+      "posture_state": "sitting",
+      "allowed_views": [
+        "side"
+      ],
+      "view_text": {
+        "side": "strict side-view sitting on edge"
+      }
+    },
+    {
+      "id": "pose_action.forge_pose_side_view_strict_side_view_forward_stretch",
+      "category": "pose_action",
+      "subcategory": "posture",
+      "canonical_text": "strict side-view forward stretch",
+      "aliases": [],
+      "semantic_tags": [
+        "nyx_forge_curated",
+        "pose_side_view"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 6,
+        "juggernaut_ragnarok": 6
+      },
+      "priority_default": "P0",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [
+        "affordance.floor"
+      ],
+      "conflicts": [],
+      "excludes_categories": [
+        "pose_action.posture"
+      ],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 24,
+        "max_age": 44,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE",
+      "posture_state": "stretching",
+      "allowed_views": [
+        "side"
+      ],
+      "view_text": {
+        "side": "strict side-view forward stretch"
+      }
+    },
+    {
+      "id": "pose_action.forge_pose_side_view_strict_side_view_walking_pose",
+      "category": "pose_action",
+      "subcategory": "posture",
+      "canonical_text": "strict side-view walking pose",
+      "aliases": [],
+      "semantic_tags": [
+        "nyx_forge_curated",
+        "pose_side_view"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 6,
+        "juggernaut_ragnarok": 6
+      },
+      "priority_default": "P0",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [
+        "affordance.path"
+      ],
+      "conflicts": [],
+      "excludes_categories": [
+        "pose_action.posture"
+      ],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 24,
+        "max_age": 44,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE",
+      "posture_state": "walking",
+      "allowed_views": [
+        "side"
+      ],
+      "view_text": {
+        "side": "strict side-view walking pose"
+      }
+    },
+    {
+      "id": "pose_action.forge_pose_side_view_strict_side_view_hair_adjustment",
+      "category": "pose_action",
+      "subcategory": "posture",
+      "canonical_text": "strict side-view hair adjustment",
+      "aliases": [],
+      "semantic_tags": [
+        "nyx_forge_curated",
+        "pose_side_view"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 6,
+        "juggernaut_ragnarok": 6
+      },
+      "priority_default": "P0",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [
+        "affordance.floor"
+      ],
+      "conflicts": [],
+      "excludes_categories": [
+        "pose_action.posture"
+      ],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 24,
+        "max_age": 44,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE",
+      "posture_state": "standing",
+      "allowed_views": [
+        "side"
+      ],
+      "view_text": {
+        "side": "strict side-view hair adjustment"
+      }
+    },
+    {
+      "id": "pose_action.forge_pose_rear_view_rear_view_contrapposto",
+      "category": "pose_action",
+      "subcategory": "posture",
+      "canonical_text": "rear-view contrapposto",
+      "aliases": [],
+      "semantic_tags": [
+        "nyx_forge_curated",
+        "pose_rear_view"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 7,
+        "juggernaut_ragnarok": 7
+      },
+      "priority_default": "P0",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [
+        "affordance.floor"
+      ],
+      "conflicts": [],
+      "excludes_categories": [
+        "pose_action.posture"
+      ],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 24,
+        "max_age": 44,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE",
+      "posture_state": "standing",
+      "allowed_views": [
+        "rear"
+      ],
+      "view_text": {
+        "rear": "rear-view contrapposto"
+      }
+    },
+    {
+      "id": "pose_action.forge_pose_rear_view_rear_view_weight_on_one_leg_stance",
+      "category": "pose_action",
+      "subcategory": "posture",
+      "canonical_text": "rear-view weight-on-one-leg stance",
+      "aliases": [],
+      "semantic_tags": [
+        "nyx_forge_curated",
+        "pose_rear_view"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 11,
+        "juggernaut_ragnarok": 11
+      },
+      "priority_default": "P0",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [
+        "affordance.floor"
+      ],
+      "conflicts": [],
+      "excludes_categories": [
+        "pose_action.posture"
+      ],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 24,
+        "max_age": 44,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE",
+      "posture_state": "standing",
+      "allowed_views": [
+        "rear"
+      ],
+      "view_text": {
+        "rear": "rear-view weight-on-one-leg stance"
+      }
+    },
+    {
+      "id": "pose_action.forge_pose_rear_view_rear_view_standing_with_legs_slightly_apart",
+      "category": "pose_action",
+      "subcategory": "posture",
+      "canonical_text": "rear-view standing with legs slightly apart",
+      "aliases": [],
+      "semantic_tags": [
+        "nyx_forge_curated",
+        "pose_rear_view"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 8,
+        "juggernaut_ragnarok": 8
+      },
+      "priority_default": "P0",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [
+        "affordance.floor"
+      ],
+      "conflicts": [],
+      "excludes_categories": [
+        "pose_action.posture"
+      ],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 24,
+        "max_age": 44,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE",
+      "posture_state": "standing",
+      "allowed_views": [
+        "rear"
+      ],
+      "view_text": {
+        "rear": "rear-view standing with legs slightly apart"
+      }
+    },
+    {
+      "id": "pose_action.forge_pose_rear_view_rear_view_walking_away",
+      "category": "pose_action",
+      "subcategory": "posture",
+      "canonical_text": "rear-view walking away",
+      "aliases": [],
+      "semantic_tags": [
+        "nyx_forge_curated",
+        "pose_rear_view"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 5,
+        "juggernaut_ragnarok": 5
+      },
+      "priority_default": "P0",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [
+        "affordance.path"
+      ],
+      "conflicts": [],
+      "excludes_categories": [
+        "pose_action.posture"
+      ],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 24,
+        "max_age": 44,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE",
+      "posture_state": "walking",
+      "allowed_views": [
+        "rear"
+      ],
+      "view_text": {
+        "rear": "rear-view walking away"
+      }
+    },
+    {
+      "id": "pose_action.forge_pose_rear_view_rear_view_looking_over_shoulder",
+      "category": "pose_action",
+      "subcategory": "posture",
+      "canonical_text": "rear-view looking over shoulder",
+      "aliases": [],
+      "semantic_tags": [
+        "nyx_forge_curated",
+        "pose_rear_view"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 6,
+        "juggernaut_ragnarok": 6
+      },
+      "priority_default": "P0",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [
+        "affordance.floor"
+      ],
+      "conflicts": [],
+      "excludes_categories": [
+        "pose_action.posture"
+      ],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 24,
+        "max_age": 44,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE",
+      "posture_state": "standing",
+      "allowed_views": [
+        "rear"
+      ],
+      "view_text": {
+        "rear": "rear-view looking over shoulder"
+      }
+    },
+    {
+      "id": "pose_action.forge_pose_rear_view_rear_view_hands_in_hair",
+      "category": "pose_action",
+      "subcategory": "posture",
+      "canonical_text": "rear-view hands in hair",
+      "aliases": [],
+      "semantic_tags": [
+        "nyx_forge_curated",
+        "pose_rear_view"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 6,
+        "juggernaut_ragnarok": 6
+      },
+      "priority_default": "P0",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [
+        "affordance.floor"
+      ],
+      "conflicts": [],
+      "excludes_categories": [
+        "pose_action.posture"
+      ],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 24,
+        "max_age": 44,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE",
+      "posture_state": "standing",
+      "allowed_views": [
+        "rear"
+      ],
+      "view_text": {
+        "rear": "rear-view hands in hair"
+      }
+    },
+    {
+      "id": "pose_action.forge_pose_rear_view_rear_view_arms_overhead",
+      "category": "pose_action",
+      "subcategory": "posture",
+      "canonical_text": "rear-view arms overhead",
+      "aliases": [],
+      "semantic_tags": [
+        "nyx_forge_curated",
+        "pose_rear_view"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 5,
+        "juggernaut_ragnarok": 5
+      },
+      "priority_default": "P0",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [
+        "affordance.floor"
+      ],
+      "conflicts": [],
+      "excludes_categories": [
+        "pose_action.posture"
+      ],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 24,
+        "max_age": 44,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE",
+      "posture_state": "stretching",
+      "allowed_views": [
+        "rear"
+      ],
+      "view_text": {
+        "rear": "rear-view arms overhead"
+      }
+    },
+    {
+      "id": "pose_action.forge_pose_rear_view_rear_view_leaning_on_railing",
+      "category": "pose_action",
+      "subcategory": "posture",
+      "canonical_text": "rear-view leaning on railing",
+      "aliases": [],
+      "semantic_tags": [
+        "nyx_forge_curated",
+        "pose_rear_view"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 7,
+        "juggernaut_ragnarok": 7
+      },
+      "priority_default": "P0",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [
+        "affordance.floor"
+      ],
+      "conflicts": [],
+      "excludes_categories": [
+        "pose_action.posture"
+      ],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 24,
+        "max_age": 44,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE",
+      "posture_state": "standing",
+      "allowed_views": [
+        "rear"
+      ],
+      "view_text": {
+        "rear": "rear-view leaning on railing"
+      }
+    },
+    {
+      "id": "pose_action.forge_pose_rear_view_rear_view_seated_pose",
+      "category": "pose_action",
+      "subcategory": "posture",
+      "canonical_text": "rear-view seated pose",
+      "aliases": [],
+      "semantic_tags": [
+        "nyx_forge_curated",
+        "pose_rear_view"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 5,
+        "juggernaut_ragnarok": 5
+      },
+      "priority_default": "P0",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [
+        "affordance.seat"
+      ],
+      "conflicts": [],
+      "excludes_categories": [
+        "pose_action.posture"
+      ],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 24,
+        "max_age": 44,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE",
+      "posture_state": "sitting",
+      "allowed_views": [
+        "rear"
+      ],
+      "view_text": {
+        "rear": "rear-view seated pose"
+      }
+    },
+    {
+      "id": "pose_action.forge_pose_rear_view_rear_view_sitting_sideways",
+      "category": "pose_action",
+      "subcategory": "posture",
+      "canonical_text": "rear-view sitting sideways",
+      "aliases": [],
+      "semantic_tags": [
+        "nyx_forge_curated",
+        "pose_rear_view"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 5,
+        "juggernaut_ragnarok": 5
+      },
+      "priority_default": "P0",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [
+        "affordance.seat"
+      ],
+      "conflicts": [],
+      "excludes_categories": [
+        "pose_action.posture"
+      ],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 24,
+        "max_age": 44,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE",
+      "posture_state": "sitting",
+      "allowed_views": [
+        "rear"
+      ],
+      "view_text": {
+        "rear": "rear-view sitting sideways"
+      }
+    },
+    {
+      "id": "pose_action.forge_pose_standing_relaxed_standing_pose",
+      "category": "pose_action",
+      "subcategory": "posture",
+      "canonical_text": "relaxed standing pose",
+      "aliases": [],
+      "semantic_tags": [
+        "nyx_forge_curated",
+        "pose_standing"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 3,
+        "juggernaut_ragnarok": 3
+      },
+      "priority_default": "P0",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [
+        "affordance.floor"
+      ],
+      "conflicts": [],
+      "excludes_categories": [
+        "pose_action.posture"
+      ],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 24,
+        "max_age": 44,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE",
+      "posture_state": "standing",
+      "allowed_views": [
+        "front",
+        "side",
+        "rear"
+      ],
+      "view_text": {
+        "front": "relaxed standing pose",
+        "side": "strict side view, relaxed standing pose",
+        "rear": "rear view, relaxed standing pose"
+      }
+    },
+    {
+      "id": "pose_action.forge_pose_standing_gentle_s_curve_stance",
+      "category": "pose_action",
+      "subcategory": "posture",
+      "canonical_text": "gentle S-curve stance",
+      "aliases": [],
+      "semantic_tags": [
+        "nyx_forge_curated",
+        "pose_standing"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 5,
+        "juggernaut_ragnarok": 5
+      },
+      "priority_default": "P0",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [
+        "affordance.floor"
+      ],
+      "conflicts": [],
+      "excludes_categories": [
+        "pose_action.posture"
+      ],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 24,
+        "max_age": 44,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE",
+      "posture_state": "standing",
+      "allowed_views": [
+        "front",
+        "side",
+        "rear"
+      ],
+      "view_text": {
+        "front": "gentle S-curve stance",
+        "side": "strict side view, gentle S-curve stance",
+        "rear": "rear view, gentle S-curve stance"
+      }
+    },
+    {
+      "id": "pose_action.forge_pose_standing_standing_with_legs_slightly_apart",
+      "category": "pose_action",
+      "subcategory": "posture",
+      "canonical_text": "standing with legs slightly apart",
+      "aliases": [],
+      "semantic_tags": [
+        "nyx_forge_curated",
+        "pose_standing"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 5,
+        "juggernaut_ragnarok": 5
+      },
+      "priority_default": "P0",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [
+        "affordance.floor"
+      ],
+      "conflicts": [],
+      "excludes_categories": [
+        "pose_action.posture"
+      ],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 24,
+        "max_age": 44,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE",
+      "posture_state": "standing",
+      "allowed_views": [
+        "front",
+        "side",
+        "rear"
+      ],
+      "view_text": {
+        "front": "standing with legs slightly apart",
+        "side": "strict side view, standing with legs slightly apart",
+        "rear": "rear view, standing with legs slightly apart"
+      }
+    },
+    {
+      "id": "pose_action.forge_pose_standing_standing_with_one_knee_relaxed",
+      "category": "pose_action",
+      "subcategory": "posture",
+      "canonical_text": "standing with one knee relaxed",
+      "aliases": [],
+      "semantic_tags": [
+        "nyx_forge_curated",
+        "pose_standing"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 5,
+        "juggernaut_ragnarok": 5
+      },
+      "priority_default": "P0",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [
+        "affordance.floor"
+      ],
+      "conflicts": [],
+      "excludes_categories": [
+        "pose_action.posture"
+      ],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 24,
+        "max_age": 44,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE",
+      "posture_state": "standing",
+      "allowed_views": [
+        "front",
+        "side",
+        "rear"
+      ],
+      "view_text": {
+        "front": "standing with one knee relaxed",
+        "side": "strict side view, standing with one knee relaxed",
+        "rear": "rear view, standing with one knee relaxed"
+      }
+    },
+    {
+      "id": "pose_action.forge_pose_standing_standing_with_ankles_crossed",
+      "category": "pose_action",
+      "subcategory": "posture",
+      "canonical_text": "standing with ankles crossed",
+      "aliases": [],
+      "semantic_tags": [
+        "nyx_forge_curated",
+        "pose_standing"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 4,
+        "juggernaut_ragnarok": 4
+      },
+      "priority_default": "P0",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [
+        "affordance.floor"
+      ],
+      "conflicts": [],
+      "excludes_categories": [
+        "pose_action.posture"
+      ],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 24,
+        "max_age": 44,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE",
+      "posture_state": "standing",
+      "allowed_views": [
+        "front",
+        "side",
+        "rear"
+      ],
+      "view_text": {
+        "front": "standing with ankles crossed",
+        "side": "strict side view, standing with ankles crossed",
+        "rear": "rear view, standing with ankles crossed"
+      }
+    },
+    {
+      "id": "pose_action.forge_pose_standing_one_arm_raised_overhead",
+      "category": "pose_action",
+      "subcategory": "posture",
+      "canonical_text": "one arm raised overhead",
+      "aliases": [],
+      "semantic_tags": [
+        "nyx_forge_curated",
+        "pose_standing"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 4,
+        "juggernaut_ragnarok": 4
+      },
+      "priority_default": "P0",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [
+        "affordance.floor"
+      ],
+      "conflicts": [],
+      "excludes_categories": [
+        "pose_action.posture"
+      ],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 24,
+        "max_age": 44,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE",
+      "posture_state": "standing",
+      "allowed_views": [
+        "front",
+        "side",
+        "rear"
+      ],
+      "view_text": {
+        "front": "one arm raised overhead",
+        "side": "strict side view, one arm raised overhead",
+        "rear": "rear view, one arm raised overhead"
+      }
+    },
+    {
+      "id": "pose_action.forge_pose_seated_seated_upright",
+      "category": "pose_action",
+      "subcategory": "posture",
+      "canonical_text": "seated upright",
+      "aliases": [],
+      "semantic_tags": [
+        "nyx_forge_curated",
+        "pose_seated"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 2,
+        "juggernaut_ragnarok": 2
+      },
+      "priority_default": "P0",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [
+        "affordance.seat"
+      ],
+      "conflicts": [],
+      "excludes_categories": [
+        "pose_action.posture"
+      ],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 24,
+        "max_age": 44,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE",
+      "posture_state": "sitting",
+      "allowed_views": [
+        "front",
+        "side",
+        "rear"
+      ],
+      "view_text": {
+        "front": "seated upright",
+        "side": "strict side view, seated upright",
+        "rear": "rear view, seated upright"
+      }
+    },
+    {
+      "id": "pose_action.forge_pose_seated_sitting_at_edge_of_chair",
+      "category": "pose_action",
+      "subcategory": "posture",
+      "canonical_text": "sitting at edge of chair",
+      "aliases": [],
+      "semantic_tags": [
+        "nyx_forge_curated",
+        "pose_seated"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 5,
+        "juggernaut_ragnarok": 5
+      },
+      "priority_default": "P0",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [
+        "affordance.seat"
+      ],
+      "conflicts": [],
+      "excludes_categories": [
+        "pose_action.posture"
+      ],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 24,
+        "max_age": 44,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE",
+      "posture_state": "sitting",
+      "allowed_views": [
+        "front",
+        "side",
+        "rear"
+      ],
+      "view_text": {
+        "front": "sitting at edge of chair",
+        "side": "strict side view, sitting at edge of chair",
+        "rear": "rear view, sitting at edge of chair"
+      }
+    },
+    {
+      "id": "pose_action.forge_pose_seated_sitting_on_stool",
+      "category": "pose_action",
+      "subcategory": "posture",
+      "canonical_text": "sitting on stool",
+      "aliases": [],
+      "semantic_tags": [
+        "nyx_forge_curated",
+        "pose_seated"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 3,
+        "juggernaut_ragnarok": 3
+      },
+      "priority_default": "P0",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [
+        "affordance.seat"
+      ],
+      "conflicts": [],
+      "excludes_categories": [
+        "pose_action.posture"
+      ],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 24,
+        "max_age": 44,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE",
+      "posture_state": "sitting",
+      "allowed_views": [
+        "front",
+        "side",
+        "rear"
+      ],
+      "view_text": {
+        "front": "sitting on stool",
+        "side": "strict side view, sitting on stool",
+        "rear": "rear view, sitting on stool"
+      }
+    },
+    {
+      "id": "pose_action.forge_pose_seated_sitting_with_legs_crossed",
+      "category": "pose_action",
+      "subcategory": "posture",
+      "canonical_text": "sitting with legs crossed",
+      "aliases": [],
+      "semantic_tags": [
+        "nyx_forge_curated",
+        "pose_seated"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 4,
+        "juggernaut_ragnarok": 4
+      },
+      "priority_default": "P0",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [
+        "affordance.seat"
+      ],
+      "conflicts": [],
+      "excludes_categories": [
+        "pose_action.posture"
+      ],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 24,
+        "max_age": 44,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE",
+      "posture_state": "sitting",
+      "allowed_views": [
+        "front",
+        "side",
+        "rear"
+      ],
+      "view_text": {
+        "front": "sitting with legs crossed",
+        "side": "strict side view, sitting with legs crossed",
+        "rear": "rear view, sitting with legs crossed"
+      }
+    },
+    {
+      "id": "pose_action.forge_pose_seated_sitting_with_ankles_crossed",
+      "category": "pose_action",
+      "subcategory": "posture",
+      "canonical_text": "sitting with ankles crossed",
+      "aliases": [],
+      "semantic_tags": [
+        "nyx_forge_curated",
+        "pose_seated"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 4,
+        "juggernaut_ragnarok": 4
+      },
+      "priority_default": "P0",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [
+        "affordance.seat"
+      ],
+      "conflicts": [],
+      "excludes_categories": [
+        "pose_action.posture"
+      ],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 24,
+        "max_age": 44,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE",
+      "posture_state": "sitting",
+      "allowed_views": [
+        "front",
+        "side",
+        "rear"
+      ],
+      "view_text": {
+        "front": "sitting with ankles crossed",
+        "side": "strict side view, sitting with ankles crossed",
+        "rear": "rear view, sitting with ankles crossed"
+      }
+    },
+    {
+      "id": "pose_action.forge_pose_seated_sitting_with_knees_together",
+      "category": "pose_action",
+      "subcategory": "posture",
+      "canonical_text": "sitting with knees together",
+      "aliases": [],
+      "semantic_tags": [
+        "nyx_forge_curated",
+        "pose_seated"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 4,
+        "juggernaut_ragnarok": 4
+      },
+      "priority_default": "P0",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [
+        "affordance.seat"
+      ],
+      "conflicts": [],
+      "excludes_categories": [
+        "pose_action.posture"
+      ],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 24,
+        "max_age": 44,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE",
+      "posture_state": "sitting",
+      "allowed_views": [
+        "front",
+        "side",
+        "rear"
+      ],
+      "view_text": {
+        "front": "sitting with knees together",
+        "side": "strict side view, sitting with knees together",
+        "rear": "rear view, sitting with knees together"
+      }
+    },
+    {
+      "id": "pose_action.forge_pose_seated_sitting_with_legs_slightly_apart",
+      "category": "pose_action",
+      "subcategory": "posture",
+      "canonical_text": "sitting with legs slightly apart",
+      "aliases": [],
+      "semantic_tags": [
+        "nyx_forge_curated",
+        "pose_seated"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 5,
+        "juggernaut_ragnarok": 5
+      },
+      "priority_default": "P0",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [
+        "affordance.seat"
+      ],
+      "conflicts": [],
+      "excludes_categories": [
+        "pose_action.posture"
+      ],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 24,
+        "max_age": 44,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE",
+      "posture_state": "sitting",
+      "allowed_views": [
+        "front",
+        "side",
+        "rear"
+      ],
+      "view_text": {
+        "front": "sitting with legs slightly apart",
+        "side": "strict side view, sitting with legs slightly apart",
+        "rear": "rear view, sitting with legs slightly apart"
+      }
+    },
+    {
+      "id": "pose_action.forge_pose_seated_legs_dangling_from_ledge",
+      "category": "pose_action",
+      "subcategory": "posture",
+      "canonical_text": "legs dangling from ledge",
+      "aliases": [],
+      "semantic_tags": [
+        "nyx_forge_curated",
+        "pose_seated"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 5,
+        "juggernaut_ragnarok": 5
+      },
+      "priority_default": "P0",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [
+        "affordance.support_surface"
+      ],
+      "conflicts": [],
+      "excludes_categories": [
+        "pose_action.posture"
+      ],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 24,
+        "max_age": 44,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE",
+      "posture_state": "sitting",
+      "allowed_views": [
+        "front",
+        "side",
+        "rear"
+      ],
+      "view_text": {
+        "front": "legs dangling from ledge",
+        "side": "strict side view, legs dangling from ledge",
+        "rear": "rear view, legs dangling from ledge"
+      }
+    },
+    {
+      "id": "pose_action.forge_pose_seated_perched_on_counter_edge",
+      "category": "pose_action",
+      "subcategory": "posture",
+      "canonical_text": "perched on counter edge",
+      "aliases": [],
+      "semantic_tags": [
+        "nyx_forge_curated",
+        "pose_seated"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 4,
+        "juggernaut_ragnarok": 4
+      },
+      "priority_default": "P0",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [
+        "affordance.support_surface"
+      ],
+      "conflicts": [],
+      "excludes_categories": [
+        "pose_action.posture"
+      ],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 24,
+        "max_age": 44,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE",
+      "posture_state": "sitting",
+      "allowed_views": [
+        "front",
+        "side",
+        "rear"
+      ],
+      "view_text": {
+        "front": "perched on counter edge",
+        "side": "strict side view, perched on counter edge",
+        "rear": "rear view, perched on counter edge"
+      }
+    },
+    {
+      "id": "pose_action.forge_pose_movement_walking_toward_camera",
+      "category": "pose_action",
+      "subcategory": "posture",
+      "canonical_text": "walking toward camera",
+      "aliases": [],
+      "semantic_tags": [
+        "nyx_forge_curated",
+        "pose_movement"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 3,
+        "juggernaut_ragnarok": 3
+      },
+      "priority_default": "P0",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [
+        "affordance.path"
+      ],
+      "conflicts": [],
+      "excludes_categories": [
+        "pose_action.posture"
+      ],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 24,
+        "max_age": 44,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE",
+      "posture_state": "walking",
+      "allowed_views": [
+        "front",
+        "side",
+        "rear"
+      ],
+      "view_text": {
+        "front": "walking toward camera",
+        "side": "strict side view, walking toward camera",
+        "rear": "rear view, walking toward camera"
+      }
+    },
+    {
+      "id": "pose_action.forge_pose_movement_slow_walking_pose",
+      "category": "pose_action",
+      "subcategory": "posture",
+      "canonical_text": "slow walking pose",
+      "aliases": [],
+      "semantic_tags": [
+        "nyx_forge_curated",
+        "pose_movement"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 3,
+        "juggernaut_ragnarok": 3
+      },
+      "priority_default": "P0",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [
+        "affordance.path"
+      ],
+      "conflicts": [],
+      "excludes_categories": [
+        "pose_action.posture"
+      ],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 24,
+        "max_age": 44,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE",
+      "posture_state": "walking",
+      "allowed_views": [
+        "front",
+        "side",
+        "rear"
+      ],
+      "view_text": {
+        "front": "slow walking pose",
+        "side": "strict side view, slow walking pose",
+        "rear": "rear view, slow walking pose"
+      }
+    },
+    {
+      "id": "pose_action.forge_pose_movement_rising_from_chair",
+      "category": "pose_action",
+      "subcategory": "posture",
+      "canonical_text": "rising from chair",
+      "aliases": [],
+      "semantic_tags": [
+        "nyx_forge_curated",
+        "pose_movement"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 3,
+        "juggernaut_ragnarok": 3
+      },
+      "priority_default": "P0",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [
+        "affordance.seat"
+      ],
+      "conflicts": [],
+      "excludes_categories": [
+        "pose_action.posture"
+      ],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 24,
+        "max_age": 44,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE",
+      "posture_state": "sitting",
+      "allowed_views": [
+        "front",
+        "side",
+        "rear"
+      ],
+      "view_text": {
+        "front": "rising from chair",
+        "side": "strict side view, rising from chair",
+        "rear": "rear view, rising from chair"
+      }
+    },
+    {
+      "id": "pose_action.forge_pose_gesture_stretch_hands_loosely_at_sides",
+      "category": "pose_action",
+      "subcategory": "posture",
+      "canonical_text": "hands loosely at sides",
+      "aliases": [],
+      "semantic_tags": [
+        "nyx_forge_curated",
+        "pose_gesture_stretch"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 5,
+        "juggernaut_ragnarok": 5
+      },
+      "priority_default": "P0",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [
+        "affordance.floor"
+      ],
+      "conflicts": [],
+      "excludes_categories": [
+        "pose_action.posture"
+      ],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 24,
+        "max_age": 44,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE",
+      "posture_state": "standing",
+      "allowed_views": [
+        "front",
+        "side",
+        "rear"
+      ],
+      "view_text": {
+        "front": "hands loosely at sides",
+        "side": "strict side view, hands loosely at sides",
+        "rear": "rear view, hands loosely at sides"
+      }
+    },
+    {
+      "id": "pose_action.forge_pose_gesture_stretch_arms_raised_overhead",
+      "category": "pose_action",
+      "subcategory": "posture",
+      "canonical_text": "arms raised overhead",
+      "aliases": [],
+      "semantic_tags": [
+        "nyx_forge_curated",
+        "pose_gesture_stretch"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 3,
+        "juggernaut_ragnarok": 3
+      },
+      "priority_default": "P0",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [
+        "affordance.floor"
+      ],
+      "conflicts": [],
+      "excludes_categories": [
+        "pose_action.posture"
+      ],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 24,
+        "max_age": 44,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE",
+      "posture_state": "stretching",
+      "allowed_views": [
+        "front",
+        "side",
+        "rear"
+      ],
+      "view_text": {
+        "front": "arms raised overhead",
+        "side": "strict side view, arms raised overhead",
+        "rear": "rear view, arms raised overhead"
+      }
+    },
+    {
+      "id": "pose_action.forge_pose_gesture_stretch_hands_behind_head",
+      "category": "pose_action",
+      "subcategory": "posture",
+      "canonical_text": "hands behind head",
+      "aliases": [],
+      "semantic_tags": [
+        "nyx_forge_curated",
+        "pose_gesture_stretch"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 3,
+        "juggernaut_ragnarok": 3
+      },
+      "priority_default": "P0",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [
+        "affordance.floor"
+      ],
+      "conflicts": [],
+      "excludes_categories": [
+        "pose_action.posture"
+      ],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 24,
+        "max_age": 44,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE",
+      "posture_state": "standing",
+      "allowed_views": [
+        "front",
+        "side",
+        "rear"
+      ],
+      "view_text": {
+        "front": "hands behind head",
+        "side": "strict side view, hands behind head",
+        "rear": "rear view, hands behind head"
+      }
+    },
+    {
+      "id": "pose_action.forge_pose_gesture_stretch_hands_in_hair",
+      "category": "pose_action",
+      "subcategory": "posture",
+      "canonical_text": "hands in hair",
+      "aliases": [],
+      "semantic_tags": [
+        "nyx_forge_curated",
+        "pose_gesture_stretch"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 3,
+        "juggernaut_ragnarok": 3
+      },
+      "priority_default": "P0",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [
+        "affordance.floor"
+      ],
+      "conflicts": [],
+      "excludes_categories": [
+        "pose_action.posture"
+      ],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 24,
+        "max_age": 44,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE",
+      "posture_state": "standing",
+      "allowed_views": [
+        "front",
+        "side",
+        "rear"
+      ],
+      "view_text": {
+        "front": "hands in hair",
+        "side": "strict side view, hands in hair",
+        "rear": "rear view, hands in hair"
+      },
+      "inference_review": "standing default; no posture is encoded"
+    },
+    {
+      "id": "pose_action.forge_pose_gesture_stretch_one_hand_in_hair",
+      "category": "pose_action",
+      "subcategory": "posture",
+      "canonical_text": "one hand in hair",
+      "aliases": [],
+      "semantic_tags": [
+        "nyx_forge_curated",
+        "pose_gesture_stretch"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 4,
+        "juggernaut_ragnarok": 4
+      },
+      "priority_default": "P0",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [
+        "affordance.floor"
+      ],
+      "conflicts": [],
+      "excludes_categories": [
+        "pose_action.posture"
+      ],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 24,
+        "max_age": 44,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE",
+      "posture_state": "standing",
+      "allowed_views": [
+        "front",
+        "side",
+        "rear"
+      ],
+      "view_text": {
+        "front": "one hand in hair",
+        "side": "strict side view, one hand in hair",
+        "rear": "rear view, one hand in hair"
+      },
+      "inference_review": "standing default; no posture is encoded"
+    },
+    {
+      "id": "pose_action.forge_pose_gesture_stretch_touching_neck",
+      "category": "pose_action",
+      "subcategory": "posture",
+      "canonical_text": "touching neck",
+      "aliases": [],
+      "semantic_tags": [
+        "nyx_forge_curated",
+        "pose_gesture_stretch"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 2,
+        "juggernaut_ragnarok": 2
+      },
+      "priority_default": "P0",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [
+        "affordance.floor"
+      ],
+      "conflicts": [],
+      "excludes_categories": [
+        "pose_action.posture"
+      ],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 24,
+        "max_age": 44,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE",
+      "posture_state": "standing",
+      "allowed_views": [
+        "front",
+        "side",
+        "rear"
+      ],
+      "view_text": {
+        "front": "touching neck",
+        "side": "strict side view, touching neck",
+        "rear": "rear view, touching neck"
+      },
+      "inference_review": "standing default; no posture is encoded"
+    },
+    {
+      "id": "pose_action.forge_pose_gesture_stretch_touching_shoulder",
+      "category": "pose_action",
+      "subcategory": "posture",
+      "canonical_text": "touching shoulder",
+      "aliases": [],
+      "semantic_tags": [
+        "nyx_forge_curated",
+        "pose_gesture_stretch"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 2,
+        "juggernaut_ragnarok": 2
+      },
+      "priority_default": "P0",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [
+        "affordance.floor"
+      ],
+      "conflicts": [],
+      "excludes_categories": [
+        "pose_action.posture"
+      ],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 24,
+        "max_age": 44,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE",
+      "posture_state": "standing",
+      "allowed_views": [
+        "front",
+        "side",
+        "rear"
+      ],
+      "view_text": {
+        "front": "touching shoulder",
+        "side": "strict side view, touching shoulder",
+        "rear": "rear view, touching shoulder"
+      },
+      "inference_review": "standing default; no posture is encoded"
+    },
+    {
+      "id": "pose_action.forge_pose_gesture_stretch_adjusting_hair",
+      "category": "pose_action",
+      "subcategory": "posture",
+      "canonical_text": "adjusting hair",
+      "aliases": [],
+      "semantic_tags": [
+        "nyx_forge_curated",
+        "pose_gesture_stretch"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 2,
+        "juggernaut_ragnarok": 2
+      },
+      "priority_default": "P0",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [
+        "affordance.floor"
+      ],
+      "conflicts": [],
+      "excludes_categories": [
+        "pose_action.posture"
+      ],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 24,
+        "max_age": 44,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE",
+      "posture_state": "standing",
+      "allowed_views": [
+        "front",
+        "side",
+        "rear"
+      ],
+      "view_text": {
+        "front": "adjusting hair",
+        "side": "strict side view, adjusting hair",
+        "rear": "rear view, adjusting hair"
+      },
+      "inference_review": "standing default; no posture is encoded"
+    },
+    {
+      "id": "pose_action.forge_pose_gesture_stretch_holding_coat_lapels",
+      "category": "pose_action",
+      "subcategory": "posture",
+      "canonical_text": "holding coat lapels",
+      "aliases": [],
+      "semantic_tags": [
+        "nyx_forge_curated",
+        "pose_gesture_stretch"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 4,
+        "juggernaut_ragnarok": 4
+      },
+      "priority_default": "P0",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [
+        "affordance.floor"
+      ],
+      "conflicts": [],
+      "excludes_categories": [
+        "pose_action.posture"
+      ],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 24,
+        "max_age": 44,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE",
+      "posture_state": "standing",
+      "allowed_views": [
+        "front",
+        "side",
+        "rear"
+      ],
+      "view_text": {
+        "front": "holding coat lapels",
+        "side": "strict side view, holding coat lapels",
+        "rear": "rear view, holding coat lapels"
+      },
+      "required_exposure_states": [
+        "OPEN_GARMENT"
+      ],
+      "inference_review": "standing default and restricted to open-garment exposure"
+    },
+    {
+      "id": "pose_action.forge_pose_gesture_stretch_looking_over_shoulder",
+      "category": "pose_action",
+      "subcategory": "posture",
+      "canonical_text": "looking over shoulder",
+      "aliases": [],
+      "semantic_tags": [
+        "nyx_forge_curated",
+        "pose_gesture_stretch"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 3,
+        "juggernaut_ragnarok": 3
+      },
+      "priority_default": "P0",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [
+        "affordance.floor"
+      ],
+      "conflicts": [],
+      "excludes_categories": [
+        "pose_action.posture"
+      ],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 24,
+        "max_age": 44,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE",
+      "posture_state": "standing",
+      "allowed_views": [
+        "front"
+      ],
+      "view_text": {
+        "front": "looking over shoulder"
+      },
+      "inference_review": "standing default; only the view gesture is encoded"
+    },
+    {
+      "id": "pose_action.forge_pose_gesture_stretch_stretching_arms_overhead",
+      "category": "pose_action",
+      "subcategory": "posture",
+      "canonical_text": "stretching arms overhead",
+      "aliases": [],
+      "semantic_tags": [
+        "nyx_forge_curated",
+        "pose_gesture_stretch"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 3,
+        "juggernaut_ragnarok": 3
+      },
+      "priority_default": "P0",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [
+        "affordance.floor"
+      ],
+      "conflicts": [],
+      "excludes_categories": [
+        "pose_action.posture"
+      ],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 24,
+        "max_age": 44,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE",
+      "posture_state": "stretching",
+      "allowed_views": [
+        "front",
+        "side",
+        "rear"
+      ],
+      "view_text": {
+        "front": "stretching arms overhead",
+        "side": "strict side view, stretching arms overhead",
+        "rear": "rear view, stretching arms overhead"
+      }
+    },
+    {
+      "id": "pose_action.forge_pose_gesture_stretch_turning_at_waist",
+      "category": "pose_action",
+      "subcategory": "posture",
+      "canonical_text": "turning at waist",
+      "aliases": [],
+      "semantic_tags": [
+        "nyx_forge_curated",
+        "pose_gesture_stretch"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 3,
+        "juggernaut_ragnarok": 3
+      },
+      "priority_default": "P0",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [
+        "affordance.floor"
+      ],
+      "conflicts": [],
+      "excludes_categories": [
+        "pose_action.posture"
+      ],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 24,
+        "max_age": 44,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE",
+      "posture_state": "standing",
+      "allowed_views": [
+        "front",
+        "side",
+        "rear"
+      ],
+      "view_text": {
+        "front": "turning at waist",
+        "side": "strict side view, turning at waist",
+        "rear": "rear view, turning at waist"
+      }
+    },
+    {
+      "id": "pose_action.forge_pose_leaning_supported_leaning_against_wall",
+      "category": "pose_action",
+      "subcategory": "posture",
+      "canonical_text": "leaning against wall",
+      "aliases": [],
+      "semantic_tags": [
+        "nyx_forge_curated",
+        "pose_leaning_supported"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 3,
+        "juggernaut_ragnarok": 3
+      },
+      "priority_default": "P0",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [
+        "affordance.wall"
+      ],
+      "conflicts": [],
+      "excludes_categories": [
+        "pose_action.posture"
+      ],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 24,
+        "max_age": 44,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE",
+      "posture_state": "leaning",
+      "allowed_views": [
+        "front",
+        "side",
+        "rear"
+      ],
+      "view_text": {
+        "front": "leaning against wall",
+        "side": "strict side view, leaning against wall",
+        "rear": "rear view, leaning against wall"
+      }
+    },
+    {
+      "id": "pose_action.forge_pose_leaning_supported_shoulder_against_wall",
+      "category": "pose_action",
+      "subcategory": "posture",
+      "canonical_text": "shoulder against wall",
+      "aliases": [],
+      "semantic_tags": [
+        "nyx_forge_curated",
+        "pose_leaning_supported"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 3,
+        "juggernaut_ragnarok": 3
+      },
+      "priority_default": "P0",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [
+        "affordance.wall"
+      ],
+      "conflicts": [],
+      "excludes_categories": [
+        "pose_action.posture"
+      ],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 24,
+        "max_age": 44,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE",
+      "posture_state": "leaning",
+      "allowed_views": [
+        "front",
+        "side",
+        "rear"
+      ],
+      "view_text": {
+        "front": "shoulder against wall",
+        "side": "strict side view, shoulder against wall",
+        "rear": "rear view, shoulder against wall"
+      }
+    },
+    {
+      "id": "pose_action.forge_pose_leaning_supported_back_against_wall",
+      "category": "pose_action",
+      "subcategory": "posture",
+      "canonical_text": "back against wall",
+      "aliases": [],
+      "semantic_tags": [
+        "nyx_forge_curated",
+        "pose_leaning_supported"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 3,
+        "juggernaut_ragnarok": 3
+      },
+      "priority_default": "P0",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [
+        "affordance.wall"
+      ],
+      "conflicts": [],
+      "excludes_categories": [
+        "pose_action.posture"
+      ],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 24,
+        "max_age": 44,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE",
+      "posture_state": "leaning",
+      "allowed_views": [
+        "front",
+        "side",
+        "rear"
+      ],
+      "view_text": {
+        "front": "back against wall",
+        "side": "strict side view, back against wall",
+        "rear": "rear view, back against wall"
+      }
+    },
+    {
+      "id": "pose_action.forge_pose_leaning_supported_leaning_on_railing",
+      "category": "pose_action",
+      "subcategory": "posture",
+      "canonical_text": "leaning on railing",
+      "aliases": [],
+      "semantic_tags": [
+        "nyx_forge_curated",
+        "pose_leaning_supported"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 4,
+        "juggernaut_ragnarok": 4
+      },
+      "priority_default": "P0",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [
+        "affordance.railing"
+      ],
+      "conflicts": [],
+      "excludes_categories": [
+        "pose_action.posture"
+      ],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 24,
+        "max_age": 44,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE",
+      "posture_state": "railing",
+      "allowed_views": [
+        "front",
+        "side",
+        "rear"
+      ],
+      "view_text": {
+        "front": "leaning on railing",
+        "side": "strict side view, leaning on railing",
+        "rear": "rear view, leaning on railing"
+      }
+    },
+    {
+      "id": "pose_action.forge_pose_leaning_supported_gripping_railing",
+      "category": "pose_action",
+      "subcategory": "posture",
+      "canonical_text": "gripping railing",
+      "aliases": [],
+      "semantic_tags": [
+        "nyx_forge_curated",
+        "pose_leaning_supported"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 3,
+        "juggernaut_ragnarok": 3
+      },
+      "priority_default": "P0",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [
+        "affordance.railing"
+      ],
+      "conflicts": [],
+      "excludes_categories": [
+        "pose_action.posture"
+      ],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 24,
+        "max_age": 44,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE",
+      "posture_state": "railing",
+      "allowed_views": [
+        "front",
+        "side",
+        "rear"
+      ],
+      "view_text": {
+        "front": "gripping railing",
+        "side": "strict side view, gripping railing",
+        "rear": "rear view, gripping railing"
+      }
+    },
+    {
+      "id": "pose_action.forge_pose_leaning_supported_resting_elbows_on_railing",
+      "category": "pose_action",
+      "subcategory": "posture",
+      "canonical_text": "resting elbows on railing",
+      "aliases": [],
+      "semantic_tags": [
+        "nyx_forge_curated",
+        "pose_leaning_supported"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 6,
+        "juggernaut_ragnarok": 6
+      },
+      "priority_default": "P0",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [
+        "affordance.railing"
+      ],
+      "conflicts": [],
+      "excludes_categories": [
+        "pose_action.posture"
+      ],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 24,
+        "max_age": 44,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE",
+      "posture_state": "railing",
+      "allowed_views": [
+        "front",
+        "side",
+        "rear"
+      ],
+      "view_text": {
+        "front": "resting elbows on railing",
+        "side": "strict side view, resting elbows on railing",
+        "rear": "rear view, resting elbows on railing"
+      }
+    }
+  ]
+}

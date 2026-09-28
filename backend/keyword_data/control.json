@@ -1,0 +1,569 @@
+{
+  "kb_version": "1.0.0",
+  "category": "control",
+  "records": [
+    {
+      "id": "control.score_9",
+      "category": "control",
+      "subcategory": "quality_score",
+      "canonical_text": "score_9",
+      "aliases": [],
+      "semantic_tags": [],
+      "token_cost": {
+        "cyberrealistic_pony": 3,
+        "juggernaut_ragnarok": 3
+      },
+      "priority_default": "P0",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": null,
+        "max_age": null
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.95,
+        "juggernaut_ragnarok": 0
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "FRONT",
+        "juggernaut_ragnarok": "LATE"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE",
+      "supported_models": [
+        "cyberrealistic_pony"
+      ],
+      "counterproductive_models": [
+        "juggernaut_ragnarok"
+      ]
+    },
+    {
+      "id": "control.score_8_up",
+      "category": "control",
+      "subcategory": "quality_score",
+      "canonical_text": "score_8_up",
+      "aliases": [],
+      "semantic_tags": [],
+      "token_cost": {
+        "cyberrealistic_pony": 5,
+        "juggernaut_ragnarok": 5
+      },
+      "priority_default": "P0",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": null,
+        "max_age": null
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.95,
+        "juggernaut_ragnarok": 0
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "FRONT",
+        "juggernaut_ragnarok": "LATE"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE",
+      "supported_models": [
+        "cyberrealistic_pony"
+      ],
+      "counterproductive_models": [
+        "juggernaut_ragnarok"
+      ]
+    },
+    {
+      "id": "control.score_7_up",
+      "category": "control",
+      "subcategory": "quality_score",
+      "canonical_text": "score_7_up",
+      "aliases": [],
+      "semantic_tags": [],
+      "token_cost": {
+        "cyberrealistic_pony": 5,
+        "juggernaut_ragnarok": 5
+      },
+      "priority_default": "P0",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": null,
+        "max_age": null
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.95,
+        "juggernaut_ragnarok": 0
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "FRONT",
+        "juggernaut_ragnarok": "LATE"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE",
+      "supported_models": [
+        "cyberrealistic_pony"
+      ],
+      "counterproductive_models": [
+        "juggernaut_ragnarok"
+      ]
+    },
+    {
+      "id": "control.rating_safe",
+      "category": "control",
+      "subcategory": "rating_control",
+      "canonical_text": "rating_safe",
+      "aliases": [],
+      "semantic_tags": [
+        "rating",
+        "safe"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 4,
+        "juggernaut_ragnarok": 4
+      },
+      "priority_default": "P0",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": null,
+        "max_age": null
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.95,
+        "juggernaut_ragnarok": 0
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "FRONT",
+        "juggernaut_ragnarok": "LATE"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE",
+      "supported_models": [
+        "cyberrealistic_pony"
+      ],
+      "counterproductive_models": [
+        "juggernaut_ragnarok"
+      ]
+    },
+    {
+      "id": "control.source_photo",
+      "category": "control",
+      "subcategory": "source_control",
+      "canonical_text": "source_photo",
+      "aliases": [],
+      "semantic_tags": [],
+      "token_cost": {
+        "cyberrealistic_pony": 3,
+        "juggernaut_ragnarok": 3
+      },
+      "priority_default": "P0",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": null,
+        "max_age": null
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.95,
+        "juggernaut_ragnarok": 0
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "FRONT",
+        "juggernaut_ragnarok": "LATE"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE",
+      "supported_models": [
+        "cyberrealistic_pony"
+      ],
+      "counterproductive_models": [
+        "juggernaut_ragnarok"
+      ]
+    },
+    {
+      "id": "control.forge_control_score_6_up",
+      "category": "control",
+      "subcategory": "control",
+      "canonical_text": "score_6_up",
+      "aliases": [],
+      "semantic_tags": [
+        "nyx_forge_curated",
+        "control"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 5,
+        "juggernaut_ragnarok": 5
+      },
+      "priority_default": "P2",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 24,
+        "max_age": 44,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "FRONT",
+        "juggernaut_ragnarok": "LATE"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE",
+      "supported_models": [
+        "cyberrealistic_pony"
+      ],
+      "counterproductive_models": [
+        "juggernaut_ragnarok"
+      ]
+    },
+    {
+      "id": "control.forge_control_source_photography",
+      "category": "control",
+      "subcategory": "control",
+      "canonical_text": "source_photography",
+      "aliases": [],
+      "semantic_tags": [
+        "nyx_forge_curated",
+        "control"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 3,
+        "juggernaut_ragnarok": 3
+      },
+      "priority_default": "P2",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 24,
+        "max_age": 44,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "FRONT",
+        "juggernaut_ragnarok": "LATE"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE",
+      "supported_models": [
+        "cyberrealistic_pony"
+      ],
+      "counterproductive_models": [
+        "juggernaut_ragnarok"
+      ]
+    },
+    {
+      "id": "control.forge_control_1woman",
+      "category": "control",
+      "subcategory": "control",
+      "canonical_text": "1woman",
+      "aliases": [],
+      "semantic_tags": [
+        "nyx_forge_curated",
+        "control"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 2,
+        "juggernaut_ragnarok": 2
+      },
+      "priority_default": "P2",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 24,
+        "max_age": 44,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "FRONT",
+        "juggernaut_ragnarok": "LATE"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE",
+      "supported_models": [
+        "cyberrealistic_pony"
+      ],
+      "counterproductive_models": [
+        "juggernaut_ragnarok"
+      ]
+    },
+    {
+      "id": "control.forge_control_solo",
+      "category": "control",
+      "subcategory": "control",
+      "canonical_text": "solo",
+      "aliases": [],
+      "semantic_tags": [
+        "nyx_forge_curated",
+        "control"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 1,
+        "juggernaut_ragnarok": 1
+      },
+      "priority_default": "P2",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 24,
+        "max_age": 44,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "FRONT",
+        "juggernaut_ragnarok": "LATE"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE",
+      "supported_models": [
+        "cyberrealistic_pony"
+      ],
+      "counterproductive_models": [
+        "juggernaut_ragnarok"
+      ]
+    },
+    {
+      "id": "control.forge_control_female_focus",
+      "category": "control",
+      "subcategory": "control",
+      "canonical_text": "female focus",
+      "aliases": [],
+      "semantic_tags": [
+        "nyx_forge_curated",
+        "control"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 2,
+        "juggernaut_ragnarok": 2
+      },
+      "priority_default": "P2",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 24,
+        "max_age": 44,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "FRONT",
+        "juggernaut_ragnarok": "LATE"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE",
+      "supported_models": [
+        "cyberrealistic_pony"
+      ],
+      "counterproductive_models": [
+        "juggernaut_ragnarok"
+      ]
+    }
+  ]
+}

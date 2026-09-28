@@ -1,0 +1,89 @@
+{
+  "kb_version": "1.0.0",
+  "schema_version": "1.0",
+  "models": [
+    "cyberrealistic_pony",
+    "juggernaut_ragnarok"
+  ],
+  "files": {
+    "subjects": {
+      "path": "subjects.json",
+      "count": 70
+    },
+    "identity": {
+      "path": "identity.json",
+      "count": 107
+    },
+    "appearance": {
+      "path": "appearance.json",
+      "count": 381
+    },
+    "wardrobe": {
+      "path": "wardrobe.json",
+      "count": 6
+    },
+    "pose_action": {
+      "path": "pose_action.json",
+      "count": 98
+    },
+    "expression_gaze": {
+      "path": "expression_gaze.json",
+      "count": 34
+    },
+    "environment": {
+      "path": "environment.json",
+      "count": 219
+    },
+    "composition_camera": {
+      "path": "composition_camera.json",
+      "count": 83
+    },
+    "lighting": {
+      "path": "lighting.json",
+      "count": 108
+    },
+    "texture_material": {
+      "path": "texture_material.json",
+      "count": 91
+    },
+    "atmosphere_mood": {
+      "path": "atmosphere_mood.json",
+      "count": 70
+    },
+    "style_medium": {
+      "path": "style_medium.json",
+      "count": 109
+    },
+    "negative_exclusions": {
+      "path": "negative_exclusions.json",
+      "count": 93
+    },
+    "control": {
+      "path": "control.json",
+      "count": 10
+    }
+  },
+  "auxiliary_files": {
+    "pose_reliability": {
+      "path": "pose_reliability.json",
+      "schema_version": "1.0",
+      "data_version": "1.0.0"
+    }
+  },
+  "category_token_budgets": {
+    "subjects": 15,
+    "identity": 15,
+    "appearance": 7,
+    "wardrobe": 10,
+    "pose_action": 11,
+    "expression_gaze": 5,
+    "environment": 8,
+    "composition_camera": 7,
+    "lighting": 5,
+    "texture_material": 5,
+    "atmosphere_mood": 5,
+    "style_medium": 7,
+    "negative_exclusions": 5,
+    "control": 5
+  }
+}

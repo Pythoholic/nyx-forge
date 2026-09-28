@@ -1,0 +1,5604 @@
+{
+  "kb_version": "1.0.0",
+  "category": "lighting",
+  "records": [
+    {
+      "id": "lighting.soft_window_light",
+      "category": "lighting",
+      "subcategory": "general",
+      "canonical_text": "soft window light",
+      "aliases": [],
+      "semantic_tags": [],
+      "token_cost": {
+        "cyberrealistic_pony": 3,
+        "juggernaut_ragnarok": 3
+      },
+      "priority_default": "P2",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [
+        "affordance.wall"
+      ],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": null,
+        "max_age": null
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "lighting.hard_window_light",
+      "category": "lighting",
+      "subcategory": "general",
+      "canonical_text": "hard window light",
+      "aliases": [],
+      "semantic_tags": [],
+      "token_cost": {
+        "cyberrealistic_pony": 3,
+        "juggernaut_ragnarok": 3
+      },
+      "priority_default": "P2",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [
+        "affordance.wall"
+      ],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": null,
+        "max_age": null
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "lighting.warm_bedside_light",
+      "category": "lighting",
+      "subcategory": "general",
+      "canonical_text": "warm bedside light",
+      "aliases": [],
+      "semantic_tags": [],
+      "token_cost": {
+        "cyberrealistic_pony": 3,
+        "juggernaut_ragnarok": 3
+      },
+      "priority_default": "P2",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [
+        "affordance.bedside"
+      ],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": null,
+        "max_age": null
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "lighting.cool_skylight",
+      "category": "lighting",
+      "subcategory": "general",
+      "canonical_text": "cool skylight",
+      "aliases": [],
+      "semantic_tags": [],
+      "token_cost": {
+        "cyberrealistic_pony": 3,
+        "juggernaut_ragnarok": 3
+      },
+      "priority_default": "P2",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [
+        "affordance.skylight"
+      ],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": null,
+        "max_age": null
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "lighting.golden_hour_light",
+      "category": "lighting",
+      "subcategory": "general",
+      "canonical_text": "golden-hour light",
+      "aliases": [],
+      "semantic_tags": [],
+      "token_cost": {
+        "cyberrealistic_pony": 4,
+        "juggernaut_ragnarok": 4
+      },
+      "priority_default": "P2",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": null,
+        "max_age": null
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "lighting.blue_hour_light",
+      "category": "lighting",
+      "subcategory": "general",
+      "canonical_text": "blue-hour light",
+      "aliases": [],
+      "semantic_tags": [],
+      "token_cost": {
+        "cyberrealistic_pony": 4,
+        "juggernaut_ragnarok": 4
+      },
+      "priority_default": "P2",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": null,
+        "max_age": null
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "lighting.moonlight",
+      "category": "lighting",
+      "subcategory": "general",
+      "canonical_text": "moonlight",
+      "aliases": [],
+      "semantic_tags": [],
+      "token_cost": {
+        "cyberrealistic_pony": 1,
+        "juggernaut_ragnarok": 1
+      },
+      "priority_default": "P2",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": null,
+        "max_age": null
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "lighting.candlelight",
+      "category": "lighting",
+      "subcategory": "general",
+      "canonical_text": "candlelight",
+      "aliases": [],
+      "semantic_tags": [],
+      "token_cost": {
+        "cyberrealistic_pony": 1,
+        "juggernaut_ragnarok": 1
+      },
+      "priority_default": "P2",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": null,
+        "max_age": null
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "lighting.firelight",
+      "category": "lighting",
+      "subcategory": "general",
+      "canonical_text": "firelight",
+      "aliases": [],
+      "semantic_tags": [],
+      "token_cost": {
+        "cyberrealistic_pony": 2,
+        "juggernaut_ragnarok": 2
+      },
+      "priority_default": "P2",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": null,
+        "max_age": null
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "lighting.neon_rim_light",
+      "category": "lighting",
+      "subcategory": "general",
+      "canonical_text": "neon rim light",
+      "aliases": [],
+      "semantic_tags": [],
+      "token_cost": {
+        "cyberrealistic_pony": 3,
+        "juggernaut_ragnarok": 3
+      },
+      "priority_default": "P2",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": null,
+        "max_age": null
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "lighting.red_neon_light",
+      "category": "lighting",
+      "subcategory": "general",
+      "canonical_text": "red neon light",
+      "aliases": [],
+      "semantic_tags": [],
+      "token_cost": {
+        "cyberrealistic_pony": 3,
+        "juggernaut_ragnarok": 3
+      },
+      "priority_default": "P2",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": null,
+        "max_age": null
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "lighting.blue_neon_light",
+      "category": "lighting",
+      "subcategory": "general",
+      "canonical_text": "blue neon light",
+      "aliases": [],
+      "semantic_tags": [],
+      "token_cost": {
+        "cyberrealistic_pony": 3,
+        "juggernaut_ragnarok": 3
+      },
+      "priority_default": "P2",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": null,
+        "max_age": null
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "lighting.magenta_neon_light",
+      "category": "lighting",
+      "subcategory": "general",
+      "canonical_text": "magenta neon light",
+      "aliases": [],
+      "semantic_tags": [],
+      "token_cost": {
+        "cyberrealistic_pony": 3,
+        "juggernaut_ragnarok": 3
+      },
+      "priority_default": "P2",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": null,
+        "max_age": null
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "lighting.single_spotlight",
+      "category": "lighting",
+      "subcategory": "general",
+      "canonical_text": "single spotlight",
+      "aliases": [],
+      "semantic_tags": [],
+      "token_cost": {
+        "cyberrealistic_pony": 2,
+        "juggernaut_ragnarok": 2
+      },
+      "priority_default": "P2",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": null,
+        "max_age": null
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "lighting.overhead_spotlight",
+      "category": "lighting",
+      "subcategory": "general",
+      "canonical_text": "overhead spotlight",
+      "aliases": [],
+      "semantic_tags": [],
+      "token_cost": {
+        "cyberrealistic_pony": 2,
+        "juggernaut_ragnarok": 2
+      },
+      "priority_default": "P2",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": null,
+        "max_age": null
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "lighting.side_lighting",
+      "category": "lighting",
+      "subcategory": "general",
+      "canonical_text": "side lighting",
+      "aliases": [],
+      "semantic_tags": [],
+      "token_cost": {
+        "cyberrealistic_pony": 2,
+        "juggernaut_ragnarok": 2
+      },
+      "priority_default": "P2",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": null,
+        "max_age": null
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "lighting.backlighting",
+      "category": "lighting",
+      "subcategory": "general",
+      "canonical_text": "backlighting",
+      "aliases": [],
+      "semantic_tags": [],
+      "token_cost": {
+        "cyberrealistic_pony": 2,
+        "juggernaut_ragnarok": 2
+      },
+      "priority_default": "P2",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": null,
+        "max_age": null
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "lighting.rim_lighting",
+      "category": "lighting",
+      "subcategory": "general",
+      "canonical_text": "rim lighting",
+      "aliases": [],
+      "semantic_tags": [],
+      "token_cost": {
+        "cyberrealistic_pony": 2,
+        "juggernaut_ragnarok": 2
+      },
+      "priority_default": "P2",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": null,
+        "max_age": null
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "lighting.split_lighting",
+      "category": "lighting",
+      "subcategory": "general",
+      "canonical_text": "split lighting",
+      "aliases": [],
+      "semantic_tags": [],
+      "token_cost": {
+        "cyberrealistic_pony": 2,
+        "juggernaut_ragnarok": 2
+      },
+      "priority_default": "P2",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": null,
+        "max_age": null
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "lighting.rembrandt_lighting",
+      "category": "lighting",
+      "subcategory": "general",
+      "canonical_text": "Rembrandt lighting",
+      "aliases": [],
+      "semantic_tags": [],
+      "token_cost": {
+        "cyberrealistic_pony": 4,
+        "juggernaut_ragnarok": 4
+      },
+      "priority_default": "P2",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": null,
+        "max_age": null
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "lighting.butterfly_lighting",
+      "category": "lighting",
+      "subcategory": "general",
+      "canonical_text": "butterfly lighting",
+      "aliases": [],
+      "semantic_tags": [],
+      "token_cost": {
+        "cyberrealistic_pony": 2,
+        "juggernaut_ragnarok": 2
+      },
+      "priority_default": "P2",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "forbidden_affordances": [
+        "affordance.outdoor"
+      ],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": null,
+        "max_age": null
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "lighting.loop_lighting",
+      "category": "lighting",
+      "subcategory": "general",
+      "canonical_text": "loop lighting",
+      "aliases": [],
+      "semantic_tags": [],
+      "token_cost": {
+        "cyberrealistic_pony": 2,
+        "juggernaut_ragnarok": 2
+      },
+      "priority_default": "P2",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": null,
+        "max_age": null
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "lighting.broad_lighting",
+      "category": "lighting",
+      "subcategory": "general",
+      "canonical_text": "broad lighting",
+      "aliases": [],
+      "semantic_tags": [],
+      "token_cost": {
+        "cyberrealistic_pony": 2,
+        "juggernaut_ragnarok": 2
+      },
+      "priority_default": "P2",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": null,
+        "max_age": null
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "lighting.short_lighting",
+      "category": "lighting",
+      "subcategory": "general",
+      "canonical_text": "short lighting",
+      "aliases": [],
+      "semantic_tags": [],
+      "token_cost": {
+        "cyberrealistic_pony": 2,
+        "juggernaut_ragnarok": 2
+      },
+      "priority_default": "P2",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": null,
+        "max_age": null
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "lighting.softbox_lighting",
+      "category": "lighting",
+      "subcategory": "general",
+      "canonical_text": "softbox lighting",
+      "aliases": [],
+      "semantic_tags": [],
+      "token_cost": {
+        "cyberrealistic_pony": 3,
+        "juggernaut_ragnarok": 3
+      },
+      "priority_default": "P2",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "forbidden_affordances": [
+        "affordance.outdoor"
+      ],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": null,
+        "max_age": null
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "lighting.beauty_dish_light",
+      "category": "lighting",
+      "subcategory": "general",
+      "canonical_text": "beauty-dish light",
+      "aliases": [],
+      "semantic_tags": [],
+      "token_cost": {
+        "cyberrealistic_pony": 4,
+        "juggernaut_ragnarok": 4
+      },
+      "priority_default": "P2",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "forbidden_affordances": [
+        "affordance.outdoor"
+      ],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": null,
+        "max_age": null
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "lighting.ring_light",
+      "category": "lighting",
+      "subcategory": "general",
+      "canonical_text": "ring light",
+      "aliases": [],
+      "semantic_tags": [],
+      "token_cost": {
+        "cyberrealistic_pony": 2,
+        "juggernaut_ragnarok": 2
+      },
+      "priority_default": "P2",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "forbidden_affordances": [
+        "affordance.outdoor"
+      ],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": null,
+        "max_age": null
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "lighting.diffused_daylight",
+      "category": "lighting",
+      "subcategory": "general",
+      "canonical_text": "diffused daylight",
+      "aliases": [],
+      "semantic_tags": [],
+      "token_cost": {
+        "cyberrealistic_pony": 3,
+        "juggernaut_ragnarok": 3
+      },
+      "priority_default": "P2",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": null,
+        "max_age": null
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "lighting.overcast_daylight",
+      "category": "lighting",
+      "subcategory": "general",
+      "canonical_text": "overcast daylight",
+      "aliases": [],
+      "semantic_tags": [],
+      "token_cost": {
+        "cyberrealistic_pony": 2,
+        "juggernaut_ragnarok": 2
+      },
+      "priority_default": "P2",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": null,
+        "max_age": null
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "lighting.dappled_light",
+      "category": "lighting",
+      "subcategory": "general",
+      "canonical_text": "dappled light",
+      "aliases": [],
+      "semantic_tags": [],
+      "token_cost": {
+        "cyberrealistic_pony": 3,
+        "juggernaut_ragnarok": 3
+      },
+      "priority_default": "P2",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": null,
+        "max_age": null
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "lighting.reflected_pool_light",
+      "category": "lighting",
+      "subcategory": "general",
+      "canonical_text": "reflected pool light",
+      "aliases": [],
+      "semantic_tags": [],
+      "token_cost": {
+        "cyberrealistic_pony": 3,
+        "juggernaut_ragnarok": 3
+      },
+      "priority_default": "P2",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [
+        "affordance.water"
+      ],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": null,
+        "max_age": null
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "lighting.underwater_caustics",
+      "category": "lighting",
+      "subcategory": "general",
+      "canonical_text": "underwater caustics",
+      "aliases": [],
+      "semantic_tags": [],
+      "token_cost": {
+        "cyberrealistic_pony": 3,
+        "juggernaut_ragnarok": 3
+      },
+      "priority_default": "P2",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [
+        "affordance.water"
+      ],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": null,
+        "max_age": null
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "lighting.volumetric_light",
+      "category": "lighting",
+      "subcategory": "general",
+      "canonical_text": "volumetric light",
+      "aliases": [],
+      "semantic_tags": [],
+      "token_cost": {
+        "cyberrealistic_pony": 3,
+        "juggernaut_ragnarok": 3
+      },
+      "priority_default": "P2",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": null,
+        "max_age": null
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "lighting.low_key_lighting",
+      "category": "lighting",
+      "subcategory": "general",
+      "canonical_text": "low-key lighting",
+      "aliases": [],
+      "semantic_tags": [],
+      "token_cost": {
+        "cyberrealistic_pony": 4,
+        "juggernaut_ragnarok": 4
+      },
+      "priority_default": "P2",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": null,
+        "max_age": null
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "lighting.high_key_lighting",
+      "category": "lighting",
+      "subcategory": "general",
+      "canonical_text": "high-key lighting",
+      "aliases": [],
+      "semantic_tags": [],
+      "token_cost": {
+        "cyberrealistic_pony": 4,
+        "juggernaut_ragnarok": 4
+      },
+      "priority_default": "P2",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": null,
+        "max_age": null
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "lighting.chiaroscuro_lighting",
+      "category": "lighting",
+      "subcategory": "general",
+      "canonical_text": "chiaroscuro lighting",
+      "aliases": [],
+      "semantic_tags": [],
+      "token_cost": {
+        "cyberrealistic_pony": 5,
+        "juggernaut_ragnarok": 5
+      },
+      "priority_default": "P2",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": null,
+        "max_age": null
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "lighting.silhouette_lighting",
+      "category": "lighting",
+      "subcategory": "general",
+      "canonical_text": "silhouette lighting",
+      "aliases": [],
+      "semantic_tags": [],
+      "token_cost": {
+        "cyberrealistic_pony": 2,
+        "juggernaut_ragnarok": 2
+      },
+      "priority_default": "P2",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": null,
+        "max_age": null
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "lighting.practical_lamp_light",
+      "category": "lighting",
+      "subcategory": "general",
+      "canonical_text": "practical lamp light",
+      "aliases": [],
+      "semantic_tags": [],
+      "token_cost": {
+        "cyberrealistic_pony": 3,
+        "juggernaut_ragnarok": 3
+      },
+      "priority_default": "P2",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": null,
+        "max_age": null
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "lighting.colored_gel_lighting",
+      "category": "lighting",
+      "subcategory": "general",
+      "canonical_text": "colored gel lighting",
+      "aliases": [],
+      "semantic_tags": [],
+      "token_cost": {
+        "cyberrealistic_pony": 3,
+        "juggernaut_ragnarok": 3
+      },
+      "priority_default": "P2",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": null,
+        "max_age": null
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "lighting.warm_cool_contrast",
+      "category": "lighting",
+      "subcategory": "general",
+      "canonical_text": "warm-cool contrast",
+      "aliases": [],
+      "semantic_tags": [],
+      "token_cost": {
+        "cyberrealistic_pony": 4,
+        "juggernaut_ragnarok": 4
+      },
+      "priority_default": "P2",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": null,
+        "max_age": null
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "lighting.forge_lighting_large_window_daylight",
+      "category": "lighting",
+      "subcategory": "lighting",
+      "canonical_text": "large-window daylight",
+      "aliases": [],
+      "semantic_tags": [
+        "nyx_forge_curated",
+        "lighting"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 4,
+        "juggernaut_ragnarok": 4
+      },
+      "priority_default": "P2",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [
+        "affordance.wall"
+      ],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 24,
+        "max_age": 44,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "lighting.forge_lighting_overcast_window_light",
+      "category": "lighting",
+      "subcategory": "lighting",
+      "canonical_text": "overcast window light",
+      "aliases": [],
+      "semantic_tags": [
+        "nyx_forge_curated",
+        "lighting"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 3,
+        "juggernaut_ragnarok": 3
+      },
+      "priority_default": "P2",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [
+        "affordance.wall"
+      ],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 24,
+        "max_age": 44,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "lighting.forge_lighting_north_window_light",
+      "category": "lighting",
+      "subcategory": "lighting",
+      "canonical_text": "north-window light",
+      "aliases": [],
+      "semantic_tags": [
+        "nyx_forge_curated",
+        "lighting"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 4,
+        "juggernaut_ragnarok": 4
+      },
+      "priority_default": "P2",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [
+        "affordance.wall"
+      ],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 24,
+        "max_age": 44,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "lighting.forge_lighting_warm_morning_window_light",
+      "category": "lighting",
+      "subcategory": "lighting",
+      "canonical_text": "warm morning window light",
+      "aliases": [],
+      "semantic_tags": [
+        "nyx_forge_curated",
+        "lighting"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 4,
+        "juggernaut_ragnarok": 4
+      },
+      "priority_default": "P2",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [
+        "affordance.wall"
+      ],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 24,
+        "max_age": 44,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "lighting.forge_lighting_cool_morning_window_light",
+      "category": "lighting",
+      "subcategory": "lighting",
+      "canonical_text": "cool morning window light",
+      "aliases": [],
+      "semantic_tags": [
+        "nyx_forge_curated",
+        "lighting"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 4,
+        "juggernaut_ragnarok": 4
+      },
+      "priority_default": "P2",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [
+        "affordance.wall"
+      ],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 24,
+        "max_age": 44,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "lighting.forge_lighting_late_afternoon_window_light",
+      "category": "lighting",
+      "subcategory": "lighting",
+      "canonical_text": "late-afternoon window light",
+      "aliases": [],
+      "semantic_tags": [
+        "nyx_forge_curated",
+        "lighting"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 5,
+        "juggernaut_ragnarok": 5
+      },
+      "priority_default": "P2",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [
+        "affordance.wall"
+      ],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 24,
+        "max_age": 44,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "lighting.forge_lighting_sunset_backlight",
+      "category": "lighting",
+      "subcategory": "lighting",
+      "canonical_text": "sunset backlight",
+      "aliases": [],
+      "semantic_tags": [
+        "nyx_forge_curated",
+        "lighting"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 3,
+        "juggernaut_ragnarok": 3
+      },
+      "priority_default": "P2",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 24,
+        "max_age": 44,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "lighting.forge_lighting_sunrise_side_light",
+      "category": "lighting",
+      "subcategory": "lighting",
+      "canonical_text": "sunrise side light",
+      "aliases": [],
+      "semantic_tags": [
+        "nyx_forge_curated",
+        "lighting"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 3,
+        "juggernaut_ragnarok": 3
+      },
+      "priority_default": "P2",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 24,
+        "max_age": 44,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "lighting.forge_lighting_soft_overcast_daylight",
+      "category": "lighting",
+      "subcategory": "lighting",
+      "canonical_text": "soft overcast daylight",
+      "aliases": [],
+      "semantic_tags": [
+        "nyx_forge_curated",
+        "lighting"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 3,
+        "juggernaut_ragnarok": 3
+      },
+      "priority_default": "P2",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 24,
+        "max_age": 44,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "lighting.forge_lighting_open_shade_daylight",
+      "category": "lighting",
+      "subcategory": "lighting",
+      "canonical_text": "open-shade daylight",
+      "aliases": [],
+      "semantic_tags": [
+        "nyx_forge_curated",
+        "lighting"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 4,
+        "juggernaut_ragnarok": 4
+      },
+      "priority_default": "P2",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 24,
+        "max_age": 44,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "lighting.forge_lighting_dappled_sunlight",
+      "category": "lighting",
+      "subcategory": "lighting",
+      "canonical_text": "dappled sunlight",
+      "aliases": [],
+      "semantic_tags": [
+        "nyx_forge_curated",
+        "lighting"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 3,
+        "juggernaut_ragnarok": 3
+      },
+      "priority_default": "P2",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 24,
+        "max_age": 44,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "lighting.forge_lighting_filtered_curtain_light",
+      "category": "lighting",
+      "subcategory": "lighting",
+      "canonical_text": "filtered curtain light",
+      "aliases": [],
+      "semantic_tags": [
+        "nyx_forge_curated",
+        "lighting"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 3,
+        "juggernaut_ragnarok": 3
+      },
+      "priority_default": "P2",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [
+        "affordance.wall"
+      ],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 24,
+        "max_age": 44,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "lighting.forge_lighting_soft_skylight",
+      "category": "lighting",
+      "subcategory": "lighting",
+      "canonical_text": "soft skylight",
+      "aliases": [],
+      "semantic_tags": [
+        "nyx_forge_curated",
+        "lighting"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 3,
+        "juggernaut_ragnarok": 3
+      },
+      "priority_default": "P2",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [
+        "affordance.skylight"
+      ],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 24,
+        "max_age": 44,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "lighting.forge_lighting_cool_moonlight",
+      "category": "lighting",
+      "subcategory": "lighting",
+      "canonical_text": "cool moonlight",
+      "aliases": [],
+      "semantic_tags": [
+        "nyx_forge_curated",
+        "lighting"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 2,
+        "juggernaut_ragnarok": 2
+      },
+      "priority_default": "P2",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 24,
+        "max_age": 44,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "lighting.forge_lighting_moonlit_rim_light",
+      "category": "lighting",
+      "subcategory": "lighting",
+      "canonical_text": "moonlit rim light",
+      "aliases": [],
+      "semantic_tags": [
+        "nyx_forge_curated",
+        "lighting"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 4,
+        "juggernaut_ragnarok": 4
+      },
+      "priority_default": "P2",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 24,
+        "max_age": 44,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "lighting.forge_lighting_moonlit_side_light",
+      "category": "lighting",
+      "subcategory": "lighting",
+      "canonical_text": "moonlit side light",
+      "aliases": [],
+      "semantic_tags": [
+        "nyx_forge_curated",
+        "lighting"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 4,
+        "juggernaut_ragnarok": 4
+      },
+      "priority_default": "P2",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 24,
+        "max_age": 44,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "lighting.forge_lighting_fireplace_glow",
+      "category": "lighting",
+      "subcategory": "lighting",
+      "canonical_text": "fireplace glow",
+      "aliases": [],
+      "semantic_tags": [
+        "nyx_forge_curated",
+        "lighting"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 2,
+        "juggernaut_ragnarok": 2
+      },
+      "priority_default": "P2",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [
+        "affordance.fireplace"
+      ],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 24,
+        "max_age": 44,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "lighting.forge_lighting_warm_practical_lamp_light",
+      "category": "lighting",
+      "subcategory": "lighting",
+      "canonical_text": "warm practical lamp light",
+      "aliases": [],
+      "semantic_tags": [
+        "nyx_forge_curated",
+        "lighting"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 4,
+        "juggernaut_ragnarok": 4
+      },
+      "priority_default": "P2",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 24,
+        "max_age": 44,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "lighting.forge_lighting_soft_table_lamp_light",
+      "category": "lighting",
+      "subcategory": "lighting",
+      "canonical_text": "soft table-lamp light",
+      "aliases": [],
+      "semantic_tags": [
+        "nyx_forge_curated",
+        "lighting"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 5,
+        "juggernaut_ragnarok": 5
+      },
+      "priority_default": "P2",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [
+        "affordance.support_surface"
+      ],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 24,
+        "max_age": 44,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "lighting.forge_lighting_warm_hotel_lamp_light",
+      "category": "lighting",
+      "subcategory": "lighting",
+      "canonical_text": "warm hotel-lamp light",
+      "aliases": [],
+      "semantic_tags": [
+        "nyx_forge_curated",
+        "lighting"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 5,
+        "juggernaut_ragnarok": 5
+      },
+      "priority_default": "P2",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [
+        "affordance.bedside"
+      ],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 24,
+        "max_age": 44,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "lighting.forge_lighting_soft_vanity_light",
+      "category": "lighting",
+      "subcategory": "lighting",
+      "canonical_text": "soft vanity light",
+      "aliases": [],
+      "semantic_tags": [
+        "nyx_forge_curated",
+        "lighting"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 3,
+        "juggernaut_ragnarok": 3
+      },
+      "priority_default": "P2",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 24,
+        "max_age": 44,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE",
+      "requires_any": [
+        "affordance.vanity",
+        "affordance.bathroom",
+        "affordance.dressing_room"
+      ]
+    },
+    {
+      "id": "lighting.forge_lighting_cinema_marquee_glow",
+      "category": "lighting",
+      "subcategory": "lighting",
+      "canonical_text": "cinema marquee glow",
+      "aliases": [],
+      "semantic_tags": [
+        "nyx_forge_curated",
+        "lighting"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 3,
+        "juggernaut_ragnarok": 3
+      },
+      "priority_default": "P2",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 24,
+        "max_age": 44,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE",
+      "requires_any": [
+        "affordance.cinema",
+        "affordance.marquee",
+        "affordance.signage",
+        "affordance.theater"
+      ]
+    },
+    {
+      "id": "lighting.forge_lighting_bar_practical_lighting",
+      "category": "lighting",
+      "subcategory": "lighting",
+      "canonical_text": "bar practical lighting",
+      "aliases": [],
+      "semantic_tags": [
+        "nyx_forge_curated",
+        "lighting"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 3,
+        "juggernaut_ragnarok": 3
+      },
+      "priority_default": "P2",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 24,
+        "max_age": 44,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE",
+      "requires_any": [
+        "affordance.bar",
+        "affordance.lounge",
+        "affordance.restaurant"
+      ]
+    },
+    {
+      "id": "lighting.forge_lighting_studio_softbox",
+      "category": "lighting",
+      "subcategory": "lighting",
+      "canonical_text": "studio softbox",
+      "aliases": [],
+      "semantic_tags": [
+        "nyx_forge_curated",
+        "lighting"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 3,
+        "juggernaut_ragnarok": 3
+      },
+      "priority_default": "P2",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [
+        "affordance.studio_compatible"
+      ],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 24,
+        "max_age": 44,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE",
+      "forbidden_affordances": [
+        "affordance.outdoor"
+      ]
+    },
+    {
+      "id": "lighting.forge_lighting_large_softbox_key",
+      "category": "lighting",
+      "subcategory": "lighting",
+      "canonical_text": "large softbox key",
+      "aliases": [],
+      "semantic_tags": [
+        "nyx_forge_curated",
+        "lighting"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 4,
+        "juggernaut_ragnarok": 4
+      },
+      "priority_default": "P2",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 24,
+        "max_age": 44,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE",
+      "forbidden_affordances": [
+        "affordance.outdoor"
+      ]
+    },
+    {
+      "id": "lighting.forge_lighting_octabox_key_light",
+      "category": "lighting",
+      "subcategory": "lighting",
+      "canonical_text": "octabox key light",
+      "aliases": [],
+      "semantic_tags": [
+        "nyx_forge_curated",
+        "lighting"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 5,
+        "juggernaut_ragnarok": 5
+      },
+      "priority_default": "P2",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 24,
+        "max_age": 44,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE",
+      "forbidden_affordances": [
+        "affordance.outdoor"
+      ]
+    },
+    {
+      "id": "lighting.forge_lighting_beauty_dish_lighting",
+      "category": "lighting",
+      "subcategory": "lighting",
+      "canonical_text": "beauty-dish lighting",
+      "aliases": [],
+      "semantic_tags": [
+        "nyx_forge_curated",
+        "lighting"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 4,
+        "juggernaut_ragnarok": 4
+      },
+      "priority_default": "P2",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 24,
+        "max_age": 44,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE",
+      "forbidden_affordances": [
+        "affordance.outdoor"
+      ]
+    },
+    {
+      "id": "lighting.forge_lighting_clamshell_beauty_lighting",
+      "category": "lighting",
+      "subcategory": "lighting",
+      "canonical_text": "clamshell beauty lighting",
+      "aliases": [],
+      "semantic_tags": [
+        "nyx_forge_curated",
+        "lighting"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 4,
+        "juggernaut_ragnarok": 4
+      },
+      "priority_default": "P2",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 24,
+        "max_age": 44,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE",
+      "forbidden_affordances": [
+        "affordance.outdoor"
+      ]
+    },
+    {
+      "id": "lighting.forge_lighting_three_quarter_lighting",
+      "category": "lighting",
+      "subcategory": "lighting",
+      "canonical_text": "three-quarter lighting",
+      "aliases": [],
+      "semantic_tags": [
+        "nyx_forge_curated",
+        "lighting"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 4,
+        "juggernaut_ragnarok": 4
+      },
+      "priority_default": "P2",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 24,
+        "max_age": 44,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "lighting.forge_lighting_top_lighting",
+      "category": "lighting",
+      "subcategory": "lighting",
+      "canonical_text": "top lighting",
+      "aliases": [],
+      "semantic_tags": [
+        "nyx_forge_curated",
+        "lighting"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 2,
+        "juggernaut_ragnarok": 2
+      },
+      "priority_default": "P2",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 24,
+        "max_age": 44,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "lighting.forge_lighting_underlighting_accent",
+      "category": "lighting",
+      "subcategory": "lighting",
+      "canonical_text": "underlighting accent",
+      "aliases": [],
+      "semantic_tags": [
+        "nyx_forge_curated",
+        "lighting"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 3,
+        "juggernaut_ragnarok": 3
+      },
+      "priority_default": "P2",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 24,
+        "max_age": 44,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "lighting.forge_lighting_subtle_rim_lighting",
+      "category": "lighting",
+      "subcategory": "lighting",
+      "canonical_text": "subtle rim lighting",
+      "aliases": [],
+      "semantic_tags": [
+        "nyx_forge_curated",
+        "lighting"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 3,
+        "juggernaut_ragnarok": 3
+      },
+      "priority_default": "P2",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 24,
+        "max_age": 44,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "lighting.forge_lighting_hard_rim_lighting",
+      "category": "lighting",
+      "subcategory": "lighting",
+      "canonical_text": "hard rim lighting",
+      "aliases": [],
+      "semantic_tags": [
+        "nyx_forge_curated",
+        "lighting"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 3,
+        "juggernaut_ragnarok": 3
+      },
+      "priority_default": "P2",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 24,
+        "max_age": 44,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "lighting.forge_lighting_soft_backlighting",
+      "category": "lighting",
+      "subcategory": "lighting",
+      "canonical_text": "soft backlighting",
+      "aliases": [],
+      "semantic_tags": [
+        "nyx_forge_curated",
+        "lighting"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 3,
+        "juggernaut_ragnarok": 3
+      },
+      "priority_default": "P2",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 24,
+        "max_age": 44,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "lighting.forge_lighting_edge_lighting",
+      "category": "lighting",
+      "subcategory": "lighting",
+      "canonical_text": "edge lighting",
+      "aliases": [],
+      "semantic_tags": [
+        "nyx_forge_curated",
+        "lighting"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 2,
+        "juggernaut_ragnarok": 2
+      },
+      "priority_default": "P2",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 24,
+        "max_age": 44,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "lighting.forge_lighting_hair_light",
+      "category": "lighting",
+      "subcategory": "lighting",
+      "canonical_text": "hair light",
+      "aliases": [],
+      "semantic_tags": [
+        "nyx_forge_curated",
+        "lighting"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 2,
+        "juggernaut_ragnarok": 2
+      },
+      "priority_default": "P2",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 24,
+        "max_age": 44,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "lighting.forge_lighting_kicker_light",
+      "category": "lighting",
+      "subcategory": "lighting",
+      "canonical_text": "kicker light",
+      "aliases": [],
+      "semantic_tags": [
+        "nyx_forge_curated",
+        "lighting"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 2,
+        "juggernaut_ragnarok": 2
+      },
+      "priority_default": "P2",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 24,
+        "max_age": 44,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "lighting.forge_lighting_soft_spotlight",
+      "category": "lighting",
+      "subcategory": "lighting",
+      "canonical_text": "soft spotlight",
+      "aliases": [],
+      "semantic_tags": [
+        "nyx_forge_curated",
+        "lighting"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 2,
+        "juggernaut_ragnarok": 2
+      },
+      "priority_default": "P2",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 24,
+        "max_age": 44,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "lighting.forge_lighting_hard_spotlight",
+      "category": "lighting",
+      "subcategory": "lighting",
+      "canonical_text": "hard spotlight",
+      "aliases": [],
+      "semantic_tags": [
+        "nyx_forge_curated",
+        "lighting"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 2,
+        "juggernaut_ragnarok": 2
+      },
+      "priority_default": "P2",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 24,
+        "max_age": 44,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "lighting.forge_lighting_stage_spotlight",
+      "category": "lighting",
+      "subcategory": "lighting",
+      "canonical_text": "stage spotlight",
+      "aliases": [],
+      "semantic_tags": [
+        "nyx_forge_curated",
+        "lighting"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 2,
+        "juggernaut_ragnarok": 2
+      },
+      "priority_default": "P2",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 24,
+        "max_age": 44,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE",
+      "requires_any": [
+        "affordance.stage",
+        "affordance.theater",
+        "affordance.opera_house"
+      ]
+    },
+    {
+      "id": "lighting.forge_lighting_theater_spotlight",
+      "category": "lighting",
+      "subcategory": "lighting",
+      "canonical_text": "theater spotlight",
+      "aliases": [],
+      "semantic_tags": [
+        "nyx_forge_curated",
+        "lighting"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 2,
+        "juggernaut_ragnarok": 2
+      },
+      "priority_default": "P2",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 24,
+        "max_age": 44,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE",
+      "requires_any": [
+        "affordance.theater",
+        "affordance.cinema",
+        "affordance.opera_house"
+      ]
+    },
+    {
+      "id": "lighting.forge_lighting_volumetric_window_light",
+      "category": "lighting",
+      "subcategory": "lighting",
+      "canonical_text": "volumetric window light",
+      "aliases": [],
+      "semantic_tags": [
+        "nyx_forge_curated",
+        "lighting"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 4,
+        "juggernaut_ragnarok": 4
+      },
+      "priority_default": "P2",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [
+        "affordance.wall"
+      ],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 24,
+        "max_age": 44,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "lighting.forge_lighting_light_rays_through_haze",
+      "category": "lighting",
+      "subcategory": "lighting",
+      "canonical_text": "light rays through haze",
+      "aliases": [],
+      "semantic_tags": [
+        "nyx_forge_curated",
+        "lighting"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 4,
+        "juggernaut_ragnarok": 4
+      },
+      "priority_default": "P2",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [
+        "affordance.haze"
+      ],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 24,
+        "max_age": 44,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "lighting.forge_lighting_soft_haze_lighting",
+      "category": "lighting",
+      "subcategory": "lighting",
+      "canonical_text": "soft haze lighting",
+      "aliases": [],
+      "semantic_tags": [
+        "nyx_forge_curated",
+        "lighting"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 3,
+        "juggernaut_ragnarok": 3
+      },
+      "priority_default": "P2",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [
+        "affordance.haze"
+      ],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 24,
+        "max_age": 44,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "lighting.forge_lighting_mist_diffused_light",
+      "category": "lighting",
+      "subcategory": "lighting",
+      "canonical_text": "mist-diffused light",
+      "aliases": [],
+      "semantic_tags": [
+        "nyx_forge_curated",
+        "lighting"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 5,
+        "juggernaut_ragnarok": 5
+      },
+      "priority_default": "P2",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [
+        "affordance.mist"
+      ],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 24,
+        "max_age": 44,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "lighting.forge_lighting_fog_diffused_light",
+      "category": "lighting",
+      "subcategory": "lighting",
+      "canonical_text": "fog-diffused light",
+      "aliases": [],
+      "semantic_tags": [
+        "nyx_forge_curated",
+        "lighting"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 5,
+        "juggernaut_ragnarok": 5
+      },
+      "priority_default": "P2",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 24,
+        "max_age": 44,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "lighting.forge_lighting_steam_softened_light",
+      "category": "lighting",
+      "subcategory": "lighting",
+      "canonical_text": "steam-softened light",
+      "aliases": [],
+      "semantic_tags": [
+        "nyx_forge_curated",
+        "lighting"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 5,
+        "juggernaut_ragnarok": 5
+      },
+      "priority_default": "P2",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [
+        "affordance.steam"
+      ],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 24,
+        "max_age": 44,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "lighting.forge_lighting_cyan_neon_light",
+      "category": "lighting",
+      "subcategory": "lighting",
+      "canonical_text": "cyan neon light",
+      "aliases": [],
+      "semantic_tags": [
+        "nyx_forge_curated",
+        "lighting"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 4,
+        "juggernaut_ragnarok": 4
+      },
+      "priority_default": "P2",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 24,
+        "max_age": 44,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "lighting.forge_lighting_mixed_neon_lighting",
+      "category": "lighting",
+      "subcategory": "lighting",
+      "canonical_text": "mixed neon lighting",
+      "aliases": [],
+      "semantic_tags": [
+        "nyx_forge_curated",
+        "lighting"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 3,
+        "juggernaut_ragnarok": 3
+      },
+      "priority_default": "P2",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 24,
+        "max_age": 44,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "lighting.forge_lighting_warm_cool_split_lighting",
+      "category": "lighting",
+      "subcategory": "lighting",
+      "canonical_text": "warm-cool split lighting",
+      "aliases": [],
+      "semantic_tags": [
+        "nyx_forge_curated",
+        "lighting"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 5,
+        "juggernaut_ragnarok": 5
+      },
+      "priority_default": "P2",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 24,
+        "max_age": 44,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "lighting.forge_lighting_teal_orange_cinematic_lighting",
+      "category": "lighting",
+      "subcategory": "lighting",
+      "canonical_text": "teal-orange cinematic lighting",
+      "aliases": [],
+      "semantic_tags": [
+        "nyx_forge_curated",
+        "lighting"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 5,
+        "juggernaut_ragnarok": 5
+      },
+      "priority_default": "P2",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 24,
+        "max_age": 44,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "lighting.forge_lighting_high_contrast_lighting",
+      "category": "lighting",
+      "subcategory": "lighting",
+      "canonical_text": "high-contrast lighting",
+      "aliases": [],
+      "semantic_tags": [
+        "nyx_forge_curated",
+        "lighting"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 4,
+        "juggernaut_ragnarok": 4
+      },
+      "priority_default": "P2",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 24,
+        "max_age": 44,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "lighting.forge_lighting_soft_low_contrast_lighting",
+      "category": "lighting",
+      "subcategory": "lighting",
+      "canonical_text": "soft low-contrast lighting",
+      "aliases": [],
+      "semantic_tags": [
+        "nyx_forge_curated",
+        "lighting"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 5,
+        "juggernaut_ragnarok": 5
+      },
+      "priority_default": "P2",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 24,
+        "max_age": 44,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "lighting.forge_lighting_dramatic_shadow_lighting",
+      "category": "lighting",
+      "subcategory": "lighting",
+      "canonical_text": "dramatic shadow lighting",
+      "aliases": [],
+      "semantic_tags": [
+        "nyx_forge_curated",
+        "lighting"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 3,
+        "juggernaut_ragnarok": 3
+      },
+      "priority_default": "P2",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 24,
+        "max_age": 44,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "lighting.forge_lighting_soft_shadow_lighting",
+      "category": "lighting",
+      "subcategory": "lighting",
+      "canonical_text": "soft shadow lighting",
+      "aliases": [],
+      "semantic_tags": [
+        "nyx_forge_curated",
+        "lighting"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 3,
+        "juggernaut_ragnarok": 3
+      },
+      "priority_default": "P2",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 24,
+        "max_age": 44,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "lighting.forge_lighting_hard_shadow_lighting",
+      "category": "lighting",
+      "subcategory": "lighting",
+      "canonical_text": "hard shadow lighting",
+      "aliases": [],
+      "semantic_tags": [
+        "nyx_forge_curated",
+        "lighting"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 3,
+        "juggernaut_ragnarok": 3
+      },
+      "priority_default": "P2",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 24,
+        "max_age": 44,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "lighting.forge_lighting_camera_flash",
+      "category": "lighting",
+      "subcategory": "lighting",
+      "canonical_text": "camera flash",
+      "aliases": [],
+      "semantic_tags": [
+        "nyx_forge_curated",
+        "lighting"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 2,
+        "juggernaut_ragnarok": 2
+      },
+      "priority_default": "P2",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 24,
+        "max_age": 44,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "lighting.forge_lighting_direct_on_camera_flash",
+      "category": "lighting",
+      "subcategory": "lighting",
+      "canonical_text": "direct on-camera flash",
+      "aliases": [],
+      "semantic_tags": [
+        "nyx_forge_curated",
+        "lighting"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 5,
+        "juggernaut_ragnarok": 5
+      },
+      "priority_default": "P2",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 24,
+        "max_age": 44,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "lighting.forge_lighting_bounce_flash",
+      "category": "lighting",
+      "subcategory": "lighting",
+      "canonical_text": "bounce flash",
+      "aliases": [],
+      "semantic_tags": [
+        "nyx_forge_curated",
+        "lighting"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 2,
+        "juggernaut_ragnarok": 2
+      },
+      "priority_default": "P2",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 24,
+        "max_age": 44,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "lighting.forge_lighting_soft_fill_flash",
+      "category": "lighting",
+      "subcategory": "lighting",
+      "canonical_text": "soft fill flash",
+      "aliases": [],
+      "semantic_tags": [
+        "nyx_forge_curated",
+        "lighting"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 3,
+        "juggernaut_ragnarok": 3
+      },
+      "priority_default": "P2",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 24,
+        "max_age": 44,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "lighting.forge_lighting_pool_reflected_light",
+      "category": "lighting",
+      "subcategory": "lighting",
+      "canonical_text": "pool-reflected light",
+      "aliases": [],
+      "semantic_tags": [
+        "nyx_forge_curated",
+        "lighting"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 4,
+        "juggernaut_ragnarok": 4
+      },
+      "priority_default": "P2",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [
+        "affordance.water"
+      ],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 24,
+        "max_age": 44,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "lighting.forge_lighting_water_reflected_light",
+      "category": "lighting",
+      "subcategory": "lighting",
+      "canonical_text": "water-reflected light",
+      "aliases": [],
+      "semantic_tags": [
+        "nyx_forge_curated",
+        "lighting"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 4,
+        "juggernaut_ragnarok": 4
+      },
+      "priority_default": "P2",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [
+        "affordance.water"
+      ],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 24,
+        "max_age": 44,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "lighting.forge_lighting_caustic_reflections_on_walls",
+      "category": "lighting",
+      "subcategory": "lighting",
+      "canonical_text": "caustic reflections on walls",
+      "aliases": [],
+      "semantic_tags": [
+        "nyx_forge_curated",
+        "lighting"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 5,
+        "juggernaut_ragnarok": 5
+      },
+      "priority_default": "P2",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [
+        "affordance.wall",
+        "affordance.water"
+      ],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 24,
+        "max_age": 44,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "lighting.forge_lighting_city_light_reflections",
+      "category": "lighting",
+      "subcategory": "lighting",
+      "canonical_text": "city-light reflections",
+      "aliases": [],
+      "semantic_tags": [
+        "nyx_forge_curated",
+        "lighting"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 4,
+        "juggernaut_ragnarok": 4
+      },
+      "priority_default": "P2",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 24,
+        "max_age": 44,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE",
+      "requires_any": [
+        "affordance.city",
+        "affordance.skyline"
+      ]
+    },
+    {
+      "id": "lighting.forge_lighting_rain_reflected_neon",
+      "category": "lighting",
+      "subcategory": "lighting",
+      "canonical_text": "rain-reflected neon",
+      "aliases": [],
+      "semantic_tags": [
+        "nyx_forge_curated",
+        "lighting"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 4,
+        "juggernaut_ragnarok": 4
+      },
+      "priority_default": "P2",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [
+        "affordance.rain"
+      ],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 24,
+        "max_age": 44,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "lighting.forge_lighting_practical_string_lights",
+      "category": "lighting",
+      "subcategory": "lighting",
+      "canonical_text": "practical string lights",
+      "aliases": [],
+      "semantic_tags": [
+        "nyx_forge_curated",
+        "lighting"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 3,
+        "juggernaut_ragnarok": 3
+      },
+      "priority_default": "P2",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 24,
+        "max_age": 44,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "lighting.forge_lighting_fairy_light_bokeh",
+      "category": "lighting",
+      "subcategory": "lighting",
+      "canonical_text": "fairy-light bokeh",
+      "aliases": [],
+      "semantic_tags": [
+        "nyx_forge_curated",
+        "lighting"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 5,
+        "juggernaut_ragnarok": 5
+      },
+      "priority_default": "P2",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 24,
+        "max_age": 44,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "lighting.forge_lighting_soft_ambient_room_light",
+      "category": "lighting",
+      "subcategory": "lighting",
+      "canonical_text": "soft ambient room light",
+      "aliases": [],
+      "semantic_tags": [
+        "nyx_forge_curated",
+        "lighting"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 4,
+        "juggernaut_ragnarok": 4
+      },
+      "priority_default": "P2",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [
+        "affordance.indoor"
+      ],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 24,
+        "max_age": 44,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {},
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    }
+  ]
+}

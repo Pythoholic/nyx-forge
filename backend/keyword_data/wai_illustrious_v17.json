@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0",
+  "model_id": "wai_illustrious_v17",
+  "checkpoint_markers": [
+    "waiillustrioussdxlv170"
+  ],
+  "data_alias": "juggernaut_ragnarok",
+  "dialect": "booru_tags",
+  "quality_prefix": [
+    "masterpiece",
+    "best quality",
+    "amazing quality"
+  ],
+  "rating_tags": {
+    "SAFE": "general"
+  },
+  "style_recipes": {
+    "Anime": "anime illustration, anime screencap, cel shading, clean lineart",
+    "Illustration": "digital painting, painterly illustration, visible brushwork, textured shading",
+    "Cartoon": "western cartoon illustration, bold outlines, flat colors, simplified expressive features, graphic shapes"
+  },
+  "protected_negative": [
+    "bad quality",
+    "worst quality",
+    "worst detail",
+    "sketch",
+    "censor",
+    "signature",
+    "watermark",
+    "text"
+  ],
+  "notes": "WAI Illustrious SDXL v17 model-owned compiler overlay. Canonical subject, pose, environment, safety, and age concepts remain sourced from the shared semantic KB."
+}

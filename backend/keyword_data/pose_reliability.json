@@ -1,0 +1,206 @@
+{
+  "schema_version": "1.0",
+  "data_version": "1.0.0",
+  "kb_version": "1.0.0",
+  "defaults": {
+    "anatomy_success": {
+      "value": 1,
+      "provenance": "neutral_default_not_measured"
+    },
+    "pose_adherence": {
+      "value": 1,
+      "provenance": "neutral_default_not_measured"
+    },
+    "orientation_adherence": {
+      "value": 1,
+      "provenance": "neutral_default_not_measured"
+    },
+    "requested_orientation_adherence": {
+      "front": {
+        "value": 1,
+        "provenance": "neutral_default_not_measured"
+      },
+      "side": {
+        "value": 1,
+        "provenance": "neutral_default_not_measured"
+      },
+      "rear": {
+        "value": 1,
+        "provenance": "neutral_default_not_measured"
+      }
+    },
+    "quarantined": false,
+    "quarantine_weight": {
+      "value": 0.05,
+      "provenance": "selection_policy_not_measurement"
+    }
+  },
+  "families": {
+    "standing_strict_side": {
+      "pose_ids": [
+        "pose_action.standing_standing_upright",
+        "pose_action.forge_pose_side_view_strict_side_profile_standing_pose",
+        "pose_action.forge_pose_standing_relaxed_standing_pose"
+      ],
+      "checkpoints": {
+        "cyberrealistic_pony": {
+          "requested_orientation_adherence": {
+            "side": {
+              "value": 0.95,
+              "provenance": "canary_30_cross_checkpoint_evidence"
+            }
+          }
+        },
+        "juggernaut_ragnarok": {
+          "requested_orientation_adherence": {
+            "side": {
+              "value": 0.95,
+              "provenance": "canary_30_cross_checkpoint_evidence"
+            }
+          }
+        }
+      },
+      "quarantine": {
+        "cyberrealistic_pony": false,
+        "juggernaut_ragnarok": false
+      }
+    },
+    "side_seated": {
+      "pose_ids": [
+        "pose_action.sitting_sitting_upright",
+        "pose_action.sitting_sitting_sideways",
+        "pose_action.sitting_perched_on_the_edge",
+        "pose_action.sitting_legs_crossed",
+        "pose_action.sitting_legs_dangling",
+        "pose_action.sitting_leaning_back_while_seated",
+        "pose_action.sitting_seated_forward_fold",
+        "pose_action.forge_pose_side_view_strict_side_view_seated_pose",
+        "pose_action.forge_pose_side_view_strict_side_view_sitting_on_edge",
+        "pose_action.forge_pose_seated_seated_upright",
+        "pose_action.forge_pose_seated_sitting_at_edge_of_chair",
+        "pose_action.forge_pose_seated_sitting_on_stool",
+        "pose_action.forge_pose_seated_sitting_with_legs_crossed",
+        "pose_action.forge_pose_seated_sitting_with_ankles_crossed",
+        "pose_action.forge_pose_seated_sitting_with_knees_together",
+        "pose_action.forge_pose_seated_sitting_with_legs_slightly_apart",
+        "pose_action.forge_pose_seated_legs_dangling_from_ledge",
+        "pose_action.forge_pose_seated_perched_on_counter_edge"
+      ],
+      "checkpoints": {
+        "cyberrealistic_pony": {
+          "requested_orientation_adherence": {
+            "side": {
+              "value": 0.9,
+              "provenance": "canary_30_cross_checkpoint_evidence"
+            }
+          }
+        },
+        "juggernaut_ragnarok": {
+          "requested_orientation_adherence": {
+            "side": {
+              "value": 0.9,
+              "provenance": "canary_30_cross_checkpoint_evidence"
+            }
+          }
+        }
+      },
+      "quarantine": {
+        "cyberrealistic_pony": false,
+        "juggernaut_ragnarok": false
+      }
+    },
+    "side_forward_bend": {
+      "pose_ids": [
+        "pose_action.standing_leaning_forward",
+        "pose_action.sitting_seated_forward_fold",
+        "pose_action.stretching_forward_stretch",
+        "pose_action.forge_pose_side_view_strict_side_view_forward_stretch"
+      ],
+      "checkpoints": {
+        "cyberrealistic_pony": {
+          "requested_orientation_adherence": {
+            "side": {
+              "value": 0.82,
+              "provenance": "canary_30_cross_checkpoint_evidence"
+            }
+          }
+        },
+        "juggernaut_ragnarok": {
+          "requested_orientation_adherence": {
+            "side": {
+              "value": 0.82,
+              "provenance": "canary_30_cross_checkpoint_evidence"
+            }
+          }
+        }
+      },
+      "quarantine": {
+        "cyberrealistic_pony": false,
+        "juggernaut_ragnarok": false
+      }
+    },
+    "side_twisting_pose": {
+      "pose_ids": [
+        "pose_action.walking_turning_mid_step",
+        "pose_action.railing_turning_beside_a_railing",
+        "pose_action.stretching_twisting_stretch",
+        "pose_action.forge_pose_gesture_stretch_turning_at_waist"
+      ],
+      "checkpoints": {
+        "cyberrealistic_pony": {
+          "requested_orientation_adherence": {
+            "side": {
+              "value": 0.6,
+              "provenance": "canary_30_cross_checkpoint_evidence"
+            }
+          }
+        },
+        "juggernaut_ragnarok": {
+          "requested_orientation_adherence": {
+            "side": {
+              "value": 0.6,
+              "provenance": "canary_30_cross_checkpoint_evidence"
+            }
+          }
+        }
+      },
+      "quarantine": {
+        "cyberrealistic_pony": false,
+        "juggernaut_ragnarok": false
+      }
+    },
+    "spread_legs": {
+      "pose_ids": [
+        "pose_action.forge_pose_standing_standing_with_legs_slightly_apart",
+        "pose_action.forge_pose_seated_sitting_with_legs_slightly_apart"
+      ],
+      "checkpoints": {},
+      "quarantine": {
+        "cyberrealistic_pony": false,
+        "juggernaut_ragnarok": false
+      }
+    },
+    "extreme_crouch": {
+      "pose_ids": [
+        "pose_action.squatting_low_crouch"
+      ],
+      "checkpoints": {},
+      "quarantine": {
+        "cyberrealistic_pony": false,
+        "juggernaut_ragnarok": false
+      }
+    },
+    "complex_bent_leg": {
+      "pose_ids": [
+        "pose_action.sitting_legs_crossed",
+        "pose_action.forge_pose_standing_standing_with_one_knee_relaxed",
+        "pose_action.forge_pose_seated_sitting_with_legs_crossed"
+      ],
+      "checkpoints": {},
+      "quarantine": {
+        "cyberrealistic_pony": false,
+        "juggernaut_ragnarok": false
+      }
+    }
+  }
+}

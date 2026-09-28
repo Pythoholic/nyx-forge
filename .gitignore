@@ -1,0 +1,42 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+.venv/
+.env
+.env.*
+!.env.example
+*.log
+frontend/node_modules/
+frontend/dist/
+generated/*
+videos/
+prompts.db
+prompts.db-shm
+prompts.db-wal
+.run.pid
+graphify-out/
+.DS_Store
+Thumbs.db
+design/
+docs/
+!docs/
+docs/*
+!docs/screenshots/
+!docs/screenshots/**
+# Public README captures are curated from the ignored screenshot staging area.
+!docs/screenshots_readme/
+docs/screenshots_readme/*
+!docs/screenshots_readme/public/
+!docs/screenshots_readme/public/**
+# User-uploaded source images: private input, never version-controlled.
+uploads/*
+!uploads/.gitkeep
+
+# Machine-specific artifact storage location
+storage-config.json
+
+# Batch and test-run artifacts: logs, state and generated images.
+# Reproducible from the scripts and the recorded seeds.
+batch-runs/

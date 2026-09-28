@@ -1,0 +1,3861 @@
+{
+  "kb_version": "1.0.0",
+  "category": "subjects",
+  "records": [
+    {
+      "id": "subjects.woman_26_confident",
+      "category": "subjects",
+      "subcategory": "general",
+      "canonical_text": "26-year-old adult woman, confident",
+      "aliases": [],
+      "semantic_tags": [
+        "adult_subject",
+        "woman",
+        "confident"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 13,
+        "juggernaut_ragnarok": 10
+      },
+      "priority_default": "P0",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 26,
+        "max_age": 26,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {
+        "cyberrealistic_pony": "26-year-old woman, adult facial proportions, confident"
+      },
+      "model_position_bias": {
+        "cyberrealistic_pony": "EARLY",
+        "juggernaut_ragnarok": "FRONT"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "subjects.woman_26_poised",
+      "category": "subjects",
+      "subcategory": "general",
+      "canonical_text": "26-year-old adult woman, poised",
+      "aliases": [],
+      "semantic_tags": [
+        "adult_subject",
+        "woman",
+        "poised"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 13,
+        "juggernaut_ragnarok": 10
+      },
+      "priority_default": "P0",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 26,
+        "max_age": 26,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {
+        "cyberrealistic_pony": "26-year-old woman, adult facial proportions, poised"
+      },
+      "model_position_bias": {
+        "cyberrealistic_pony": "EARLY",
+        "juggernaut_ragnarok": "FRONT"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "subjects.woman_26_self_assured",
+      "category": "subjects",
+      "subcategory": "general",
+      "canonical_text": "26-year-old adult woman, self-assured",
+      "aliases": [],
+      "semantic_tags": [
+        "adult_subject",
+        "woman",
+        "self-assured"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 15,
+        "juggernaut_ragnarok": 12
+      },
+      "priority_default": "P0",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 26,
+        "max_age": 26,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {
+        "cyberrealistic_pony": "26-year-old woman, adult facial proportions, self-assured"
+      },
+      "model_position_bias": {
+        "cyberrealistic_pony": "EARLY",
+        "juggernaut_ragnarok": "FRONT"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "subjects.woman_27_confident",
+      "category": "subjects",
+      "subcategory": "general",
+      "canonical_text": "27-year-old adult woman, confident",
+      "aliases": [],
+      "semantic_tags": [
+        "adult_subject",
+        "woman",
+        "confident"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 13,
+        "juggernaut_ragnarok": 10
+      },
+      "priority_default": "P0",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 27,
+        "max_age": 27,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {
+        "cyberrealistic_pony": "27-year-old woman, adult facial proportions, confident"
+      },
+      "model_position_bias": {
+        "cyberrealistic_pony": "EARLY",
+        "juggernaut_ragnarok": "FRONT"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "subjects.woman_27_poised",
+      "category": "subjects",
+      "subcategory": "general",
+      "canonical_text": "27-year-old adult woman, poised",
+      "aliases": [],
+      "semantic_tags": [
+        "adult_subject",
+        "woman",
+        "poised"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 13,
+        "juggernaut_ragnarok": 10
+      },
+      "priority_default": "P0",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 27,
+        "max_age": 27,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {
+        "cyberrealistic_pony": "27-year-old woman, adult facial proportions, poised"
+      },
+      "model_position_bias": {
+        "cyberrealistic_pony": "EARLY",
+        "juggernaut_ragnarok": "FRONT"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "subjects.woman_27_self_assured",
+      "category": "subjects",
+      "subcategory": "general",
+      "canonical_text": "27-year-old adult woman, self-assured",
+      "aliases": [],
+      "semantic_tags": [
+        "adult_subject",
+        "woman",
+        "self-assured"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 15,
+        "juggernaut_ragnarok": 12
+      },
+      "priority_default": "P0",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 27,
+        "max_age": 27,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {
+        "cyberrealistic_pony": "27-year-old woman, adult facial proportions, self-assured"
+      },
+      "model_position_bias": {
+        "cyberrealistic_pony": "EARLY",
+        "juggernaut_ragnarok": "FRONT"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "subjects.woman_28_confident",
+      "category": "subjects",
+      "subcategory": "general",
+      "canonical_text": "28-year-old adult woman, confident",
+      "aliases": [],
+      "semantic_tags": [
+        "adult_subject",
+        "woman",
+        "confident"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 13,
+        "juggernaut_ragnarok": 10
+      },
+      "priority_default": "P0",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 28,
+        "max_age": 28,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {
+        "cyberrealistic_pony": "28-year-old woman, adult facial proportions, confident"
+      },
+      "model_position_bias": {
+        "cyberrealistic_pony": "EARLY",
+        "juggernaut_ragnarok": "FRONT"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "subjects.woman_28_poised",
+      "category": "subjects",
+      "subcategory": "general",
+      "canonical_text": "28-year-old adult woman, poised",
+      "aliases": [],
+      "semantic_tags": [
+        "adult_subject",
+        "woman",
+        "poised"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 13,
+        "juggernaut_ragnarok": 10
+      },
+      "priority_default": "P0",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 28,
+        "max_age": 28,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {
+        "cyberrealistic_pony": "28-year-old woman, adult facial proportions, poised"
+      },
+      "model_position_bias": {
+        "cyberrealistic_pony": "EARLY",
+        "juggernaut_ragnarok": "FRONT"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "subjects.woman_28_self_assured",
+      "category": "subjects",
+      "subcategory": "general",
+      "canonical_text": "28-year-old adult woman, self-assured",
+      "aliases": [],
+      "semantic_tags": [
+        "adult_subject",
+        "woman",
+        "self-assured"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 15,
+        "juggernaut_ragnarok": 12
+      },
+      "priority_default": "P0",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 28,
+        "max_age": 28,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {
+        "cyberrealistic_pony": "28-year-old woman, adult facial proportions, self-assured"
+      },
+      "model_position_bias": {
+        "cyberrealistic_pony": "EARLY",
+        "juggernaut_ragnarok": "FRONT"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "subjects.woman_29_confident",
+      "category": "subjects",
+      "subcategory": "general",
+      "canonical_text": "29-year-old adult woman, confident",
+      "aliases": [],
+      "semantic_tags": [
+        "adult_subject",
+        "woman",
+        "confident"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 13,
+        "juggernaut_ragnarok": 10
+      },
+      "priority_default": "P0",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 29,
+        "max_age": 29,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {
+        "cyberrealistic_pony": "29-year-old woman, adult facial proportions, confident"
+      },
+      "model_position_bias": {
+        "cyberrealistic_pony": "EARLY",
+        "juggernaut_ragnarok": "FRONT"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "subjects.woman_29_poised",
+      "category": "subjects",
+      "subcategory": "general",
+      "canonical_text": "29-year-old adult woman, poised",
+      "aliases": [],
+      "semantic_tags": [
+        "adult_subject",
+        "woman",
+        "poised"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 13,
+        "juggernaut_ragnarok": 10
+      },
+      "priority_default": "P0",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 29,
+        "max_age": 29,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {
+        "cyberrealistic_pony": "29-year-old woman, adult facial proportions, poised"
+      },
+      "model_position_bias": {
+        "cyberrealistic_pony": "EARLY",
+        "juggernaut_ragnarok": "FRONT"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "subjects.woman_29_self_assured",
+      "category": "subjects",
+      "subcategory": "general",
+      "canonical_text": "29-year-old adult woman, self-assured",
+      "aliases": [],
+      "semantic_tags": [
+        "adult_subject",
+        "woman",
+        "self-assured"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 15,
+        "juggernaut_ragnarok": 12
+      },
+      "priority_default": "P0",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 29,
+        "max_age": 29,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {
+        "cyberrealistic_pony": "29-year-old woman, adult facial proportions, self-assured"
+      },
+      "model_position_bias": {
+        "cyberrealistic_pony": "EARLY",
+        "juggernaut_ragnarok": "FRONT"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "subjects.woman_30_confident",
+      "category": "subjects",
+      "subcategory": "general",
+      "canonical_text": "30-year-old adult woman, confident",
+      "aliases": [],
+      "semantic_tags": [
+        "adult_subject",
+        "woman",
+        "confident"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 13,
+        "juggernaut_ragnarok": 10
+      },
+      "priority_default": "P0",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 30,
+        "max_age": 30,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {
+        "cyberrealistic_pony": "30-year-old woman, adult facial proportions, confident"
+      },
+      "model_position_bias": {
+        "cyberrealistic_pony": "EARLY",
+        "juggernaut_ragnarok": "FRONT"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "subjects.woman_30_poised",
+      "category": "subjects",
+      "subcategory": "general",
+      "canonical_text": "30-year-old adult woman, poised",
+      "aliases": [],
+      "semantic_tags": [
+        "adult_subject",
+        "woman",
+        "poised"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 13,
+        "juggernaut_ragnarok": 10
+      },
+      "priority_default": "P0",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 30,
+        "max_age": 30,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {
+        "cyberrealistic_pony": "30-year-old woman, adult facial proportions, poised"
+      },
+      "model_position_bias": {
+        "cyberrealistic_pony": "EARLY",
+        "juggernaut_ragnarok": "FRONT"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "subjects.woman_30_self_assured",
+      "category": "subjects",
+      "subcategory": "general",
+      "canonical_text": "30-year-old adult woman, self-assured",
+      "aliases": [],
+      "semantic_tags": [
+        "adult_subject",
+        "woman",
+        "self-assured"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 15,
+        "juggernaut_ragnarok": 12
+      },
+      "priority_default": "P0",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 30,
+        "max_age": 30,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {
+        "cyberrealistic_pony": "30-year-old woman, adult facial proportions, self-assured"
+      },
+      "model_position_bias": {
+        "cyberrealistic_pony": "EARLY",
+        "juggernaut_ragnarok": "FRONT"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "subjects.woman_31_confident",
+      "category": "subjects",
+      "subcategory": "general",
+      "canonical_text": "31-year-old adult woman, confident",
+      "aliases": [],
+      "semantic_tags": [
+        "adult_subject",
+        "woman",
+        "confident"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 13,
+        "juggernaut_ragnarok": 10
+      },
+      "priority_default": "P0",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 31,
+        "max_age": 31,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {
+        "cyberrealistic_pony": "31-year-old woman, adult facial proportions, confident"
+      },
+      "model_position_bias": {
+        "cyberrealistic_pony": "EARLY",
+        "juggernaut_ragnarok": "FRONT"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "subjects.woman_31_poised",
+      "category": "subjects",
+      "subcategory": "general",
+      "canonical_text": "31-year-old adult woman, poised",
+      "aliases": [],
+      "semantic_tags": [
+        "adult_subject",
+        "woman",
+        "poised"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 13,
+        "juggernaut_ragnarok": 10
+      },
+      "priority_default": "P0",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 31,
+        "max_age": 31,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {
+        "cyberrealistic_pony": "31-year-old woman, adult facial proportions, poised"
+      },
+      "model_position_bias": {
+        "cyberrealistic_pony": "EARLY",
+        "juggernaut_ragnarok": "FRONT"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "subjects.woman_31_self_assured",
+      "category": "subjects",
+      "subcategory": "general",
+      "canonical_text": "31-year-old adult woman, self-assured",
+      "aliases": [],
+      "semantic_tags": [
+        "adult_subject",
+        "woman",
+        "self-assured"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 15,
+        "juggernaut_ragnarok": 12
+      },
+      "priority_default": "P0",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 31,
+        "max_age": 31,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {
+        "cyberrealistic_pony": "31-year-old woman, adult facial proportions, self-assured"
+      },
+      "model_position_bias": {
+        "cyberrealistic_pony": "EARLY",
+        "juggernaut_ragnarok": "FRONT"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "subjects.woman_32_confident",
+      "category": "subjects",
+      "subcategory": "general",
+      "canonical_text": "32-year-old adult woman, confident",
+      "aliases": [],
+      "semantic_tags": [
+        "adult_subject",
+        "woman",
+        "confident"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 13,
+        "juggernaut_ragnarok": 10
+      },
+      "priority_default": "P0",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 32,
+        "max_age": 32,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {
+        "cyberrealistic_pony": "32-year-old woman, adult facial proportions, confident"
+      },
+      "model_position_bias": {
+        "cyberrealistic_pony": "EARLY",
+        "juggernaut_ragnarok": "FRONT"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "subjects.woman_32_poised",
+      "category": "subjects",
+      "subcategory": "general",
+      "canonical_text": "32-year-old adult woman, poised",
+      "aliases": [],
+      "semantic_tags": [
+        "adult_subject",
+        "woman",
+        "poised"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 13,
+        "juggernaut_ragnarok": 10
+      },
+      "priority_default": "P0",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 32,
+        "max_age": 32,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {
+        "cyberrealistic_pony": "32-year-old woman, adult facial proportions, poised"
+      },
+      "model_position_bias": {
+        "cyberrealistic_pony": "EARLY",
+        "juggernaut_ragnarok": "FRONT"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "subjects.woman_32_self_assured",
+      "category": "subjects",
+      "subcategory": "general",
+      "canonical_text": "32-year-old adult woman, self-assured",
+      "aliases": [],
+      "semantic_tags": [
+        "adult_subject",
+        "woman",
+        "self-assured"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 15,
+        "juggernaut_ragnarok": 12
+      },
+      "priority_default": "P0",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 32,
+        "max_age": 32,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {
+        "cyberrealistic_pony": "32-year-old woman, adult facial proportions, self-assured"
+      },
+      "model_position_bias": {
+        "cyberrealistic_pony": "EARLY",
+        "juggernaut_ragnarok": "FRONT"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "subjects.woman_33_confident",
+      "category": "subjects",
+      "subcategory": "general",
+      "canonical_text": "33-year-old adult woman, confident",
+      "aliases": [],
+      "semantic_tags": [
+        "adult_subject",
+        "woman",
+        "confident"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 13,
+        "juggernaut_ragnarok": 10
+      },
+      "priority_default": "P0",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 33,
+        "max_age": 33,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {
+        "cyberrealistic_pony": "33-year-old woman, adult facial proportions, confident"
+      },
+      "model_position_bias": {
+        "cyberrealistic_pony": "EARLY",
+        "juggernaut_ragnarok": "FRONT"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "subjects.woman_33_poised",
+      "category": "subjects",
+      "subcategory": "general",
+      "canonical_text": "33-year-old adult woman, poised",
+      "aliases": [],
+      "semantic_tags": [
+        "adult_subject",
+        "woman",
+        "poised"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 13,
+        "juggernaut_ragnarok": 10
+      },
+      "priority_default": "P0",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 33,
+        "max_age": 33,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {
+        "cyberrealistic_pony": "33-year-old woman, adult facial proportions, poised"
+      },
+      "model_position_bias": {
+        "cyberrealistic_pony": "EARLY",
+        "juggernaut_ragnarok": "FRONT"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "subjects.woman_33_self_assured",
+      "category": "subjects",
+      "subcategory": "general",
+      "canonical_text": "33-year-old adult woman, self-assured",
+      "aliases": [],
+      "semantic_tags": [
+        "adult_subject",
+        "woman",
+        "self-assured"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 15,
+        "juggernaut_ragnarok": 12
+      },
+      "priority_default": "P0",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 33,
+        "max_age": 33,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {
+        "cyberrealistic_pony": "33-year-old woman, adult facial proportions, self-assured"
+      },
+      "model_position_bias": {
+        "cyberrealistic_pony": "EARLY",
+        "juggernaut_ragnarok": "FRONT"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "subjects.woman_34_confident",
+      "category": "subjects",
+      "subcategory": "general",
+      "canonical_text": "34-year-old adult woman, confident",
+      "aliases": [],
+      "semantic_tags": [
+        "adult_subject",
+        "woman",
+        "confident"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 13,
+        "juggernaut_ragnarok": 10
+      },
+      "priority_default": "P0",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 34,
+        "max_age": 34,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {
+        "cyberrealistic_pony": "34-year-old woman, adult facial proportions, confident"
+      },
+      "model_position_bias": {
+        "cyberrealistic_pony": "EARLY",
+        "juggernaut_ragnarok": "FRONT"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "subjects.woman_34_poised",
+      "category": "subjects",
+      "subcategory": "general",
+      "canonical_text": "34-year-old adult woman, poised",
+      "aliases": [],
+      "semantic_tags": [
+        "adult_subject",
+        "woman",
+        "poised"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 13,
+        "juggernaut_ragnarok": 10
+      },
+      "priority_default": "P0",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 34,
+        "max_age": 34,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {
+        "cyberrealistic_pony": "34-year-old woman, adult facial proportions, poised"
+      },
+      "model_position_bias": {
+        "cyberrealistic_pony": "EARLY",
+        "juggernaut_ragnarok": "FRONT"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "subjects.woman_34_self_assured",
+      "category": "subjects",
+      "subcategory": "general",
+      "canonical_text": "34-year-old adult woman, self-assured",
+      "aliases": [],
+      "semantic_tags": [
+        "adult_subject",
+        "woman",
+        "self-assured"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 15,
+        "juggernaut_ragnarok": 12
+      },
+      "priority_default": "P0",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 34,
+        "max_age": 34,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {
+        "cyberrealistic_pony": "34-year-old woman, adult facial proportions, self-assured"
+      },
+      "model_position_bias": {
+        "cyberrealistic_pony": "EARLY",
+        "juggernaut_ragnarok": "FRONT"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "subjects.woman_35_confident",
+      "category": "subjects",
+      "subcategory": "general",
+      "canonical_text": "35-year-old adult woman, confident",
+      "aliases": [],
+      "semantic_tags": [
+        "adult_subject",
+        "woman",
+        "confident"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 13,
+        "juggernaut_ragnarok": 10
+      },
+      "priority_default": "P0",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 35,
+        "max_age": 35,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {
+        "cyberrealistic_pony": "35-year-old woman, adult facial proportions, confident"
+      },
+      "model_position_bias": {
+        "cyberrealistic_pony": "EARLY",
+        "juggernaut_ragnarok": "FRONT"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "subjects.woman_35_poised",
+      "category": "subjects",
+      "subcategory": "general",
+      "canonical_text": "35-year-old adult woman, poised",
+      "aliases": [],
+      "semantic_tags": [
+        "adult_subject",
+        "woman",
+        "poised"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 13,
+        "juggernaut_ragnarok": 10
+      },
+      "priority_default": "P0",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 35,
+        "max_age": 35,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {
+        "cyberrealistic_pony": "35-year-old woman, adult facial proportions, poised"
+      },
+      "model_position_bias": {
+        "cyberrealistic_pony": "EARLY",
+        "juggernaut_ragnarok": "FRONT"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "subjects.woman_35_self_assured",
+      "category": "subjects",
+      "subcategory": "general",
+      "canonical_text": "35-year-old adult woman, self-assured",
+      "aliases": [],
+      "semantic_tags": [
+        "adult_subject",
+        "woman",
+        "self-assured"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 15,
+        "juggernaut_ragnarok": 12
+      },
+      "priority_default": "P0",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 35,
+        "max_age": 35,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {
+        "cyberrealistic_pony": "35-year-old woman, adult facial proportions, self-assured"
+      },
+      "model_position_bias": {
+        "cyberrealistic_pony": "EARLY",
+        "juggernaut_ragnarok": "FRONT"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "subjects.woman_36_confident",
+      "category": "subjects",
+      "subcategory": "general",
+      "canonical_text": "36-year-old adult woman, confident",
+      "aliases": [],
+      "semantic_tags": [
+        "adult_subject",
+        "woman",
+        "confident"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 13,
+        "juggernaut_ragnarok": 10
+      },
+      "priority_default": "P0",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 36,
+        "max_age": 36,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {
+        "cyberrealistic_pony": "36-year-old woman, adult facial proportions, confident"
+      },
+      "model_position_bias": {
+        "cyberrealistic_pony": "EARLY",
+        "juggernaut_ragnarok": "FRONT"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "subjects.woman_36_poised",
+      "category": "subjects",
+      "subcategory": "general",
+      "canonical_text": "36-year-old adult woman, poised",
+      "aliases": [],
+      "semantic_tags": [
+        "adult_subject",
+        "woman",
+        "poised"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 13,
+        "juggernaut_ragnarok": 10
+      },
+      "priority_default": "P0",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 36,
+        "max_age": 36,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {
+        "cyberrealistic_pony": "36-year-old woman, adult facial proportions, poised"
+      },
+      "model_position_bias": {
+        "cyberrealistic_pony": "EARLY",
+        "juggernaut_ragnarok": "FRONT"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "subjects.woman_36_self_assured",
+      "category": "subjects",
+      "subcategory": "general",
+      "canonical_text": "36-year-old adult woman, self-assured",
+      "aliases": [],
+      "semantic_tags": [
+        "adult_subject",
+        "woman",
+        "self-assured"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 15,
+        "juggernaut_ragnarok": 12
+      },
+      "priority_default": "P0",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 36,
+        "max_age": 36,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {
+        "cyberrealistic_pony": "36-year-old woman, adult facial proportions, self-assured"
+      },
+      "model_position_bias": {
+        "cyberrealistic_pony": "EARLY",
+        "juggernaut_ragnarok": "FRONT"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "subjects.woman_37_confident",
+      "category": "subjects",
+      "subcategory": "general",
+      "canonical_text": "37-year-old adult woman, confident",
+      "aliases": [],
+      "semantic_tags": [
+        "adult_subject",
+        "woman",
+        "confident"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 13,
+        "juggernaut_ragnarok": 10
+      },
+      "priority_default": "P0",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 37,
+        "max_age": 37,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {
+        "cyberrealistic_pony": "37-year-old woman, adult facial proportions, confident"
+      },
+      "model_position_bias": {
+        "cyberrealistic_pony": "EARLY",
+        "juggernaut_ragnarok": "FRONT"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "subjects.woman_37_poised",
+      "category": "subjects",
+      "subcategory": "general",
+      "canonical_text": "37-year-old adult woman, poised",
+      "aliases": [],
+      "semantic_tags": [
+        "adult_subject",
+        "woman",
+        "poised"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 13,
+        "juggernaut_ragnarok": 10
+      },
+      "priority_default": "P0",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 37,
+        "max_age": 37,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {
+        "cyberrealistic_pony": "37-year-old woman, adult facial proportions, poised"
+      },
+      "model_position_bias": {
+        "cyberrealistic_pony": "EARLY",
+        "juggernaut_ragnarok": "FRONT"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "subjects.woman_37_self_assured",
+      "category": "subjects",
+      "subcategory": "general",
+      "canonical_text": "37-year-old adult woman, self-assured",
+      "aliases": [],
+      "semantic_tags": [
+        "adult_subject",
+        "woman",
+        "self-assured"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 15,
+        "juggernaut_ragnarok": 12
+      },
+      "priority_default": "P0",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 37,
+        "max_age": 37,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {
+        "cyberrealistic_pony": "37-year-old woman, adult facial proportions, self-assured"
+      },
+      "model_position_bias": {
+        "cyberrealistic_pony": "EARLY",
+        "juggernaut_ragnarok": "FRONT"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "subjects.woman_38_confident",
+      "category": "subjects",
+      "subcategory": "general",
+      "canonical_text": "38-year-old adult woman, confident",
+      "aliases": [],
+      "semantic_tags": [
+        "adult_subject",
+        "woman",
+        "confident"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 13,
+        "juggernaut_ragnarok": 10
+      },
+      "priority_default": "P0",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 38,
+        "max_age": 38,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {
+        "cyberrealistic_pony": "38-year-old woman, adult facial proportions, confident"
+      },
+      "model_position_bias": {
+        "cyberrealistic_pony": "EARLY",
+        "juggernaut_ragnarok": "FRONT"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "subjects.woman_38_poised",
+      "category": "subjects",
+      "subcategory": "general",
+      "canonical_text": "38-year-old adult woman, poised",
+      "aliases": [],
+      "semantic_tags": [
+        "adult_subject",
+        "woman",
+        "poised"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 13,
+        "juggernaut_ragnarok": 10
+      },
+      "priority_default": "P0",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 38,
+        "max_age": 38,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {
+        "cyberrealistic_pony": "38-year-old woman, adult facial proportions, poised"
+      },
+      "model_position_bias": {
+        "cyberrealistic_pony": "EARLY",
+        "juggernaut_ragnarok": "FRONT"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "subjects.woman_38_self_assured",
+      "category": "subjects",
+      "subcategory": "general",
+      "canonical_text": "38-year-old adult woman, self-assured",
+      "aliases": [],
+      "semantic_tags": [
+        "adult_subject",
+        "woman",
+        "self-assured"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 15,
+        "juggernaut_ragnarok": 12
+      },
+      "priority_default": "P0",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 38,
+        "max_age": 38,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {
+        "cyberrealistic_pony": "38-year-old woman, adult facial proportions, self-assured"
+      },
+      "model_position_bias": {
+        "cyberrealistic_pony": "EARLY",
+        "juggernaut_ragnarok": "FRONT"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "subjects.woman_39_confident",
+      "category": "subjects",
+      "subcategory": "general",
+      "canonical_text": "39-year-old adult woman, confident",
+      "aliases": [],
+      "semantic_tags": [
+        "adult_subject",
+        "woman",
+        "confident"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 13,
+        "juggernaut_ragnarok": 10
+      },
+      "priority_default": "P0",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 39,
+        "max_age": 39,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {
+        "cyberrealistic_pony": "39-year-old woman, adult facial proportions, confident"
+      },
+      "model_position_bias": {
+        "cyberrealistic_pony": "EARLY",
+        "juggernaut_ragnarok": "FRONT"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "subjects.woman_39_poised",
+      "category": "subjects",
+      "subcategory": "general",
+      "canonical_text": "39-year-old adult woman, poised",
+      "aliases": [],
+      "semantic_tags": [
+        "adult_subject",
+        "woman",
+        "poised"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 13,
+        "juggernaut_ragnarok": 10
+      },
+      "priority_default": "P0",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 39,
+        "max_age": 39,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {
+        "cyberrealistic_pony": "39-year-old woman, adult facial proportions, poised"
+      },
+      "model_position_bias": {
+        "cyberrealistic_pony": "EARLY",
+        "juggernaut_ragnarok": "FRONT"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "subjects.woman_39_self_assured",
+      "category": "subjects",
+      "subcategory": "general",
+      "canonical_text": "39-year-old adult woman, self-assured",
+      "aliases": [],
+      "semantic_tags": [
+        "adult_subject",
+        "woman",
+        "self-assured"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 15,
+        "juggernaut_ragnarok": 12
+      },
+      "priority_default": "P0",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 39,
+        "max_age": 39,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {
+        "cyberrealistic_pony": "39-year-old woman, adult facial proportions, self-assured"
+      },
+      "model_position_bias": {
+        "cyberrealistic_pony": "EARLY",
+        "juggernaut_ragnarok": "FRONT"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "subjects.woman_40_confident",
+      "category": "subjects",
+      "subcategory": "general",
+      "canonical_text": "40-year-old adult woman, confident",
+      "aliases": [],
+      "semantic_tags": [
+        "adult_subject",
+        "woman",
+        "confident"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 13,
+        "juggernaut_ragnarok": 10
+      },
+      "priority_default": "P0",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 40,
+        "max_age": 40,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {
+        "cyberrealistic_pony": "40-year-old woman, adult facial proportions, confident"
+      },
+      "model_position_bias": {
+        "cyberrealistic_pony": "EARLY",
+        "juggernaut_ragnarok": "FRONT"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "subjects.woman_40_poised",
+      "category": "subjects",
+      "subcategory": "general",
+      "canonical_text": "40-year-old adult woman, poised",
+      "aliases": [],
+      "semantic_tags": [
+        "adult_subject",
+        "woman",
+        "poised"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 13,
+        "juggernaut_ragnarok": 10
+      },
+      "priority_default": "P0",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 40,
+        "max_age": 40,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {
+        "cyberrealistic_pony": "40-year-old woman, adult facial proportions, poised"
+      },
+      "model_position_bias": {
+        "cyberrealistic_pony": "EARLY",
+        "juggernaut_ragnarok": "FRONT"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "subjects.woman_40_self_assured",
+      "category": "subjects",
+      "subcategory": "general",
+      "canonical_text": "40-year-old adult woman, self-assured",
+      "aliases": [],
+      "semantic_tags": [
+        "adult_subject",
+        "woman",
+        "self-assured"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 15,
+        "juggernaut_ragnarok": 12
+      },
+      "priority_default": "P0",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 40,
+        "max_age": 40,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {
+        "cyberrealistic_pony": "40-year-old woman, adult facial proportions, self-assured"
+      },
+      "model_position_bias": {
+        "cyberrealistic_pony": "EARLY",
+        "juggernaut_ragnarok": "FRONT"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "subjects.forge_subject_adult_woman",
+      "category": "subjects",
+      "subcategory": "adult_subject",
+      "canonical_text": "34-year-old adult woman",
+      "aliases": [
+        "adult woman"
+      ],
+      "semantic_tags": [
+        "nyx_forge_curated",
+        "subject"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 11,
+        "juggernaut_ragnarok": 8
+      },
+      "priority_default": "P0",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 24,
+        "max_age": 44,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {
+        "cyberrealistic_pony": "34-year-old woman, adult facial proportions"
+      },
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "subjects.forge_subject_clearly_adult_woman",
+      "category": "subjects",
+      "subcategory": "adult_subject",
+      "canonical_text": "35-year-old clearly adult woman",
+      "aliases": [
+        "clearly adult woman"
+      ],
+      "semantic_tags": [
+        "nyx_forge_curated",
+        "subject"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 11,
+        "juggernaut_ragnarok": 9
+      },
+      "priority_default": "P0",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 24,
+        "max_age": 44,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {
+        "cyberrealistic_pony": "35-year-old woman, adult facial proportions"
+      },
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "subjects.forge_subject_female_subject",
+      "category": "subjects",
+      "subcategory": "adult_subject",
+      "canonical_text": "36-year-old adult female subject",
+      "aliases": [
+        "female subject"
+      ],
+      "semantic_tags": [
+        "nyx_forge_curated",
+        "subject"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 11,
+        "juggernaut_ragnarok": 9
+      },
+      "priority_default": "P0",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 24,
+        "max_age": 44,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {
+        "cyberrealistic_pony": "36-year-old woman, adult facial proportions"
+      },
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "subjects.forge_subject_solo_woman",
+      "category": "subjects",
+      "subcategory": "adult_subject",
+      "canonical_text": "37-year-old solo adult woman",
+      "aliases": [
+        "solo woman"
+      ],
+      "semantic_tags": [
+        "nyx_forge_curated",
+        "subject"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 11,
+        "juggernaut_ragnarok": 9
+      },
+      "priority_default": "P0",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 24,
+        "max_age": 44,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {
+        "cyberrealistic_pony": "37-year-old woman, adult facial proportions"
+      },
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "subjects.forge_age_24_year_old",
+      "category": "subjects",
+      "subcategory": "adult_subject",
+      "canonical_text": "24-year-old adult woman",
+      "aliases": [
+        "24-year-old"
+      ],
+      "semantic_tags": [
+        "nyx_forge_curated",
+        "age"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 11,
+        "juggernaut_ragnarok": 8
+      },
+      "priority_default": "P0",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 24,
+        "max_age": 44,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {
+        "cyberrealistic_pony": "24-year-old woman, adult facial proportions"
+      },
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "subjects.forge_age_25_year_old",
+      "category": "subjects",
+      "subcategory": "adult_subject",
+      "canonical_text": "25-year-old adult woman",
+      "aliases": [
+        "25-year-old"
+      ],
+      "semantic_tags": [
+        "nyx_forge_curated",
+        "age"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 11,
+        "juggernaut_ragnarok": 8
+      },
+      "priority_default": "P0",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 24,
+        "max_age": 44,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {
+        "cyberrealistic_pony": "25-year-old woman, adult facial proportions"
+      },
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "subjects.forge_age_26_year_old",
+      "category": "subjects",
+      "subcategory": "adult_subject",
+      "canonical_text": "26-year-old adult woman",
+      "aliases": [
+        "26-year-old"
+      ],
+      "semantic_tags": [
+        "nyx_forge_curated",
+        "age"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 11,
+        "juggernaut_ragnarok": 8
+      },
+      "priority_default": "P0",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 24,
+        "max_age": 44,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {
+        "cyberrealistic_pony": "26-year-old woman, adult facial proportions"
+      },
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "subjects.forge_age_27_year_old",
+      "category": "subjects",
+      "subcategory": "adult_subject",
+      "canonical_text": "27-year-old adult woman",
+      "aliases": [
+        "27-year-old"
+      ],
+      "semantic_tags": [
+        "nyx_forge_curated",
+        "age"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 11,
+        "juggernaut_ragnarok": 8
+      },
+      "priority_default": "P0",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 24,
+        "max_age": 44,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {
+        "cyberrealistic_pony": "27-year-old woman, adult facial proportions"
+      },
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "subjects.forge_age_28_year_old",
+      "category": "subjects",
+      "subcategory": "adult_subject",
+      "canonical_text": "28-year-old adult woman",
+      "aliases": [
+        "28-year-old"
+      ],
+      "semantic_tags": [
+        "nyx_forge_curated",
+        "age"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 11,
+        "juggernaut_ragnarok": 8
+      },
+      "priority_default": "P0",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 24,
+        "max_age": 44,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {
+        "cyberrealistic_pony": "28-year-old woman, adult facial proportions"
+      },
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "subjects.forge_age_29_year_old",
+      "category": "subjects",
+      "subcategory": "adult_subject",
+      "canonical_text": "29-year-old adult woman",
+      "aliases": [
+        "29-year-old"
+      ],
+      "semantic_tags": [
+        "nyx_forge_curated",
+        "age"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 11,
+        "juggernaut_ragnarok": 8
+      },
+      "priority_default": "P0",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 24,
+        "max_age": 44,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {
+        "cyberrealistic_pony": "29-year-old woman, adult facial proportions"
+      },
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "subjects.forge_age_30_year_old",
+      "category": "subjects",
+      "subcategory": "adult_subject",
+      "canonical_text": "30-year-old adult woman",
+      "aliases": [
+        "30-year-old"
+      ],
+      "semantic_tags": [
+        "nyx_forge_curated",
+        "age"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 11,
+        "juggernaut_ragnarok": 8
+      },
+      "priority_default": "P0",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 24,
+        "max_age": 44,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {
+        "cyberrealistic_pony": "30-year-old woman, adult facial proportions"
+      },
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "subjects.forge_age_31_year_old",
+      "category": "subjects",
+      "subcategory": "adult_subject",
+      "canonical_text": "31-year-old adult woman",
+      "aliases": [
+        "31-year-old"
+      ],
+      "semantic_tags": [
+        "nyx_forge_curated",
+        "age"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 11,
+        "juggernaut_ragnarok": 8
+      },
+      "priority_default": "P0",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 24,
+        "max_age": 44,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {
+        "cyberrealistic_pony": "31-year-old woman, adult facial proportions"
+      },
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "subjects.forge_age_32_year_old",
+      "category": "subjects",
+      "subcategory": "adult_subject",
+      "canonical_text": "32-year-old adult woman",
+      "aliases": [
+        "32-year-old"
+      ],
+      "semantic_tags": [
+        "nyx_forge_curated",
+        "age"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 11,
+        "juggernaut_ragnarok": 8
+      },
+      "priority_default": "P0",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 24,
+        "max_age": 44,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {
+        "cyberrealistic_pony": "32-year-old woman, adult facial proportions"
+      },
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "subjects.forge_age_33_year_old",
+      "category": "subjects",
+      "subcategory": "adult_subject",
+      "canonical_text": "33-year-old adult woman",
+      "aliases": [
+        "33-year-old"
+      ],
+      "semantic_tags": [
+        "nyx_forge_curated",
+        "age"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 11,
+        "juggernaut_ragnarok": 8
+      },
+      "priority_default": "P0",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 24,
+        "max_age": 44,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {
+        "cyberrealistic_pony": "33-year-old woman, adult facial proportions"
+      },
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "subjects.forge_age_34_year_old",
+      "category": "subjects",
+      "subcategory": "adult_subject",
+      "canonical_text": "34-year-old adult woman",
+      "aliases": [
+        "34-year-old"
+      ],
+      "semantic_tags": [
+        "nyx_forge_curated",
+        "age"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 11,
+        "juggernaut_ragnarok": 8
+      },
+      "priority_default": "P0",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 24,
+        "max_age": 44,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {
+        "cyberrealistic_pony": "34-year-old woman, adult facial proportions"
+      },
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "subjects.forge_age_35_year_old",
+      "category": "subjects",
+      "subcategory": "adult_subject",
+      "canonical_text": "35-year-old adult woman",
+      "aliases": [
+        "35-year-old"
+      ],
+      "semantic_tags": [
+        "nyx_forge_curated",
+        "age"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 11,
+        "juggernaut_ragnarok": 8
+      },
+      "priority_default": "P0",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 24,
+        "max_age": 44,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {
+        "cyberrealistic_pony": "35-year-old woman, adult facial proportions"
+      },
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "subjects.forge_age_36_year_old",
+      "category": "subjects",
+      "subcategory": "adult_subject",
+      "canonical_text": "36-year-old adult woman",
+      "aliases": [
+        "36-year-old"
+      ],
+      "semantic_tags": [
+        "nyx_forge_curated",
+        "age"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 11,
+        "juggernaut_ragnarok": 8
+      },
+      "priority_default": "P0",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 24,
+        "max_age": 44,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {
+        "cyberrealistic_pony": "36-year-old woman, adult facial proportions"
+      },
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "subjects.forge_age_37_year_old",
+      "category": "subjects",
+      "subcategory": "adult_subject",
+      "canonical_text": "37-year-old adult woman",
+      "aliases": [
+        "37-year-old"
+      ],
+      "semantic_tags": [
+        "nyx_forge_curated",
+        "age"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 11,
+        "juggernaut_ragnarok": 8
+      },
+      "priority_default": "P0",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 24,
+        "max_age": 44,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {
+        "cyberrealistic_pony": "37-year-old woman, adult facial proportions"
+      },
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "subjects.forge_age_38_year_old",
+      "category": "subjects",
+      "subcategory": "adult_subject",
+      "canonical_text": "38-year-old adult woman",
+      "aliases": [
+        "38-year-old"
+      ],
+      "semantic_tags": [
+        "nyx_forge_curated",
+        "age"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 11,
+        "juggernaut_ragnarok": 8
+      },
+      "priority_default": "P0",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 24,
+        "max_age": 44,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {
+        "cyberrealistic_pony": "38-year-old woman, adult facial proportions"
+      },
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "subjects.forge_age_39_year_old",
+      "category": "subjects",
+      "subcategory": "adult_subject",
+      "canonical_text": "39-year-old adult woman",
+      "aliases": [
+        "39-year-old"
+      ],
+      "semantic_tags": [
+        "nyx_forge_curated",
+        "age"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 11,
+        "juggernaut_ragnarok": 8
+      },
+      "priority_default": "P0",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 24,
+        "max_age": 44,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {
+        "cyberrealistic_pony": "39-year-old woman, adult facial proportions"
+      },
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "subjects.forge_age_40_year_old",
+      "category": "subjects",
+      "subcategory": "adult_subject",
+      "canonical_text": "40-year-old adult woman",
+      "aliases": [
+        "40-year-old"
+      ],
+      "semantic_tags": [
+        "nyx_forge_curated",
+        "age"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 11,
+        "juggernaut_ragnarok": 8
+      },
+      "priority_default": "P0",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 24,
+        "max_age": 44,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {
+        "cyberrealistic_pony": "40-year-old woman, adult facial proportions"
+      },
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "subjects.forge_age_41_year_old",
+      "category": "subjects",
+      "subcategory": "adult_subject",
+      "canonical_text": "41-year-old adult woman",
+      "aliases": [
+        "41-year-old"
+      ],
+      "semantic_tags": [
+        "nyx_forge_curated",
+        "age"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 11,
+        "juggernaut_ragnarok": 8
+      },
+      "priority_default": "P0",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 24,
+        "max_age": 44,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {
+        "cyberrealistic_pony": "41-year-old woman, adult facial proportions"
+      },
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "subjects.forge_age_42_year_old",
+      "category": "subjects",
+      "subcategory": "adult_subject",
+      "canonical_text": "42-year-old adult woman",
+      "aliases": [
+        "42-year-old"
+      ],
+      "semantic_tags": [
+        "nyx_forge_curated",
+        "age"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 11,
+        "juggernaut_ragnarok": 8
+      },
+      "priority_default": "P0",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 24,
+        "max_age": 44,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {
+        "cyberrealistic_pony": "42-year-old woman, adult facial proportions"
+      },
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "subjects.forge_age_43_year_old",
+      "category": "subjects",
+      "subcategory": "adult_subject",
+      "canonical_text": "43-year-old adult woman",
+      "aliases": [
+        "43-year-old"
+      ],
+      "semantic_tags": [
+        "nyx_forge_curated",
+        "age"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 11,
+        "juggernaut_ragnarok": 8
+      },
+      "priority_default": "P0",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 24,
+        "max_age": 44,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {
+        "cyberrealistic_pony": "43-year-old woman, adult facial proportions"
+      },
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    },
+    {
+      "id": "subjects.forge_age_44_year_old",
+      "category": "subjects",
+      "subcategory": "adult_subject",
+      "canonical_text": "44-year-old adult woman",
+      "aliases": [
+        "44-year-old"
+      ],
+      "semantic_tags": [
+        "nyx_forge_curated",
+        "age"
+      ],
+      "token_cost": {
+        "cyberrealistic_pony": 11,
+        "juggernaut_ragnarok": 8
+      },
+      "priority_default": "P0",
+      "semantic_value": 0.8,
+      "specificity": 0.8,
+      "rarity_weight": 1,
+      "requires": [],
+      "conflicts": [],
+      "excludes_categories": [],
+      "max_occurrences": 1,
+      "rating_floor": "SAFE",
+      "safety": {
+        "sexual_content": false
+      },
+      "age_constraints": {
+        "min_age": 24,
+        "max_age": 44,
+        "unambiguous_adult": true
+      },
+      "identity_metadata": {
+        "stereotype_autofill": false,
+        "appearance_inference": false,
+        "context_inference": false
+      },
+      "model_effectiveness": {
+        "cyberrealistic_pony": 0.82,
+        "juggernaut_ragnarok": 0.84
+      },
+      "model_text_override": {
+        "cyberrealistic_pony": "44-year-old woman, adult facial proportions"
+      },
+      "model_position_bias": {
+        "cyberrealistic_pony": "ANY",
+        "juggernaut_ragnarok": "ANY"
+      },
+      "quality_stats": {
+        "accept_rate": null,
+        "user_rating": null,
+        "artifact_rate": null
+      },
+      "version": "1.0.0",
+      "status": "ACTIVE"
+    }
+  ]
+}
