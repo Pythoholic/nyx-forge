@@ -316,7 +316,10 @@ def _parser() -> argparse.ArgumentParser:
         command_parser.add_argument(
             "--with-backends",
             action="store_true",
-            help="also manage all configured Forge backends",
+            help=(
+                "also manage configured Forge backends "
+                "(Forge Neo starts on demand)"
+            ),
         )
 
     backends = commands.add_parser("backends", help="manage configured Forge backends")
@@ -404,6 +407,14 @@ def _start_backends_and_wait(action: str = "start") -> None:
         backend for backend in backends if backend.id != "forge_neo"
     )
     for backend in default_backends:
+        if not backend.package_dir:
+            print(
+                f"{backend.label} was not started because its package folder is not "
+                "configured. Finish first-run setup in Account > Forge backends, "
+                "then rerun with --with-backends.",
+                file=sys.stderr,
+            )
+            continue
         try:
             initial = operation(backend.id)
         except (OSError, RuntimeError, subprocess.SubprocessError, ValueError) as exc:

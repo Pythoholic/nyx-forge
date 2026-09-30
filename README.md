@@ -135,8 +135,6 @@ by Git.
 
 ![NyxForge cloud API settings at a 2K desktop viewport](docs/screenshots_readme/public/settings-cloud-api.png)
 
-![NyxForge backend settings at a 2K desktop viewport](docs/screenshots_readme/public/settings-forge-backends.png)
-
 > [!NOTE]
 > Older ForgeIMG and ForgeBAT captures were intentionally removed because they
 > showed controls that do not exist in this Safe-only public edition. Add new
@@ -178,9 +176,10 @@ cd frontend && npm ci && cd ..
 python run.py start
 ```
 
-The launcher builds the frontend, discovers a local Forge API, starts FastAPI
-on `http://127.0.0.1:8000`, and opens the browser. Keep that terminal open;
-press `Ctrl+C` to stop the NyxForge server. It does not stop your Forge server.
+The launcher builds the frontend, starts FastAPI on `http://127.0.0.1:8000`,
+checks for a local Forge API, and opens the browser. Keep that terminal open;
+press `Ctrl+C` to stop the NyxForge server. A plain `start` does not start or
+stop your Forge server.
 
 ### PowerShell
 
@@ -194,6 +193,43 @@ python -m pip install -r requirements.txt
 Push-Location frontend; npm ci; Pop-Location
 python run.py start
 ```
+
+### First-run setup
+
+NyxForge does not ship with a default username or password. On the first
+launch, the browser opens directly on **Create admin account**:
+
+1. Create the first local account. It automatically becomes the installation
+   administrator; no default credentials exist.
+2. Choose a creator workspace.
+3. When the red **System action required** alert appears, click **Open Forge
+   setup**. If you dismissed the alert, open the account menu and choose
+   **Forge backends**.
+4. Under **reForge**, click **Choose launch.py**.
+5. In the Windows file picker, open the root folder of your existing reForge
+   installation and select `launch.py`. Do not select the `models` folder.
+   There is no universal default path: Stability Matrix, one-click packages,
+   and manual Git installations store reForge in different locations.
+6. Confirm that **Forge package folder** now shows the folder containing
+   `launch.py`, then click **Save and start reForge**. NyxForge saves the path,
+   starts reForge with its local API enabled, and keeps the setting for later
+   `python run.py start --with-backends` launches.
+7. Wait for both the title bar and reForge card to show **reForge ready**. The
+   currently loaded checkpoint will appear below the connection status.
+
+![Forge setup showing a connected and ready reForge installation](docs/screenshots_readme/public/settings-forge-backends.png)
+
+Port and manual process controls are available under **Advanced controls** for
+troubleshooting. **Forge Neo** is optional and only needs configuration for
+FLUX. It remains stopped until a FLUX model needs it so the two backends do not
+compete for GPU memory.
+
+Every administrator sign-in rechecks this setup. NyxForge shows the alert while
+reForge needs attention, but never opens backend settings without the
+administrator choosing that action.
+
+NyxForge only connects to an existing Forge installation. It does not install
+Forge, download checkpoints, or accept third-party licenses on your behalf.
 
 ### Custom Forge API URL
 
@@ -211,6 +247,12 @@ python run.py restart
 python run.py backends status
 python run.py start --with-backends
 ```
+
+`--with-backends` manages backends whose package folders have already been
+saved under **Account → Forge backends**. On a new installation it starts the
+NyxForge app and prints first-run setup guidance instead of attempting to guess
+where Forge is installed. During normal start/restart, reForge is started and
+Forge Neo remains on-demand.
 
 ## 🩺 Verify your environment
 

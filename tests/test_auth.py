@@ -7,6 +7,7 @@ import tempfile
 import unittest
 from contextlib import closing
 from pathlib import Path
+from types import SimpleNamespace
 from unittest.mock import patch
 
 from fastapi import HTTPException, Request
@@ -305,6 +306,7 @@ class AuthenticationTests(unittest.TestCase):
         client = TestClient(app)
         self.assertEqual(client.get("/api/history").status_code, 403)
         self.assertEqual(client.get("/api/analytics").status_code, 403)
+        self.assertEqual(client.post("/api/settings/backends/browse").status_code, 403)
         self.assertEqual(
             client.post(
                 "/api/cloud/test",
@@ -312,6 +314,60 @@ class AuthenticationTests(unittest.TestCase):
             ).status_code,
             403,
         )
+
+    def test_backend_settings_require_the_folder_containing_launch_script(self) -> None:
+        client = TestClient(app)
+        registered = client.post(
+            "/api/auth/register",
+            json={
+                "display_name": "Creator",
+                "email": "creator@example.com",
+                "password": "long-password",
+            },
+        )
+        self.assertEqual(registered.status_code, 200)
+
+        package_dir = Path(self.temporary_directory.name) / "reforge"
+        package_dir.mkdir()
+        response = client.put(
+            "/api/backends/reforge",
+            json={"port": 7860, "package_dir": str(package_dir)},
+        )
+
+        self.assertEqual(response.status_code, 422)
+        self.assertIn("contains launch.py", response.json()["detail"])
+
+    def test_backend_picker_returns_the_selected_launch_script_parent(self) -> None:
+        client = TestClient(app)
+        registered = client.post(
+            "/api/auth/register",
+            json={
+                "display_name": "Creator",
+                "email": "creator@example.com",
+                "password": "long-password",
+            },
+        )
+        self.assertEqual(registered.status_code, 200)
+
+        package_dir = Path(self.temporary_directory.name) / "reforge"
+        package_dir.mkdir()
+        launch_script = package_dir / "launch.py"
+        launch_script.write_text("# test launcher", encoding="utf-8")
+        with (
+            patch("backend.main.sys.platform", "win32"),
+            patch(
+                "backend.main.subprocess.run",
+                return_value=SimpleNamespace(stdout=str(launch_script)),
+            ) as run_picker,
+        ):
+            response = client.post("/api/settings/backends/browse")
+
+        self.assertEqual(response.status_code, 200)
+        self.assertEqual(response.json()["package_dir"], str(package_dir))
+        self.assertFalse(response.json()["cancelled"])
+        command = run_picker.call_args.args[0]
+        self.assertIn("powershell.exe", command)
+        self.assertIn("-STA", command)
 
 
 if __name__ == "__main__":

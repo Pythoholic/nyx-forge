@@ -8,6 +8,7 @@ import {
   Eye,
   Heart,
   EyeOff,
+  FolderOpen,
   Image as ImageIcon,
   LoaderCircle,
   LayoutGrid,
@@ -23,11 +24,12 @@ import {
   Smartphone,
   Sparkles,
   Star,
+  TriangleAlert,
   UserPlus,
   WandSparkles,
   X,
 } from "lucide-react";
-import { setFavorite, getBackends, getBackendSettings, updateBackend, controlBackend, getVideoHistory, getVideoStatus, setVideoFavorite, getStorageSettings, setStorageSettings, beginAuthenticatorSetup, confirmAuthenticatorSetup, generateImage, getAuthSession, getHistory, getJob, getModels, getPromptModels, getSurprisePrompt, loginAccount, loginWithAuthenticator, logoutAccount, pixelUpscaleImage, rateImage, registerAccount, selectWorkspace, surpriseGenerateImage, testCloudCredential, transformImage, updateAccountSettings, upscaleImage } from "./api";
+import { setFavorite, getBackends, getBackendSettings, browseBackendPackage, updateBackend, controlBackend, getVideoHistory, getVideoStatus, setVideoFavorite, getStorageSettings, setStorageSettings, beginAuthenticatorSetup, confirmAuthenticatorSetup, generateImage, getAuthSession, getHistory, getJob, getModels, getPromptModels, getSurprisePrompt, loginAccount, loginWithAuthenticator, logoutAccount, pixelUpscaleImage, rateImage, registerAccount, selectWorkspace, surpriseGenerateImage, testCloudCredential, transformImage, updateAccountSettings, upscaleImage } from "./api";
 import { AppStatusBar, AppTopBar, NyxThemePicker, ROUTES, navigate, normalizeAppPath } from "./AppChrome";
 import CustomSelect from "./CustomSelect";
 import ErrorBanner from "./ErrorBanner";
@@ -157,7 +159,7 @@ function AutoTextarea({ value, onChange, ...props }) {
   );
 }
 
-function AccountDialog({ open, initialMode, registrationOpen, returningUser, authenticatorAvailable, authenticatorName, connected, required, onClose, onAuthenticate, onSelectWorkspace, onContinueAsGuest }) {
+function AccountDialog({ open, initialMode, registrationOpen, returningUser, authenticatorAvailable, authenticatorName, connected, showBackendSetup, onOpenBackendSetup, onDismissBackendSetup, required, onClose, onAuthenticate, onSelectWorkspace, onContinueAsGuest }) {
   const wasOpen = useRef(false);
   const submitRef = useRef(null);
   const submittingRef = useRef(false);
@@ -179,9 +181,9 @@ function AccountDialog({ open, initialMode, registrationOpen, returningUser, aut
 
   useEffect(() => {
     if (open) {
-      if (!wasOpen.current) {
+      if (!wasOpen.current || (registrationOpen && !returningUser)) {
         setStep("credentials");
-        setMode(authenticatorAvailable ? "authenticator" : returningUser ? "login" : initialMode === "register" && !registrationOpen ? "login" : initialMode);
+        setMode(authenticatorAvailable ? "authenticator" : returningUser ? "login" : registrationOpen ? "register" : initialMode);
         setEmail(returningUser?.email ?? "");
         setAuthenticatedUser(null);
         setError("");
@@ -327,14 +329,19 @@ function AccountDialog({ open, initialMode, registrationOpen, returningUser, aut
     ? "Choose one creator workspace for this signed-in session. Delivery and analytics remain shared."
     : mode === "authenticator"
       ? recoveryMode ? "Enter one of your saved recovery codes." : "Enter the six-digit code from your authenticator app."
-      : returningUser ? "Enter your password to unlock the Forge suite." : "Sign in to access the Forge suite.";
+      : returningUser
+        ? "Enter your password to unlock the Forge suite."
+        : mode === "register"
+          ? "No administrator exists yet. Create the first local account to finish setup."
+          : "Sign in to access the Forge suite.";
   return (
     <Dialog open={open} onClose={submitting || required || step === "workspace" ? () => {} : onClose} className="relative z-[110]">
       <DialogBackdrop className="nyx-auth-backdrop fixed inset-0" />
       <div className="nyx-auth-screen fixed inset-0 overflow-y-auto">
         <header className="nyx-auth-header"><div className="nyx-brand"><span className="nyx-brand-mark">N</span><strong>NYXFORGE</strong><span className="nyx-product-badge">v1.0—FORGE</span></div><div className={`nyx-auth-core ${connected ? "is-online" : "is-offline"}`}><i />{step === "workspace" ? <>{connected ? "ALL SYSTEMS CONNECTED" : "SYSTEMS DEGRADED"} <span>/</span> <span className="nyx-auth-core-meta"><b>SESSION:</b> ADMIN AUTHENTICATED</span> <span>/</span> <span className="nyx-auth-core-meta"><b>NODE:</b> LOCAL</span></> : mode === "authenticator" ? <>FORGE CORE {connected ? "99.99%" : "OFFLINE"} <span>/</span> SESSION: FACTOR 1 OF 2 <span>/</span> NODE: LOCAL</> : <>REFORGE {connected ? "ONLINE" : "UNAVAILABLE"} <span>/</span> SESSION: UNAUTHENTICATED</>}</div><div className="nyx-auth-theme"><span>THEME</span><NyxThemePicker showLabel={step === "workspace"} /></div></header>
+        {step === "workspace" && showBackendSetup && <aside aria-label="System notifications" className="pointer-events-none fixed right-4 top-[72px] z-[140] w-[min(390px,calc(100vw-32px))]"><BackendSetupAlert onOpen={onOpenBackendSetup} onDismiss={onDismissBackendSetup} /></aside>}
         <div className={`nyx-auth-layout ${step === "workspace" ? "is-workspace" : mode === "authenticator" ? "is-two-factor" : ""}`}>
-          {step !== "workspace" && <section className="nyx-auth-intro"><span className="nyx-auth-signal"><i />{mode === "authenticator" ? "Second factor required" : "Forge suite access"}</span><h1>{mode === "authenticator" ? <>Welcome back,<br />{welcomeName || "Admin"}</> : mode === "register" ? <>Create admin<br />account</> : <>Admin<br />sign in</>}</h1><p>{dialogDescription}</p><div className="nyx-auth-stats">{mode === "authenticator" ? <><span className="is-online"><small>Factor 1</small><b>Verified</b></span><span><small>Device</small><b>{recoveryMode ? "Recovery" : "Authenticator"}</b></span><span><small>Code expires</small><b>00:{String(totpSeconds).padStart(2, "0")}</b></span></> : <><span className={connected ? "is-online" : "is-offline"}><small>reForge</small><b>{connected ? "Online" : "Unavailable"}</b></span><span><small>Channel</small><b>{window.location.protocol === "https:" ? "HTTPS" : "Local HTTP"}</b></span><span><small>Access</small><b>Admin</b></span></>}</div></section>}
+          {step !== "workspace" && <section className="nyx-auth-intro"><span className="nyx-auth-signal"><i />{mode === "authenticator" ? "Second factor required" : mode === "register" ? "First-run setup" : "Forge suite access"}</span><h1>{mode === "authenticator" ? <>Welcome back,<br />{welcomeName || "Admin"}</> : mode === "register" ? <>Create admin<br />account</> : <>Admin<br />sign in</>}</h1><p>{dialogDescription}</p><div className="nyx-auth-stats">{mode === "authenticator" ? <><span className="is-online"><small>Factor 1</small><b>Verified</b></span><span><small>Device</small><b>{recoveryMode ? "Recovery" : "Authenticator"}</b></span><span><small>Code expires</small><b>00:{String(totpSeconds).padStart(2, "0")}</b></span></> : <><span className={connected ? "is-online" : "is-offline"}><small>reForge</small><b>{connected ? "Online" : "Setup needed"}</b></span><span><small>Channel</small><b>{window.location.protocol === "https:" ? "HTTPS" : "Local HTTP"}</b></span><span><small>Access</small><b>{mode === "register" ? "First admin" : "Admin"}</b></span></>}</div></section>}
           <DialogPanel className={`w-full ${step === "workspace" ? "nyx-workspace-panel" : `nyx-auth-panel ${mode === "authenticator" ? "is-two-factor" : ""}`}`}>
             {step !== "workspace" && <div className="nyx-dialog-bar"><span><b>&gt;_</b> AUTH TERMINAL</span><i>SECURE</i></div>}
             {step === "credentials" && mode === "authenticator" && <nav className="nyx-auth-modes" aria-label="Sign-in method">
@@ -352,13 +359,9 @@ function AccountDialog({ open, initialMode, registrationOpen, returningUser, aut
               {!required && step === "credentials" && <button type="button" onClick={onClose} disabled={submitting} className="nyx-close" aria-label="Close account dialog"><X size={16} /></button>}
             </div>}
 
-            {step === "credentials" ? <>{mode !== "authenticator" && !returningUser && <div className={`forge-seg mt-[18px] ${registrationOpen ? "grid grid-cols-2" : "grid grid-cols-1"}`}>
-              {[["login", "Admin sign in"], ...(registrationOpen ? [["register", "Create account"]] : [])].map(([value, label]) => (
-                <button key={value} type="button" onClick={() => { setMode(value); setError(""); }} aria-selected={mode === value}>{label}</button>
-              ))}
-            </div>}
-
+            {step === "credentials" ? <>
             <form onSubmit={submit} className={mode === "authenticator" ? "nyx-two-factor-form" : "mt-5 space-y-4"}>
+              {mode === "register" && registrationOpen && <div className="nyx-onboarding-note"><strong>No default login exists.</strong><span>This account will become the only self-service administrator for this local NyxForge installation.</span></div>}
               {mode === "authenticator" ? (
                 recoveryMode ? <label className="nyx-two-factor-field">Recovery code
                   <input autoFocus type="text" autoComplete="one-time-code" value={code} onChange={(event) => setCode(event.target.value.toUpperCase())} minLength={16} maxLength={19} required className="forge-input" placeholder="XXXX-XXXX-XXXX-XXXX" />
@@ -386,7 +389,7 @@ function AccountDialog({ open, initialMode, registrationOpen, returningUser, aut
               {error && <p className="rounded-[9px] bg-[var(--danger-wash)] px-[13px] py-[10px] text-[12px] leading-[1.45] text-[#ff9d9d]">{error}</p>}
               {(mode !== "authenticator" || recoveryMode) && <button type="submit" disabled={submitting} className="forge-btn-primary w-full">
                 {!submitting && (mode === "register" ? <UserPlus size={16} /> : mode === "authenticator" ? <ShieldCheck size={16} /> : <LogIn size={16} />)}
-                {submitting ? "Validating..." : mode === "register" ? "Create account and continue" : "Validate and continue"}
+                {submitting ? "Validating..." : mode === "register" ? "Create administrator account" : "Validate and continue"}
               </button>}
               {mode === "authenticator" && !recoveryMode && <button type="submit" disabled={submitting} className="nyx-two-factor-submit">{submitting ? "Verifying…" : "Verify and continue"}</button>}
               {mode === "authenticator" && <div className="nyx-two-factor-alternatives">
@@ -394,7 +397,7 @@ function AccountDialog({ open, initialMode, registrationOpen, returningUser, aut
                 <button type="button" onClick={setPasswordMode}>Use password instead</button>
               </div>}
               {onContinueAsGuest && mode === "authenticator" && <div className="nyx-two-factor-divider"><span>Or</span></div>}
-              {onContinueAsGuest && <button type="button" disabled={submitting} onClick={onContinueAsGuest} className={mode === "authenticator" ? "nyx-two-factor-guest" : "w-full text-center text-[11.5px] font-semibold text-[var(--text-muted)] transition hover:text-[var(--text)] disabled:opacity-60"}>Continue as guest</button>}
+              {onContinueAsGuest && !registrationOpen && <button type="button" disabled={submitting} onClick={onContinueAsGuest} className={mode === "authenticator" ? "nyx-two-factor-guest" : "w-full text-center text-[11.5px] font-semibold text-[var(--text-muted)] transition hover:text-[var(--text)] disabled:opacity-60"}>Continue as guest</button>}
             </form></> : <div className="workspace-grid">
               {WORKSPACES.map(({ id, label, code: workspaceCode, category, description }) => <article key={id} className={`workspace-card ${id === "forgeai" ? "is-primary" : ""}`}>
                 <header><span>{workspaceCode}</span><strong>{label}</strong><em>{category}</em></header>
@@ -486,6 +489,7 @@ function ControlDialogShell({
   eyebrow,
   description,
   status = "READY",
+  statusTone = "",
   maxWidth = "max-w-[760px]",
   children,
   footer,
@@ -499,7 +503,7 @@ function ControlDialogShell({
             <div className="nyx-control-titlebar">
               <span><b>&gt;_</b> {title}</span>
               <div>
-                <i className={busy ? "is-busy" : ""}>{busy ? "WORKING" : status}</i>
+                <i className={busy ? "is-busy" : statusTone}>{busy ? "WORKING" : status}</i>
                 <button type="button" onClick={onClose} disabled={busy} className="nyx-close" aria-label={`Close ${title}`}><X size={16} /></button>
               </div>
             </div>
@@ -530,9 +534,16 @@ function OperationToast({ toast, onDismiss, onNavigate }) {
   </div>;
 }
 
-function OperationToastViewport({ toasts, onDismiss, onNavigate }) {
-  if (!toasts.length) return null;
-  return <aside aria-label="Operation notifications" className="pointer-events-none fixed right-4 top-[72px] z-[140] flex w-[min(360px,calc(100vw-32px))] flex-col gap-2">{toasts.map((toast) => <OperationToast key={toast.id} toast={toast} onDismiss={onDismiss} onNavigate={onNavigate} />)}</aside>;
+function BackendSetupAlert({ onOpen, onDismiss }) {
+  return <section role="alert" className="nyx-setup-alert pointer-events-auto">
+    <header><span><TriangleAlert size={14} />System action required</span><button type="button" onClick={onDismiss} aria-label="Dismiss reForge setup warning"><X size={13} /></button></header>
+    <div><strong>reForge setup needed</strong><p>Choose its launch.py once. NyxForge can then save the location and start reForge for you.</p><button type="button" onClick={onOpen}><FolderOpen size={13} />Open Forge setup <span>→</span></button></div>
+  </section>;
+}
+
+function OperationToastViewport({ toasts, onDismiss, onNavigate, showBackendSetup, onOpenBackendSetup, onDismissBackendSetup }) {
+  if (!toasts.length && !showBackendSetup) return null;
+  return <aside aria-label="System notifications" className="pointer-events-none fixed right-4 top-[72px] z-[140] flex w-[min(390px,calc(100vw-32px))] flex-col gap-2">{showBackendSetup && <BackendSetupAlert onOpen={onOpenBackendSetup} onDismiss={onDismissBackendSetup} />}{toasts.map((toast) => <OperationToast key={toast.id} toast={toast} onDismiss={onDismiss} onNavigate={onNavigate} />)}</aside>;
 }
 
 function AuthenticatorSetupDialog({ open, enabled, onClose, onComplete }) {
@@ -1146,8 +1157,9 @@ function QueueSettingsDialog({ open, account, onClose, onSave }) {
   </ControlDialogShell>;
 }
 
-function BackendSettingsDialog({ open, backends, onClose, onRefresh, onStatus }) {
+function BackendSettingsDialog({ open, backends, onClose, onRefresh, onStatus, onConfigured }) {
   const [drafts, setDrafts] = useState({});
+  const [savedSettings, setSavedSettings] = useState({});
   const [busy, setBusy] = useState({});
   const [errors, setErrors] = useState({});
 
@@ -1156,7 +1168,11 @@ function BackendSettingsDialog({ open, backends, onClose, onRefresh, onStatus })
     setErrors({});
     onRefresh();
     getBackendSettings()
-      .then((settings) => setDrafts(Object.fromEntries(settings.map((backend) => [backend.id, { port: backend.port, package_dir: backend.package_dir }]))))
+      .then((settings) => {
+        const values = Object.fromEntries(settings.map((backend) => [backend.id, { port: backend.port, package_dir: backend.package_dir }]));
+        setDrafts(values);
+        setSavedSettings(values);
+      })
       .catch((requestError) => setErrors({ _load: requestError.message }));
   }, [open]); // Refresh once when the dialog opens; the global poll keeps it current.
 
@@ -1178,7 +1194,13 @@ function BackendSettingsDialog({ open, backends, onClose, onRefresh, onStatus })
       const next = operation === "save"
         ? await updateBackend(backend.id, Number(drafts[backend.id]?.port), drafts[backend.id]?.package_dir.trim())
         : await controlBackend(backend.id, operation);
+      if (operation === "save") {
+        setSavedSettings((current) => ({ ...current, [backend.id]: { port: Number(drafts[backend.id]?.port), package_dir: drafts[backend.id]?.package_dir.trim() } }));
+      }
       onStatus(next);
+      if (backend.id === "reforge" && (next.reachable || (operation === "start" && next.running))) {
+        onConfigured?.();
+      }
     } catch (requestError) {
       setErrors((current) => ({ ...current, [backend.id]: requestError.message }));
     } finally {
@@ -1187,33 +1209,127 @@ function BackendSettingsDialog({ open, backends, onClose, onRefresh, onStatus })
     }
   };
 
+  const saveAndStart = async (backend) => {
+    const draft = drafts[backend.id] ?? { port: backend.port, package_dir: "" };
+    setBusy((current) => ({ ...current, [backend.id]: "setup" }));
+    setErrors((current) => ({ ...current, [backend.id]: "" }));
+    try {
+      const saved = await updateBackend(backend.id, Number(draft.port), draft.package_dir.trim());
+      const settings = { port: Number(draft.port), package_dir: draft.package_dir.trim() };
+      setSavedSettings((current) => ({ ...current, [backend.id]: settings }));
+      onStatus(saved);
+      const started = saved.reachable ? saved : await controlBackend(backend.id, "start");
+      onStatus(started);
+      if (backend.id === "reforge" && (started.reachable || started.running)) onConfigured?.();
+    } catch (requestError) {
+      setErrors((current) => ({ ...current, [backend.id]: requestError.message }));
+    } finally {
+      setBusy((current) => ({ ...current, [backend.id]: "" }));
+      onRefresh();
+    }
+  };
+
+  const browse = async (backend) => {
+    setBusy((current) => ({ ...current, [backend.id]: "browse" }));
+    setErrors((current) => ({ ...current, [backend.id]: "" }));
+    try {
+      const selection = await browseBackendPackage();
+      if (!selection.cancelled && selection.package_dir) {
+        setDrafts((current) => ({
+          ...current,
+          [backend.id]: { ...(current[backend.id] ?? { port: backend.port }), package_dir: selection.package_dir },
+        }));
+      }
+    } catch (requestError) {
+      setErrors((current) => ({ ...current, [backend.id]: requestError.message }));
+    } finally {
+      setBusy((current) => ({ ...current, [backend.id]: "" }));
+    }
+  };
+
   const isBusy = Object.values(busy).some(Boolean);
-  const onlineCount = backends.filter((backend) => backend.reachable).length;
-  return <ControlDialogShell open={open} busy={isBusy} onClose={onClose} title="Forge backends" eyebrow="Local model runners" description="Configure and control the Stability Matrix Forge installations used across every workspace." status={`${onlineCount}/${backends.length} ONLINE`} maxWidth="max-w-[900px]">
-        <div className="nyx-control-grid md:grid-cols-2">
-          {errors._load && <p className="nyx-control-error md:col-span-2">{errors._load}</p>}
-          {backends.map((backend) => {
-            const draft = drafts[backend.id] ?? { port: backend.port, package_dir: "" };
-            const operation = busy[backend.id];
-            const stateLabel = backend.reachable ? "Reachable" : backend.running ? "Starting" : "Stopped";
-            const stateColor = backend.reachable ? "var(--ok)" : backend.running ? "var(--warn)" : "var(--danger)";
-            return <section key={backend.id} className="nyx-control-section">
-              <div className="nyx-control-section-title"><RotateCw size={16} /><div><strong>{backend.label}</strong><small>{backend.id}</small></div><span className={`nyx-control-status ${backend.reachable ? "is-online" : backend.running ? "is-busy" : "is-offline"}`}><i style={{ backgroundColor: stateColor }} />{stateLabel}</span></div>
-              <div className="mt-4 grid gap-3 sm:grid-cols-[120px_1fr]">
-                <label className="nyx-control-label">Port<input type="number" min="1" max="65535" value={draft.port} onChange={(event) => setDrafts((current) => ({ ...current, [backend.id]: { ...draft, port: event.target.value } }))} className="forge-input font-mono text-[11.5px]" /></label>
-                <label className="nyx-control-label">Package folder<input value={draft.package_dir} onChange={(event) => setDrafts((current) => ({ ...current, [backend.id]: { ...draft, package_dir: event.target.value } }))} spellCheck={false} className="forge-input font-mono text-[11.5px]" /></label>
-              </div>
-              {backend.loaded_checkpoint && <p className="nyx-control-path mt-3" title={backend.loaded_checkpoint}><span>Loaded checkpoint</span><code>{backend.loaded_checkpoint}</code></p>}
-              {(backend.error || errors[backend.id]) && <p className="nyx-control-error mt-3">{errors[backend.id] || backend.error}</p>}
-              <div className="nyx-control-actions mt-4">
-                <button type="button" onClick={() => run(backend, "save")} disabled={Boolean(operation) || !draft.package_dir.trim() || !Number(draft.port)} className="forge-btn"><Save size={13} />{operation === "save" ? "Saving" : "Save"}</button>
-                <button type="button" onClick={() => run(backend, "start")} disabled={Boolean(operation) || backend.running} className="nyx-control-action is-start"><Play size={13} />{operation === "start" ? "Starting" : "Start"}</button>
-                <button type="button" onClick={() => run(backend, "stop")} disabled={Boolean(operation) || !backend.running} className="nyx-control-action is-stop"><Square size={12} />{operation === "stop" ? "Stopping" : "Stop"}</button>
-                <button type="button" onClick={() => run(backend, "restart")} disabled={Boolean(operation) || !backend.running} className="forge-btn"><RotateCw size={13} />{operation === "restart" ? "Restarting" : "Restart"}</button>
-              </div>
-            </section>;
-          })}
+  const primary = backends.find((backend) => backend.id === "reforge") ?? backends[0];
+  const optional = backends.find((backend) => backend.id === "forge_neo");
+
+  const renderBackendSetup = (backend, { showHeading = true } = {}) => {
+    if (!backend) return null;
+    const draft = drafts[backend.id] ?? { port: backend.port, package_dir: "" };
+    const operation = busy[backend.id];
+    const saved = savedSettings[backend.id];
+    const hasPath = Boolean(draft.package_dir.trim());
+    const hasUnsavedChanges = !saved || Number(draft.port) !== Number(saved.port) || draft.package_dir.trim() !== saved.package_dir;
+    const canStart = Boolean(saved?.package_dir) && !hasUnsavedChanges;
+    const isLocked = backend.running || backend.reachable;
+    const stateLabel = backend.reachable ? "Ready" : backend.running ? "Starting" : hasPath ? "Not running" : "Setup needed";
+    const stateClass = backend.reachable ? "is-online" : backend.running ? "is-busy" : "is-offline";
+    const statusMessage = errors[backend.id]
+      || (!hasPath
+        ? `Choose the launch.py file in your existing ${backend.label} installation.`
+        : backend.reachable
+          ? `${backend.label} is connected and ready to generate.`
+          : backend.running
+            ? `${backend.label} is starting. The first launch can take several minutes.`
+            : backend.error || `${backend.label} is configured but not running.`);
+
+    return <section className={`nyx-backend-setup ${backend.id === "reforge" ? "is-primary" : ""}`}>
+      {showHeading && <div className="nyx-control-section-title">
+        <RotateCw size={16} />
+        <div><strong>{backend.label}</strong><small>{backend.id === "reforge" ? "Required for image generation" : "Optional - FLUX only"}</small></div>
+        <span className={`nyx-control-status ${stateClass}`}><i />{stateLabel}</span>
+      </div>}
+
+      <div className="nyx-backend-instruction">
+        <span>{hasPath ? "Forge location" : "1. Locate Forge"}</span>
+        <p>There is no default location. Select <code>launch.py</code> in the main {backend.label} folder and NyxForge will remember it.</p>
+      </div>
+      <label className="nyx-control-label">
+        Forge package folder
+        <span className="nyx-path-picker">
+          <input value={draft.package_dir} onChange={(event) => setDrafts((current) => ({ ...current, [backend.id]: { ...draft, package_dir: event.target.value } }))} disabled={isLocked} spellCheck={false} className="forge-input font-mono text-[11.5px]" placeholder="Choose launch.py or paste its package folder" />
+          <button type="button" onClick={() => browse(backend)} disabled={Boolean(operation) || isLocked} className="forge-btn"><FolderOpen size={13} />{operation === "browse" ? "Opening" : hasPath ? "Change file" : "Choose launch.py"}</button>
+        </span>
+      </label>
+      {hasPath && <p className="nyx-backend-selected-path" title={draft.package_dir}><Check size={13} /><code>{draft.package_dir}</code></p>}
+
+      <div className={`nyx-backend-state ${backend.reachable ? "is-success" : backend.running ? "is-warning" : "is-danger"}`} role={errors[backend.id] ? "alert" : "status"}>
+        {backend.reachable ? <Check size={15} /> : backend.running ? <LoaderCircle size={15} className="animate-spin" /> : <TriangleAlert size={15} />}
+        <span>{statusMessage}</span>
+      </div>
+
+      {!backend.reachable && !backend.running && <button type="button" onClick={() => saveAndStart(backend)} disabled={Boolean(operation) || !hasPath || !Number(draft.port)} className="nyx-backend-primary-action">
+        {operation === "setup" ? <LoaderCircle size={15} className="animate-spin" /> : <Play size={15} />}
+        {operation === "setup" ? "Saving and starting" : hasUnsavedChanges ? `Save and start ${backend.label}` : `Start ${backend.label}`}
+      </button>}
+
+      {backend.loaded_checkpoint && <p className="nyx-control-path" title={backend.loaded_checkpoint}><span>Loaded checkpoint</span><code>{backend.loaded_checkpoint}</code></p>}
+
+      <details className="nyx-backend-advanced">
+        <summary>Advanced controls <span>Port {draft.port}</span></summary>
+        <div>
+          <label className="nyx-control-label">API port<input type="number" min="1" max="65535" value={draft.port} disabled={isLocked} onChange={(event) => setDrafts((current) => ({ ...current, [backend.id]: { ...draft, port: event.target.value } }))} className="forge-input font-mono text-[11.5px]" /></label>
+          <p>Only change the port if this Forge installation was configured to use a different one. Stop the backend before changing its location or port.</p>
+          <div className="nyx-control-actions">
+            <button type="button" onClick={() => run(backend, "save")} disabled={Boolean(operation) || isLocked || !hasPath || !Number(draft.port)} className="forge-btn"><Save size={13} />{operation === "save" ? "Saving" : "Save only"}</button>
+            <button type="button" onClick={() => run(backend, "start")} disabled={Boolean(operation) || backend.running || !canStart} className="nyx-control-action is-start"><Play size={13} />{operation === "start" ? "Starting" : "Start"}</button>
+            <button type="button" onClick={() => run(backend, "stop")} disabled={Boolean(operation) || !backend.running} className="nyx-control-action is-stop"><Square size={12} />{operation === "stop" ? "Stopping" : "Stop"}</button>
+            <button type="button" onClick={() => run(backend, "restart")} disabled={Boolean(operation) || !backend.running} className="forge-btn"><RotateCw size={13} />{operation === "restart" ? "Restarting" : "Restart"}</button>
+          </div>
         </div>
+      </details>
+    </section>;
+  };
+
+  const primaryStatus = primary?.reachable ? "REFORGE READY" : primary?.running ? "STARTING" : "SETUP NEEDED";
+  return <ControlDialogShell open={open} busy={isBusy} onClose={onClose} title="Forge setup" eyebrow="Required for generation" description="Connect the reForge installation already on this computer. NyxForge will not download Forge, models, or accept third-party licenses for you." status={primaryStatus} statusTone={primary?.reachable ? "" : "is-warning"} maxWidth="max-w-[760px]">
+    {errors._load && <p className="nyx-control-error">{errors._load}</p>}
+    {renderBackendSetup(primary)}
+    {optional && <details className="nyx-backend-optional">
+      <summary>
+        <span><strong>Forge Neo</strong><small>Optional - set this up only if you generate with FLUX</small></span>
+        <span className={`nyx-control-status ${optional.reachable ? "is-online" : optional.running ? "is-busy" : ""}`}><i />{optional.reachable ? "Ready" : optional.running ? "Starting" : "Not required"}</span>
+      </summary>
+      <div>{renderBackendSetup(optional, { showHeading: false })}</div>
+    </details>}
   </ControlDialogShell>;
 }
 
@@ -1746,6 +1862,8 @@ export default function App() {
   const [settingsOpen, setSettingsOpen] = useState(false);
   const [queueSettingsOpen, setQueueSettingsOpen] = useState(false);
   const [backendSettingsOpen, setBackendSettingsOpen] = useState(false);
+  const [backendSetupRequired, setBackendSetupRequired] = useState(false);
+  const [backendSetupAlertDismissed, setBackendSetupAlertDismissed] = useState(false);
   const [authenticatorOpen, setAuthenticatorOpen] = useState(false);
   const [backends, setBackends] = useState([]);
   const [connected, setConnected] = useState(false);
@@ -1789,9 +1907,31 @@ export default function App() {
 
   const refreshBackends = useCallback(async () => {
     try {
-      setBackends(await getBackends());
+      const statuses = await getBackends();
+      setBackends(statuses);
+      const reforge = statuses.find((backend) => backend.id === "reforge");
+      if (reforge?.reachable || reforge?.running) {
+        setBackendSetupRequired(false);
+      }
     } catch {
       // Preserve the last known states through a transient app/API failure.
+    }
+  }, []);
+
+  const checkBackendSetup = useCallback(async () => {
+    try {
+      const [settings, statuses] = await Promise.all([getBackendSettings(), getBackends()]);
+      const reforgeSettings = settings.find((backend) => backend.id === "reforge");
+      const reforgeStatus = statuses.find((backend) => backend.id === "reforge");
+      const required = !reforgeSettings?.package_dir || (!reforgeStatus?.reachable && !reforgeStatus?.running);
+      setBackendSetupRequired(required);
+      if (required) setBackendSetupAlertDismissed(false);
+      setBackends(statuses);
+      return required;
+    } catch {
+      setBackendSetupRequired(true);
+      setBackendSetupAlertDismissed(false);
+      return true;
     }
   }, []);
 
@@ -1968,6 +2108,7 @@ export default function App() {
           setAuthRequired(false);
           setAuthOpen(false);
           if (user.is_admin) {
+            await checkBackendSetup();
             try {
               const history = await getHistory();
               setImages(history.items);
@@ -2002,7 +2143,7 @@ export default function App() {
         setHistoryCursor(null);
       })
       .finally(() => setAuthReady(true));
-  }, []);
+  }, [checkBackendSetup]);
 
   useEffect(() => {
     if (!authReady || authRequired || account?.is_admin || !["analytics", "gallery"].includes(page)) return;
@@ -2117,6 +2258,8 @@ export default function App() {
     setAuthenticatorAvailable(Boolean(session.authenticator_available));
     setAuthenticatorName(session.authenticator_display_name ?? session.user?.display_name ?? "");
     setRegistrationOpen(Boolean(session.registration_open));
+    if (session.user?.is_admin) await checkBackendSetup();
+    else setBackendSetupRequired(false);
     return session;
   };
 
@@ -2183,6 +2326,8 @@ export default function App() {
       setSettingsOpen(false);
       setQueueSettingsOpen(false);
       setWorkspaceSwitcherOpen(false);
+      setBackendSetupRequired(false);
+      setBackendSetupAlertDismissed(false);
       setAuthenticatorOpen(false);
       setCloudCredentials(cloudProviderState(null));
       navigatePage("create");
@@ -2464,13 +2609,13 @@ export default function App() {
           prompt_source_id: image.id,
         }))}
       />
-      <AccountDialog open={authOpen || authRequired} initialMode={authMode} registrationOpen={registrationOpen} returningUser={returningUser} authenticatorAvailable={authenticatorAvailable} authenticatorName={authenticatorName} connected={connected} required={authRequired} onClose={() => setAuthOpen(false)} onAuthenticate={authenticate} onSelectWorkspace={chooseWorkspace} onContinueAsGuest={continueAsGuest} />
+      <AccountDialog open={authReady && (authOpen || authRequired)} initialMode={authMode} registrationOpen={registrationOpen} returningUser={returningUser} authenticatorAvailable={authenticatorAvailable} authenticatorName={authenticatorName} connected={connected} showBackendSetup={backendSetupRequired && !backendSetupAlertDismissed} onOpenBackendSetup={() => { setBackendSetupAlertDismissed(true); setBackendSettingsOpen(true); }} onDismissBackendSetup={() => setBackendSetupAlertDismissed(true)} required={authRequired} onClose={() => setAuthOpen(false)} onAuthenticate={authenticate} onSelectWorkspace={chooseWorkspace} onContinueAsGuest={continueAsGuest} />
       <WorkspaceSwitcherDialog open={workspaceSwitcherOpen} activeWorkspace={activeWorkspace} operationsSummary={operations.summary} onClose={() => setWorkspaceSwitcherOpen(false)} onSelect={(workspace) => chooseWorkspace(workspace, { announce: true })} />
-      <OperationToastViewport toasts={operations.toasts} onDismiss={operations.dismissToast} onNavigate={navigatePath} />
+      <OperationToastViewport toasts={operations.toasts} onDismiss={operations.dismissToast} onNavigate={navigatePath} showBackendSetup={!authRequired && backendSetupRequired && !backendSetupAlertDismissed} onOpenBackendSetup={() => { setBackendSetupAlertDismissed(true); setBackendSettingsOpen(true); }} onDismissBackendSetup={() => setBackendSetupAlertDismissed(true)} />
       <AuthenticatorSetupDialog open={authenticatorOpen} enabled={Boolean(account?.authenticator_enabled)} onClose={() => setAuthenticatorOpen(false)} onComplete={(updatedUser) => { setAccount(updatedUser); setAuthenticatorAvailable(true); setAuthenticatorName(updatedUser.display_name); }} />
       <CloudSettingsDialog open={settingsOpen} onClose={() => setSettingsOpen(false)} credentials={cloudCredentials} onSave={saveCloudCredential} />
       <QueueSettingsDialog open={queueSettingsOpen} account={account} onClose={() => setQueueSettingsOpen(false)} onSave={saveQueueLimit} />
-      <BackendSettingsDialog open={backendSettingsOpen} backends={backends} onClose={() => setBackendSettingsOpen(false)} onRefresh={refreshBackends} onStatus={(next) => setBackends((current) => current.map((backend) => backend.id === next.id ? next : backend))} />
+      <BackendSettingsDialog open={backendSettingsOpen} backends={backends} onClose={() => setBackendSettingsOpen(false)} onRefresh={refreshBackends} onStatus={(next) => setBackends((current) => current.map((backend) => backend.id === next.id ? next : backend))} onConfigured={() => setBackendSetupRequired(false)} />
       {!authRequired && (page === "gallery" && account?.is_admin ? (
         <GalleryPage images={images} selectedIndex={selectedIndex} onChoose={chooseThumbnail} onToggleFavorite={toggleFavorite} hasMore={Boolean(historyCursor)} loadingMore={historyLoading} onLoadMore={loadMoreHistory} error={error} ratingImageId={ratingImageId} ratingSaving={ratingSaving} onOpenRating={setRatingImageId} onDismissRating={() => setRatingImageId(null)} onRate={submitRating} upscalingId={upscalingId} onUpscale={submitUpscale} onPixelUpscale={submitPixelUpscale} />
       ) : page === "img" ? (

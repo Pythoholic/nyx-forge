@@ -21,6 +21,8 @@ async function apiFetch(path, options = {}) {
 export const getModels = () => apiFetch("/api/models");
 export const getBackends = () => apiFetch("/api/backends");
 export const getBackendSettings = () => apiFetch("/api/settings/backends");
+export const browseBackendPackage = () =>
+  apiFetch("/api/settings/backends/browse", { method: "POST" });
 export const updateBackend = (backendId, port, packageDir) =>
   apiFetch(`/api/backends/${encodeURIComponent(backendId)}`, {
     method: "PUT",

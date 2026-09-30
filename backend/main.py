@@ -19,6 +19,7 @@ import shutil
 import socket
 import sqlite3
 import subprocess
+import sys
 from threading import Lock, Thread
 from time import monotonic
 from typing import Literal
@@ -1155,6 +1156,70 @@ def backend_settings(request: Request) -> list[dict[str, object]]:
     ]
 
 
+@app.post("/api/settings/backends/browse")
+def browse_backend_package(request: Request) -> dict[str, object]:
+    """Open the local Windows picker and return a validated Forge package."""
+    _admin_account(request)
+    if sys.platform != "win32":
+        raise HTTPException(
+            status_code=501,
+            detail="The native Forge file picker is currently available on Windows only.",
+        )
+    script = r"""
+Add-Type -AssemblyName System.Windows.Forms
+[Console]::OutputEncoding = [System.Text.Encoding]::UTF8
+$dialog = New-Object System.Windows.Forms.OpenFileDialog
+$dialog.Title = 'Select the Forge launch.py file'
+$dialog.Filter = 'Forge launcher (launch.py)|launch.py'
+$dialog.CheckFileExists = $true
+$dialog.Multiselect = $false
+try {
+    if ($dialog.ShowDialog() -eq [System.Windows.Forms.DialogResult]::OK) {
+        [Console]::Out.Write($dialog.FileName)
+    }
+} finally {
+    $dialog.Dispose()
+}
+"""
+    try:
+        completed = subprocess.run(
+            [
+                "powershell.exe",
+                "-NoProfile",
+                "-STA",
+                "-Command",
+                script,
+            ],
+            capture_output=True,
+            text=True,
+            encoding="utf-8",
+            timeout=600,
+            creationflags=getattr(subprocess, "CREATE_NO_WINDOW", 0),
+            check=True,
+        )
+    except subprocess.TimeoutExpired as exc:
+        raise HTTPException(
+            status_code=504,
+            detail="The Forge file picker timed out. Try Browse again or paste the path manually.",
+        ) from exc
+    except (OSError, subprocess.SubprocessError) as exc:
+        raise HTTPException(
+            status_code=500,
+            detail="The Windows file picker could not be opened. Paste the package path manually.",
+        ) from exc
+
+    selected = completed.stdout.strip().lstrip("\ufeff")
+    if not selected:
+        return {"cancelled": True, "package_dir": None}
+    launch_script = Path(selected)
+    if launch_script.name.casefold() != "launch.py" or not launch_script.is_file():
+        raise HTTPException(
+            status_code=422,
+            detail="Select the launch.py file inside the Forge package folder.",
+        )
+    return {"cancelled": False, "package_dir": str(launch_script.parent)}
+
+
 @app.put("/api/backends/{backend_id}")
 def update_backend_settings(
     backend_id: str, body: BackendSettingsRequest, request: Request
@@ -1164,6 +1229,16 @@ def update_backend_settings(
     package_dir = Path(body.package_dir.strip()).expanduser()
     if not package_dir.is_absolute():
         raise HTTPException(status_code=422, detail="Enter an absolute package path.")
+    if not package_dir.is_dir():
+        raise HTTPException(
+            status_code=422,
+            detail="That package folder does not exist or is not a directory.",
+        )
+    if not (package_dir / "launch.py").is_file():
+        raise HTTPException(
+            status_code=422,
+            detail="Select the Forge package folder that contains launch.py.",
+        )
     backends = list(configured_backends())
     for index, current in enumerate(backends):
         if current.id == backend_id:
