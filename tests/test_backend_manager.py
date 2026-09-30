@@ -6,6 +6,8 @@ from tempfile import TemporaryDirectory
 import unittest
 from unittest.mock import patch
 
+import requests
+
 from backend import backend_manager, database
 from backend.database import BackendConfig
 
@@ -52,6 +54,38 @@ class BackendConfigurationTests(unittest.TestCase):
         ):
             backend_manager.start("reforge")
         processes.assert_not_called()
+
+    def test_health_hides_low_level_connection_errors(self) -> None:
+        backend = BackendConfig("reforge", "reForge", 7860, r"C:\Forge\reforge")
+        low_level_error = (
+            "HTTPConnectionPool(host='127.0.0.1', port=7860): Max retries exceeded"
+        )
+        with patch.object(
+            backend_manager.requests,
+            "get",
+            side_effect=requests.ConnectionError(low_level_error),
+        ):
+            reachable, checkpoint, error = backend_manager._health(backend)
+
+        self.assertFalse(reachable)
+        self.assertIsNone(checkpoint)
+        self.assertEqual(error, "reForge is not running on port 7860.")
+        self.assertNotIn("HTTPConnectionPool", error)
+
+    def test_health_explains_slow_start_without_transport_details(self) -> None:
+        backend = BackendConfig("reforge", "reForge", 7860, r"C:\Forge\reforge")
+        with patch.object(
+            backend_manager.requests,
+            "get",
+            side_effect=requests.Timeout("socket timeout"),
+        ):
+            _reachable, _checkpoint, error = backend_manager._health(backend)
+
+        self.assertEqual(
+            error,
+            "reForge did not respond on port 7860. It may still be starting.",
+        )
+        self.assertNotIn("socket", error)
 
 
 if __name__ == "__main__":

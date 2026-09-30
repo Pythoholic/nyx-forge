@@ -3,6 +3,8 @@ from __future__ import annotations
 import unittest
 import sys
 import os
+from contextlib import redirect_stderr
+from io import StringIO
 from pathlib import Path
 from tempfile import TemporaryDirectory
 from unittest.mock import MagicMock, patch
@@ -128,6 +130,22 @@ class RunnerTests(unittest.TestCase):
         self.assertEqual(wait_until_reachable.call_args.args[0], "reforge")
         backend_stop.assert_called_once_with("forge_neo")
         do_start.assert_called_once()
+
+    def test_start_with_unconfigured_backend_explains_first_run_setup(self) -> None:
+        backend = BackendConfig("reforge", "reForge", 7860, "")
+        stderr = StringIO()
+        with (
+            patch.object(run, "configured_backends", return_value=(backend,)),
+            patch.object(run.backend_manager, "start") as backend_start,
+            patch.object(run, "do_start") as do_start,
+            redirect_stderr(stderr),
+        ):
+            run.main(["start", "--with-backends"])
+
+        backend_start.assert_not_called()
+        do_start.assert_called_once()
+        self.assertIn("Account > Forge backends", stderr.getvalue())
+        self.assertIn("--with-backends", stderr.getvalue())
 
     def test_restart_with_backends_uses_backend_manager_restart(self) -> None:
         backend = BackendConfig("reforge", "reForge", 7860, "package")

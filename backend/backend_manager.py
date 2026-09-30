@@ -98,8 +98,29 @@ def _health(backend: BackendConfig) -> tuple[bool, str | None, str | None]:
         response.raise_for_status()
         if not isinstance(response.json(), list):
             raise ValueError("sd-models did not return a JSON list")
-    except (requests.RequestException, ValueError) as exc:
-        return False, None, str(exc)[:300]
+    except requests.Timeout:
+        return (
+            False,
+            None,
+            f"{backend.label} did not respond on port {backend.port}. "
+            "It may still be starting.",
+        )
+    except requests.ConnectionError:
+        return (
+            False,
+            None,
+            f"{backend.label} is not running on port {backend.port}.",
+        )
+    except requests.HTTPError:
+        return (
+            False,
+            None,
+            f"{backend.label} responded on port {backend.port}, but its API is unavailable.",
+        )
+    except requests.RequestException:
+        return False, None, f"NyxForge could not reach {backend.label}."
+    except ValueError:
+        return False, None, f"{backend.label} returned an unexpected API response."
 
     checkpoint = None
     try:
